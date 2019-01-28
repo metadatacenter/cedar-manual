@@ -1,0 +1,95 @@
+Proposed outline of CEDAR Manual, open for discussion (Maulik has the ball)
+
+CEDAR Basics for All Users
+   Accounts and Logging In (Pending)
+     Creating a CEDAR Account
+     Logging in with CEDAR
+     Visibility of your CEDAR Account
+   Finding Resources
+     Simple Searching
+     Organizing the Results
+     Constraining the Results by Type
+     Advanced Searching: Patterns
+     Advanced Searching: Search Fields
+   Viewing Resource Information
+     Viewing Resource Metadata
+     Viewing Resource Content
+     Viewing Resource as Raw JSON
+     Viewing 
+   Desktop and Navigation
+     The CEDAR Workbench Desktop
+     Navigating via the User Interface
+     Navigating Using the Browser: Buttons and Links
+     Moving and Copying Content
+   Sharing Your Content
+     Types of Sharing: Reading and Writing
+     Creating Groups
+     How Permissions Work
+   Filling Out (Creating) Metadata
+     Creating the Metadata Form
+       via IRI
+       via one-click
+       via menu
+     Saving and Validating
+     Special Case: Submitting Your Metadata
+
+Advanced Topics for All Users
+   CEDAR Identifiers
+     How CEDAR Defines and Applies IRIs (URIs/URLs)
+     How to save your place with a link
+   What the 'Back' button will do
+
+About CEDAR Templates
+   Description of a Template
+   Building Basic Templates
+     First Steps
+       (Press Add, ... , Name and describe template)
+     Adding Fields
+       Field Setting: Values
+       Field Setting: Required
+       Field Setting: Multiple
+       Field Setting: Suggestions
+       Field Setting: Value Type
+       FIeld Setting: Options (Ordering, Omitting, ...)
+       Field Setting: Property
+     Adding Elements
+       Creating and Naming Elements
+       Composition: Elements in Elements
+       Saving (and Validating)
+       Element Settings: Multiple
+       Element Settings: Properties
+   More FAIR Templates: Using Semantics
+     Why Semantics Are Important
+     Defining Your Answers: Dynamic Lists
+     Selecting terms from ontologies (not free text!)
+     Creating lists in the metadata entry forms for users
+   Advanced Template Topics
+     Updating and Versioning
+     Extending a Template (adding fields)
+     Creating a Template Profile (constraining field values)
+     Understanding the Suggestion System
+     More Semantics
+       Defining Your Element Role: Element Property
+       Defining Your Question: Field value typing
+       Defining Your Question: Field labelling (FUTURE)
+   Tips for Template Creation
+     Composition
+     Term Discovery/Selection
+     About Template Compatibility
+     Recipes for Filling Out Everything (Titles, Names, Descriptions, Help Text)
+
+Advanced Guidance
+   Implementation Scenarios
+     A General-Purpose Modeling System
+     A System-of-Systems Metadata Architecture
+   Team Workflows
+     Introduction
+     Workflow 1: Shared Metadata Entry
+     Workflow 2: Viewing All Team Content
+     Workflow 3: Viewing Content Based on Status or Characteristic
+   System Integration Workflows
+     Introduction
+     Workflow 1: A Metadata Front End for Your System
+     Workflow 2: Validating Your Metadata
+     Workflow 3: Recommendations for Your Field(s)
+     Workflow 4: Creating A Metadata Repository
