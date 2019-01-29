@@ -14,7 +14,7 @@ author:
   email:             maulikrk@stanford.edu
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: cyan
+color-scheme: 
 
 # Permalinks
 permalink: pretty
