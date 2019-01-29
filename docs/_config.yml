@@ -1,7 +1,7 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Navigating the CEDAR Manual
+title:               CEDAR Manual
 tagline:             ''
 description:         ''
 url:                 'https://metadatacenter.github.io'
@@ -14,7 +14,7 @@ author:
   email:             maulikrk@stanford.edu
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme: 
+color-scheme: cyan
 
 # Permalinks
 permalink: pretty
