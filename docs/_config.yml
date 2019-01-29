@@ -1,20 +1,20 @@
 # Built with Jekyll 3.2.0
 
 # Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'yll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'https://metadatacenter.github.io/cedar-manual'
-baseurl:             'https://metadatacenter.github.io/cedar-manual'
+title:               Navigating the CEDAR Manual
+tagline:             ''
+description:         ''
+url:                 'https://metadatacenter.github.io'
+baseurl:             '/cedar-manual'
 
 # About/contact
 author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
+  name:              Maulik R. Kamdar
+  url:               https://twitter.com/maulikkamdar
+  email:             maulikrk@stanford.edu
 
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
+color-scheme: cyan
 
 # Permalinks
 permalink: pretty
