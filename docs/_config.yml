@@ -26,7 +26,7 @@ encoding: utf-8
 # Collections for texts
 collections:
   sections:
-    output: false
+    output: true
   basic_topics:
     output: true
   advanced_topics:
