@@ -4,7 +4,7 @@ title: "About CEDAR User Guide"
 ---
 <div class="introduction">
   <h1>About CEDAR User Guide</h1>
-
+<hr>
 <p align="justify">Welcome to the CEDAR User Guide. 
 
 This document contains technical information about operation and artifacts of the CEDAR Workbench. The documents are added as time allows to describe the most central aspects of the CEDAR system.
@@ -20,18 +20,56 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
 </div>
 
 <hr>
-
 <div class="toc">
   <h1>Content</h1>
+  <hr>
   <ul class="texts">
-  {% for item in site.texts %}
-  
-    <li class="text-title">
-      <a href="{{ site.baseurl }}{{ item.url }}">
-        {{ item.title }}
-      </a>
+    <li class="text-title">CEDAR Basics for All Users<br>
+      <ul class="texts">
+      {% for item in site.basic_topics %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
     </li>
-  {% endfor %}
+
+    <li class="text-title">Advanced Topics for All Users<br>
+      <ul class="texts">
+      {% for item in site.advanced_topics %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+
+    <li class="text-title">About CEDAR Templates<br>
+      <ul class="texts">
+      {% for item in site.cedar_templates %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+    <li class="text-title">Advanced Guidance<br>
+      <ul class="texts">
+      {% for item in site.advanced_guidance %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
   </ul>
 </div>
 
