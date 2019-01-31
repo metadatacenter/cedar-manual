@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Advanced Searching: Patterns
+title: Advanced Searching - Patterns
 author: John Graybeal
-chapter: 
+chapter: a2
 ---

@@ -2,5 +2,5 @@
 layout: section
 title: More Semantics
 author: John Graybeal
-chapter: 
+chapter: c4
 ---

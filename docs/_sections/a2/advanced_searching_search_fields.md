@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Advanced Searching: Search Fields
+title: Advanced Searching - Search Fields
 author: John Graybeal
-chapter: 
+chapter: a2
 ---
