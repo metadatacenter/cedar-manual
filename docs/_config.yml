@@ -25,7 +25,15 @@ encoding: utf-8
 
 # Collections for texts
 collections:
-  texts:
+  sections:
+    output: false
+  basic_topics:
+    output: true
+  advanced_topics:
+    output: true
+  advanced_guidance:
+    output: true
+  cedar_templates:
     output: true
 
 # Markdown specs
