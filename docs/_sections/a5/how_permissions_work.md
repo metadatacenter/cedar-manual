@@ -31,7 +31,7 @@ You want to access individual resources in CEDAR, or keep someone else from acce
 
 The operations above are evaluated on-the-fly in CEDAR. They are not attached to nodes in the system, but are computed from different graph relationships (like folder hierarchies) and properties when they are needed.
 
-A basic concept that may help you interpret CEDAR permissions is that you only need one permission on a resource to perform that operation. For example, if you want to 
+A basic concept that may help you interpret CEDAR permissions is that you only need one permission on a resource to perform that operation. 
 
 ## **Permission rules**
 For simplicity, we refer to the object in each question as a resource (templates, elements, fields, and metadata instances are all resources), but this section also applies to folders.
