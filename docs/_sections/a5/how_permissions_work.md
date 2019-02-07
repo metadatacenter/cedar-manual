@@ -6,7 +6,6 @@ chapter: a5
 ---
 
 ## **Introduction**
-
 You may have some questions about CEDAR's access privileges, like these:
 
 1. How can I keep my files private (or make them public)?
