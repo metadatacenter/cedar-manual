@@ -6,7 +6,6 @@ chapter: a5
 ---
 
 ## **Introduction**
-
 You may have some questions about CEDAR's access privileges, like these:
 
 1. How can I keep my files private (or make them public)?
@@ -17,7 +16,7 @@ You may have some questions about CEDAR's access privileges, like these:
 
 In this tutorial we'll talk about how CEDAR permissions work, and help you answer questions like these.
 
-(You can see those answers at the end of this page.)
+(You can see answers to the questions at the end of this page.)
 
 ## **Permission types**
 You want to access individual resources in CEDAR, or keep someone else from accessing them. So what you need to know, for a given node, is whether a particular user:
@@ -98,14 +97,16 @@ Now we can answer our original questions.
 
 1. **How can I keep my files private (or make them public)?**
 Your resources will stay private if they are in your own CEDAR user folder, and you have not shared any of their parent folders with anyone else.
-(To make them public, simply share them, or one of their parent folders, with other individuals or groups with whom you want them shared.)
+
+To make your files public, simply share them, or one of their parent folders, with the individuals or groups who should get access. The 'everybody' group can be used to share the content with all CEDAR users.
 
 2. **How can someone collaborate with me on a lot of different files?**
 Just share the folder containing all of your collaborative files with them. Sharing write privileges on the folder will let them modify all the contained files.
 (If you want to have a shared folder for your project under /Users/Shared/, just ask us to create it for you. Be aware the contents are readable by *all* CEDAR users.)
 
 3. **Why can't I save this metadata where the template is?**
-Often templates are in a read-only folder, so that the template can not be changed. CEDAR will automatically save created metadata to your home folder,
+Often templates are in a read-only folder, so that the template can not be changed. 
+CEDAR will automatically save created metadata to your home folder,
 and then you can move it to any other folder that for which you have write permissions.
 
 4. **How can I tell which other people can see my file?**
