@@ -6,10 +6,11 @@ layout: default
   <h1 class="text-title"><b>{{ page.title }}</b></h1>
   <span align="right"><i>Last modified at: {{ page.last_modified_at }}</i>
   <hr>
-  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  Please {% github_edit_link "help improve this article" %}.
-  <hr>
   <div align="justify">
   {{ content }}
   </div>
+  <hr>
+  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+  Please {% github_edit_link "help improve this article" %}.
+  <hr>
 </div>

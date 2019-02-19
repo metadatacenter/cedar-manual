@@ -4,3 +4,9 @@ title: Creating a CEDAR Account
 author: John Graybeal
 chapter: a1
 ---
+
+
+
+![alt text][create]
+
+[create]: https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-account.png "Creating Your Account Screen"
