@@ -7,4 +7,4 @@ chapter: a1
 
 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create_account.png | width = 100)
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create_account.png){:height="50%" width="50%"}
