@@ -9,4 +9,4 @@ To log in, go to [https://cedar.metadatacenter.org](https://cedar.metadatacenter
 
 ![alt text][login]
 
-[login]: https://github.com/metadatacenter/cedar-manual/blob/master/docs/assets/imgs/create_account.png "Sample Log-in Screen"
+[login]: https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create_account.png "Sample Log-in Screen"
