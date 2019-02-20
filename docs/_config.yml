@@ -23,14 +23,6 @@ permalink: /:title/
 # Set encoding to UTF-8
 encoding: utf-8
 
-defaults:
-  -
-    scope:
-      path: "" # empty string for all files
-        type: pages
-      values:
-        layout: page
-
 # Collections for texts
 collections:
   sections:
