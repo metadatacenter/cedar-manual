@@ -4,7 +4,7 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  <h5 align="right"><i>Posted by: {{ page.author }}</i></h5>
+  <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
   {{ content }}
   <hr>
   <h3><b>Sections</b></h3>
@@ -19,5 +19,8 @@ layout: default
         {% endif %}
     {% endfor %}
   </ul>
+  <hr>
+  <!--<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>-->
+  Please {% github_edit_link "help improve this article" %}.
   <hr>
 </div>
