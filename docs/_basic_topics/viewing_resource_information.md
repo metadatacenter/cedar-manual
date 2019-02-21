@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: chapter
 title: Viewing Resource Information
 author: John Graybeal
 chapter: a3

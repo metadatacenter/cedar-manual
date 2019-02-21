@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: chapter
 title: Accounts and Logging In
 author: John Graybeal
 chapter: a1
