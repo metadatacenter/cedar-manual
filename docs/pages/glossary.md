@@ -34,7 +34,7 @@ Shortened Term: element, template element
 
 ---
 
-**metadata template **: group of fields and/or template elements that is used to capture metadata for a specific purpose
+**metadata template**: group of fields and/or template elements that is used to capture metadata for a specific purpose
 
 Shortened Term: template
 
