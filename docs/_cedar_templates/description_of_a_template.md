@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: chapter
 title: Description of a Template
 author: John Graybeal
 chapter: c1
