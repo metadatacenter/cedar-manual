@@ -2,7 +2,7 @@
 layout: page
 title: Glossary
 author: John Graybeal
-permalink: glossary
+permalink: faq
 ---
 
 Here are our always-in-progress Frequently Asked Questions for CEDAR. Got a question? [https://metadatacenter.org/contact](Contact us "Contact us")!
