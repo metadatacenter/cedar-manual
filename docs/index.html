@@ -25,13 +25,13 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
   <hr>
   <ul class="texts">
     <li class="text-title"><a href="/cedar-manual/glossary">Glossary</a><br></li>
-    
+
     <li class="text-title">CEDAR Basics for All Users<br>
       <ul class="texts">
       {% for item in site.basic_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
+            {{ item.title }} <i>[{{ item.status }}]</i>
           </a>
         </li>
       {% endfor %}
@@ -43,7 +43,7 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
       {% for item in site.advanced_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
+            {{ item.title }} <i>[{{ item.status }}]</i>
           </a>
         </li>
       {% endfor %}
@@ -55,8 +55,8 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
       {% for item in site.cedar_templates %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
-          </a>
+            {{ item.title }} <i>[{{ item.status }}]</i>
+          </a> 
         </li>
       {% endfor %}
       </ul>
@@ -66,7 +66,7 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
       {% for item in site.advanced_guidance %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }}
+            {{ item.title }} <i>[{{ item.status }}]</i>
           </a>
         </li>
       {% endfor %}
