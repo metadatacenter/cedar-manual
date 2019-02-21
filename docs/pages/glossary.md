@@ -12,9 +12,11 @@ Shortened Term: CEDAR, Workbench
 
 ---
 
-#### Things
+#### **Things**
 
-===
+---
+
+---
 
 **metadata template field**: reusable artifact used to capture an atomic piece of metadata
 
@@ -94,9 +96,11 @@ Alternative Term: messages (app)
 
 ---
 
-#### Tools
+#### **Tools**
 
-===
+---
+
+---
 
 **Template Designer**: component of the CEDAR Workbench that allows users to construct metadata templates
 
@@ -132,9 +136,11 @@ Alternative Term: file system
 
 ---
 
-#### Ui Things
+#### **Ui Things**
 
-===
+---
+
+---
 
 **workspace**: folder that acts as the default storage location for all the CEDAR reources created by a user
 
@@ -170,9 +176,11 @@ Alternative Term: navigation sidebar
 
 ---
 
-#### Actions
+#### **Actions**
 
-===
+---
+
+---
 
 **populate**: fill out a metadata template
 
