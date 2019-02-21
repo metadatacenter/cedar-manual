@@ -14,6 +14,8 @@ After you sign up you'll be registered in our cedar-announcements and cedar-user
 
 For a bit more help or introduction, you can go to the CEDAR Support and CEDAR Training pages, which have more information (videos coming soon!) about how to use the system and how to get help. 
 
+[![Alt text](https://img.youtube.com/vi/mw816POGRrk/0.jpg)](https://www.youtube.com/watch?v=mw816POGRrk)
+
 **What CEDAR does**
 The CEDAR Workbench, as we refer to the suite of CEDAR tools, makes it easy to collect and use metadata. Eventually our tools will cover the entire lifecycle of metadata, from before the first metadata record is created to its eventual processing, and even enhancement, by users and analysts. But for now, CEDAR tools help you create forms to collect metadata, make those available to users, and download the information that users have provided.
 
