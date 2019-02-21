@@ -29,5 +29,9 @@ $link-color: #841212;
     font-size: 10px;
 }
 
+.pull-right {
+    float: right;
+}
+
 @import "ed";
 @import "syntax";
