@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Glossary
+title: Frequently Asked Questions
 author: John Graybeal
 permalink: faq
 ---
