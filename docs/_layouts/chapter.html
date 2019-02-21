@@ -13,7 +13,7 @@ layout: default
         {% if section.chapter == page.chapter %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ section.url }}">
-            {{ section.title }}
+            {{ section.title }} <i> [{{ section.status }}] </i>
           </a>
         </li>
         {% endif %}
