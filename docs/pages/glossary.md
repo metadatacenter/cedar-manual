@@ -12,7 +12,7 @@ Shortened Term: CEDAR, Workbench
 
 ---
 
-####Things
+#### Things
 
 ===
 
@@ -94,7 +94,7 @@ Alternative Term: messages (app)
 
 ---
 
-####Tools
+#### Tools
 
 ===
 
@@ -132,7 +132,7 @@ Alternative Term: file system
 
 ---
 
-####Ui Things
+#### Ui Things
 
 ===
 
@@ -170,7 +170,7 @@ Alternative Term: navigation sidebar
 
 ---
 
-####Actions
+#### Actions
 
 ===
 
