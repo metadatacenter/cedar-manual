@@ -5,7 +5,7 @@ author: John Graybeal
 permalink: faq
 ---
 
-Here are our always-in-progress Frequently Asked Questions for CEDAR. Got a question? [https://metadatacenter.org/contact](Contact us "Contact us")!
+Here are our always-in-progress Frequently Asked Questions for CEDAR. Got a question? [Contact us](https://metadatacenter.org/contact "Contact us")!
 
 **What is CEDAR good for?**
 
