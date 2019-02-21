@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CEDAR Orientation Guide
+title: CEDAR Workbench Orientation
 author: John Graybeal
 permalink: cedar-orientation
 ---
