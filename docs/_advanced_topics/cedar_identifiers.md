@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: chapter
 title: CEDAR Identifiers
 author: John Graybeal
 chapter: b1
