@@ -5,20 +5,13 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
-  <hr>
-  {% include chapter_full.html cur=page.chapter %}
-  <hr>
   <div align="justify">{{ content }}</div>
   <hr>
   <h3><b>Sections</b></h3>
   <ul class="texts">
     {% for section in site.sections %}
         {% if section.chapter == page.chapter %}
-        <li class="text-title">
-          <a href="{{ site.baseurl }}{{ section.url }}">
-            {{ section.title }} <i> [{{ section.status }}] </i>
-          </a>
-        </li>
+        {{ section.output }}
         {% endif %}
     {% endfor %}
   </ul>
