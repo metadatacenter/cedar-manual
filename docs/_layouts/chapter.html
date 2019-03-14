@@ -6,8 +6,7 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
   <hr>
-  [Click me](http://www.google.com){: .btn}
-  <div align="right"><button type="button" class="btn" onclick="http://www.google.com"><i class="fas fa-print"></i>&nbsp;&nbsp;Print Chapter</button></div>
+  {% include button.html links=page.relatedpages  %}
   <hr>
   <div align="justify">{{ content }}</div>
   <hr>
