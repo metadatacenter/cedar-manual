@@ -80,16 +80,17 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
 
 
 {% for item in site.basic_topics %}
+  <br><br>
   <hr>
   <div class="introduction printdiv">
     <h1>{{ item.title }} <i>[{{ item.status }}]</i></h1>
     <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
     <div align="justify">{{ item.content }}</div>
     <hr>
-    <h3><b>Sections</b></h3>
     <ul class="texts">
       {% for section in site.sections %}
           {% if section.chapter == item.chapter %}
+          <h2>{{ section.title}}</h2>
           {{ section.content }}
           {% endif %}
       {% endfor %}
