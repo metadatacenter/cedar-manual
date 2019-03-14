@@ -59,6 +59,7 @@ title: "CEDAR User Guide (Print Edition)"
   </ul>
 </div>
 
+<hr>
 
 <div class="introduction printdiv">
   <h1>About CEDAR User Guide</h1>
@@ -78,9 +79,11 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
 </div>
 
 
+
 {% for item in site.basic_topics %}
-  <div class="page printdiv">
-    <h1 class="page-title">{{ item.title }} <i>[{{ item.status }}]</i></h1>
+  <hr>
+  <div class="introduction printdiv">
+    <h1>{{ item.title }} <i>[{{ item.status }}]</i></h1>
     <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
     <div align="justify">{{ item.content }}</div>
     <hr>
@@ -95,7 +98,7 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
     <hr>
   </div>
 {% endfor %}
-<hr>
+
 
 
 
