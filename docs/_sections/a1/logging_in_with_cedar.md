@@ -5,7 +5,7 @@ author: John Graybeal
 chapter: a1
 ---
 
-To log in, go to [https://cedar.metadatacenter.org](https://cedar.metadatacenter.org "CEDAR Workbench"), and enter the account name as shown in the screenshot below, and your password. If you have forgotten your password, you can use the "Forgot Password?" link just below the Password line.
+To log in, go to [https://cedar.metadatacenter.org](https://cedar.metadatacenter.org "CEDAR Workbench"), and enter the account name and your password as shown in the screenshot below. If you have forgotten your password, you can use the "Forgot Password?" link just below the Password line. Once you have logged in, you will see the CEDAR Workspace as shown in the next section.
 
 ![alt text][login]{:height="50%" width="50%"}
 
