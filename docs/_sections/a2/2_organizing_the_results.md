@@ -3,6 +3,7 @@ layout: section
 title: Organizing the Results
 author: John Graybeal
 chapter: a2
+status: Preliminary
 ---
 
 The user has an option to view the search resources either as a grid of different resource tiles (As shown in the Figure below) or as a list of different resources. The user can switch between these views using the icon highlighed in the blue-colored rectangle in the Figure. 
