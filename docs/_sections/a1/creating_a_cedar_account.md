@@ -2,7 +2,7 @@
 layout: section
 title: Creating a CEDAR Account
 author: John Graybeal
-status: √
+status: 
 chapter: a1
 ---
 
