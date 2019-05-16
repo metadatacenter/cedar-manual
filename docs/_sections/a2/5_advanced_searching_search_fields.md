@@ -4,7 +4,6 @@ title: Advanced Searching - Search Fields
 author: John Graybeal
 chapter: a2
 ---
-# Examples:
 
 This section contains some examples of the query syntax that can be used to find template instances by field name and/or value. 
 
