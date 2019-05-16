@@ -6,28 +6,28 @@ chapter: a2
 ---
 # Examples:
 
-This section contains some examples of the query syntax that can be used template instances by field name and/or value. 
+This section contains some examples of the query syntax that can be used to find template instances by field name and/or value. 
 
-Suppose the following template instance.
+Suppose the following template instance:
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example.png){:height="75%" width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example.png){:height="100%" width="100%"}
 
-Some examples of queries that will retrieve the instance above:
+Examples of queries that will retrieve the instance above:
 
-- Search by field name and value
+- Search by field name and value:
 
   `title:statistics`
   `publisher:"City of New York"`
   
-- Search by field name (any value)
+- Search by field name (any value):
 
   `publisher:*`
   
-- Search by field value (any name)
+- Search by field value (any name):
 
   `*:"New York"`
   
-- Boolean queries (e.g. Title="Statistics" AND "New York")
+- Boolean queries (e.g. Title="Statistics" AND "New York"):
 
   `title:Statistics OR title:Math (the OR is optional)`
   `title:(Statistics OR Math)`
