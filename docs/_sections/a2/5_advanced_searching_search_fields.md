@@ -17,6 +17,7 @@ Examples of queries that will retrieve the instance above:
 - Search by field name and value:
 
   `title:statistics`
+  
   `publisher:"City of New York"`
   
 - Search by field name (any value):
@@ -30,13 +31,17 @@ Examples of queries that will retrieve the instance above:
 - Boolean queries (e.g. Title="Statistics" AND "New York"):
 
   `title:Statistics OR title:Math (the OR is optional)`
+  
   `title:(Statistics OR Math)`
+  
   `title:Math OR (title:Statistics AND publisher:"City of New York")`
+  
   `Dataset OR disease:CRC`
   
 - Wildcard queries: 
 
   `title:stat*`
+  
   `title:stat?stics`
   
 - URLs: 
@@ -46,4 +51,5 @@ Examples of queries that will retrieve the instance above:
 - Ontology terms: 
 
     `topic:statistics`
+    
     `topic:http://edamontology.org/topic_2269`
