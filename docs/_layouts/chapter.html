@@ -14,7 +14,7 @@ layout: default
         {% if section.chapter == page.chapter %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ section.url }}">
-            {{ section.title }} {% if item.status != "Ready" %}<i> [{{ section.status }}] </i>{% endif %}
+            {{ section.title }} {% if section.status != "Ready" %}<i> [{{ section.status }}] </i>{% endif %}
           </a>
         </li>
         {% endif %}
