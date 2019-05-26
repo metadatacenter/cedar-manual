@@ -38,13 +38,13 @@ These folders contain only Github pages for each chapter. The page has content r
 
 Each section page has the following key-value pairs at the beginning of the page:
 
-layout: section
-title: Creating a CEDAR Account
-author: John Graybeal
-status: Ready
-chapter: a1
-chapter_url: /basic_topics/a1_accounts_and_logging_in/
-chapter_title: Accounts and Logging In
+- layout: section
+- title: Creating a CEDAR Account
+- author: John Graybeal
+- status: Ready
+- chapter: a1
+- chapter_url: /basic_topics/a1_accounts_and_logging_in/
+- chapter_title: Accounts and Logging In
 
 
 The layout key indicates the HTML template (stored under _layouts) to be used for rendering it on the Web. The title, author and status (i.e., whether section is ready for release) keys can be rendered separately within the page (again using the _layouts/section.html). The chapter key helps organization of different sections during the rendering of the chapter page, and the chapter_url and chapter_title allows providing "return links" in each section (i.e. return back from section to chapter page). 
@@ -54,11 +54,11 @@ The layout key indicates the HTML template (stored under _layouts) to be used fo
 
 Each chapter page has the following key-value pairs at the beginning of the page:
 
-layout: chapter
-title: Accounts and Logging In
-author: John Graybeal
-chapter: a1
-status: Ready
+- layout: chapter
+- title: Accounts and Logging In
+- author: John Graybeal
+- chapter: a1
+- status: Ready
 
 
 The explanations for these key-value pairs follow the original explanations, given above for the Section page.
