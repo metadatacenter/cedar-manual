@@ -3,7 +3,7 @@ layout: section
 title: Visibility of your CEDAR Account
 author: John Graybeal
 chapter: a1
-chapter_url: basic_topics/a1_accounts_and_logging_in/
+chapter_url: /basic_topics/a1_accounts_and_logging_in/
 chapter_title: Accounts and Logging In
 ---
 
