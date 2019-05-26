@@ -2,7 +2,7 @@
 layout: section
 title: Creating a CEDAR Account
 author: John Graybeal
-status: 
+status: Ready
 chapter: a1
 chapter_url: /basic_topics/a1_accounts_and_logging_in/
 chapter_title: Accounts and Logging In
