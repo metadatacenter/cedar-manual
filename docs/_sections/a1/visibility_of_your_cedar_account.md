@@ -3,6 +3,8 @@ layout: section
 title: Visibility of your CEDAR Account
 author: John Graybeal
 chapter: a1
+chapter_url: basic_topics/a1_accounts_and_logging_in/
+chapter_title: Accounts and Logging In
 ---
 
 All of the CEDAR account names are visible to other CEDAR users, by navigating to the /All/Users folder. (Only 100 users are loaded at a time; scroll to the bottom of the page to load more names.)
