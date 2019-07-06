@@ -33,11 +33,11 @@ Fig. 2 shows a screenshot of the Metadata Editor for a template generated from t
 Fig. 2. Screenshot of the Metadata Editor for the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the “disease” field. The recommendations system analyzes the CEDAR metadata repository on real time and suggests four diseases that affect the skin.
 ## Frequently Asked Questions
 
-*Can I enable suggestions for text fields whose values have been restricted to terms from ontologies?* //
-Yes. CEDAR’s Value Recommender works both for plain text values and ontology terms.
+*Can I enable suggestions for text fields whose values have been restricted to terms from ontologies?* 
+:   Yes. CEDAR’s Value Recommender works both for plain text values and ontology terms.
 
-*Can I access the source code?* //
-Yes. The source code of CEDAR’s Value Recommender is open source and available on GitHub [3].
+*Can I access the source code?*
+:   Yes. The source code of CEDAR’s Value Recommender is open source and available on GitHub [3].
 
 How does CEDAR’s Value Recommender work? ::
 The system is based on a well-established data mining method known as association rule mining to generate real-time suggestions based on analyses of previously entered metadata. A paper describing this method in detail will be available soon.
