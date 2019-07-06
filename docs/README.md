@@ -64,6 +64,12 @@ Each chapter page has the following key-value pairs at the beginning of the page
 The explanations for these key-value pairs follow the original explanations, given above for the Section page.
 
 
+### Markdown
 
+Nominally, the Jekyll uses a type of Markdown called [https://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#section-footnotes](ASCIIDoctor). However, I couldn't get most of its Markdown to work, and eventually realized Kramdown (https://kramdown.gettalong.org/syntax.html) was more of a fit. But there are definitely places where neither one worked (or the documentation was not correct), and I had to look up the markdown format of one of the predecessor engines PHP Markdown Extra (https://michelf.ca/projects/php-markdown/extra/). I guess your mileage may vary.
+
+Several typical markdown patterns are in https://metadatacenter.github.io/cedar-manual/sections/c4/understanding_the_suggestion_system/, you can look at that for examples. 3-blank indentation (before list elements like * , and after definition list indicators like : ) seem to be a good idea. 
+
+Your GitHub-interpreted markdown will not be a solid indicator of what the final presentation at https://metadatacenter.github.io/cedar-manual/ will look like. (And there is a delay of up to several minutes before changes are reflected on the github.io manual.)
 
 
