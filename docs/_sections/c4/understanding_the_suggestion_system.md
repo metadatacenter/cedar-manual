@@ -39,21 +39,26 @@ Fig. 2. Screenshot of the Metadata Editor for the Experiment template. The user 
 
 **Can I access the source code?**
 :   Yes. The source code of CEDAR’s Value Recommender is open source and available on GitHub [3].
+<div> </div>
 
 **How does CEDAR’s Value Recommender work?**
 :   The system is based on a well-established data mining method known as association rule mining to generate real-time suggestions based on analyses of previously entered metadata. A paper describing this method in detail will be available soon.
+<div> </div>
 
 **Will recommendations still work if I modify the template after metadata is collected?**
 :   No, they will not. To modify a template with existing metadata, you must create a new template version. The recommendations for the previous template version will be applied to any metadata created from that previous template, and metadata for the new template version will be based on metadata created for that version.
+<div> </div>
 
 **Can I use recommendations based on metadata from other CEDAR templates?**
 :   Not yet, although we are investigating this as a possible enhancement.
+<div> </div>
 
 **What are the technologies behind CEDAR’s Value Recommender?**
 :   CEDAR's Value Recommender has been implemented in Java. The system uses the Dropwizard framework [4] to provide a REST-based API that is used by the Metadata Editor and can also be used directly by third-party applications. The rule extraction process is performed using the Java API of the WEKA (Waikato Environment for Knowledge Analysis) data mining software [5]. All metadata for a particular template are transformed to WEKA's ARFF (Attribute-Relation File Format). The association rules are extracted using the Apriori algorithm, which is commonly used in association rule mining.
+<div> </div>
 
 **How should I cite this work?**
-:   A paper describing CEDAR’s Value Recommender will be available soon. In the meantime, you can cite our initial version of our recommendation method as follows:
+:   A paper describing CEDAR’s Value Recommender will be available soon. In the meantime, you can cite our initial version of our recommendation method as follows: <br />
    Martínez-Romero, M., O’Connor, M. J., Shankar, R., Panahiazar, M., Willrett, D., Egyedi, A. L., Gevaert, O., Graybeal, J., Musen, M. A. Fast and accurate metadata authoring using ontology-based recommendations. Proceedings of AMIA 2017 Annual Symposium. 2017. p. 1265–74.
 
 ## References
