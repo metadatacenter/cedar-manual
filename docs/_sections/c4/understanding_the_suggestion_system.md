@@ -20,17 +20,22 @@ The Value Recommender will make recommendations only when it can see a pattern w
 Save the template and click on the arrow located on the top left corner of the screen to exit the Template Designer.
 
 Once the template has been saved, users can start filling it metadata and getting recommendations. At least one saved metadata instance must exist for a template before recommendations are generated. To fill out the metadata for a template with recommendations the user proceeds as for any other template:
-* In the line listing the template, click on the ‘metadata’ tag (). This will generate a form to fill out the metadata. Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
+* In the line listing the template, click on the ‘metadata’ tag (![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png)). This will generate a form to fill out the metadata. Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
 
 ## Example
-Suppose we have an “Experiment” template with three fields: (1) an “experiment ID” field that stores the identifier of the experiment; (2) a “tissue” field that captures the type of tissue tested in the experiment, and (3) a “disease” field to enter the disease of interest. Fig. 1 shows the template in the Template Designer and the “Suggestions” setting for the field “tissue”. Suppose that the user enabled suggestions for the fields “tissue” and “disease”.
+Suppose we have an “Experiment” template with three fields: (1) an “experiment ID” field that stores the identifier of the experiment; (2) a “tissue” field that captures the type of tissue tested in the experiment, and (3) a “disease” field to enter the disease of interest. 
 
+Fig. 1 shows the template in the Template Designer and the “Suggestions” setting for the field “tissue”. Suppose that the user enabled suggestions for the fields “tissue” and “disease”.
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:height="75%" width="75%"}
 Fig. 1. Screenshot of CEDAR’s Template Designer that shows an Experiment template with three fields: experiment ID, tissue, and disease. The user has clicked on the “tissue” field and enabled metadata recommendations for the field using the “Suggestions” tab.
 
 Fig. 2 shows a screenshot of the Metadata Editor for a template generated from the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the field “disease”. In this case, the editor shows four suggested values: “skin ulcer”, “atopic dermatitis”, “melanoma”, “psoriasis”. The percentage shown between brackets next to each suggestion represents the strength of the recommendation. The recommendations provided by the system are context-sensitive, meaning that the values predicted for the “disease” field are generated and ranked based on the value entered for the “tissue” field. In this case, the four values suggested by the system are useful, since all of them are diseases that affect the skin.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure2.png){:width="75%"}
+
 Fig. 2. Screenshot of the Metadata Editor for the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the “disease” field. The recommendations system analyzes the CEDAR metadata repository on real time and suggests four diseases that affect the skin.
+
 ## Frequently Asked Questions
 
 **Can I enable suggestions for text fields whose values have been restricted to terms from ontologies?**
