@@ -3,6 +3,7 @@ layout: section
 title: Understanding the Suggestion System
 author: John Graybeal
 chapter: c4
+status: Ready
 ---
 CEDAR's Value Recommender is a metadata recommendation system that helps users to fill out metadata templates with the most appropriate values. The system finds and applies patterns in the previously entered values to generate recommendations for all the recommendation-enabled fields. CEDAR's Value Recommender is integrated in the CEDAR Workbench [1] and it can also be invoked programmatically through its API [2].
 
@@ -20,7 +21,7 @@ The Value Recommender will make recommendations only when it can see a pattern w
 Save the template and click on the arrow located on the top left corner of the screen to exit the Template Designer.
 
 Once the template has been saved, users can start filling it metadata and getting recommendations. At least one saved metadata instance must exist for a template before recommendations are generated. To fill out the metadata for a template with recommendations the user proceeds as for any other template:
-* In the line listing the template, click on the ‘metadata’ tag (![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png)). This will generate a form to fill out the metadata. Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
+* In the line listing the template, click on the ‘metadata’ tag (![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png)). This will generate a form to fill out the metadata. Or, try this with the 'metadata' tag image:https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png to see how that works.  Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
 
 ## Example
@@ -30,6 +31,8 @@ Fig. 1 shows the template in the Template Designer and the “Suggestions” set
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:height="75%" width="75%"}
 Fig. 1. Screenshot of CEDAR’s Template Designer that shows an Experiment template with three fields: experiment ID, tissue, and disease. The user has clicked on the “tissue” field and enabled metadata recommendations for the field using the “Suggestions” tab.
+
+[caption="Fig. 1. Screenshot of CEDAR’s Template Designer that shows an Experiment template with three fields: experiment ID, tissue, and disease. The user has clicked on the “tissue” field and enabled metadata recommendations for the field using the “Suggestions” tab.",link=https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png]
 
 Fig. 2 shows a screenshot of the Metadata Editor for a template generated from the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the field “disease”. In this case, the editor shows four suggested values: “skin ulcer”, “atopic dermatitis”, “melanoma”, “psoriasis”. The percentage shown between brackets next to each suggestion represents the strength of the recommendation. The recommendations provided by the system are context-sensitive, meaning that the values predicted for the “disease” field are generated and ranked based on the value entered for the “tissue” field. In this case, the four values suggested by the system are useful, since all of them are diseases that affect the skin.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure2.png){:width="75%"}
