@@ -21,7 +21,7 @@ The Value Recommender will make recommendations only when it can see a pattern w
 Save the template and click on the arrow located on the top left corner of the screen to exit the Template Designer.
 
 Once the template has been saved, users can start filling it metadata and getting recommendations. At least one saved metadata instance must exist for a template before recommendations are generated. To fill out the metadata for a template with recommendations the user proceeds as for any other template:
-* In the line listing the template, click on the ‘metadata’ tag (image at right)<img src="https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png" alt="Metadata Tag" height="16px" align="right" margin="20px" />. This will generate a form to fill out the metadata.  Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
+* In the line listing the template, click on the ‘metadata’ tag (image at right)<img src="https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png" alt="Metadata Tag" height="16px" align="right" margin-left="30px" />. This will generate a form to fill out the metadata.  Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
 
 ## Example
