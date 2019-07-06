@@ -8,12 +8,12 @@ CEDAR's Value Recommender is a metadata recommendation system that helps users t
 
 This document describes the steps to enable recommendations for templates and use them to quickly and accurately create new metadata.
 
-== Getting started ==
+## Getting started
 Metadata suggestions are disabled by default. When creating your template, you can enable suggestions by following these steps:
 * Log in to the CEDAR Workbench [1] and create a new template.
 * Add a new field to the template and use the “Suggestions” setting to enable recommendations for it. Note that:
- * The “Suggestions” tab is only available for fields of type “text”.
- * You must enable suggestions for a minimum of two fields in the template.
+   * The “Suggestions” tab is only available for fields of type “text”.
+   * You must enable suggestions for a minimum of two fields in the template.
 
 The Value Recommender will make recommendations only when it can see a pattern worth recommending, which means there must be many repeated values in a field. Thus, fields with controlled vocabularies, or with relatively few likely choices, are the best candidates for recommendations.
 
@@ -23,7 +23,7 @@ Once the template has been saved, users can start filling it metadata and gettin
 * In the line listing the template, click on the ‘metadata’ tag (). This will generate a form to fill out the metadata. Alternatively, you can select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
 
-== Example
+## Example
 Suppose we have an “Experiment” template with three fields: (1) an “experiment ID” field that stores the identifier of the experiment; (2) a “tissue” field that captures the type of tissue tested in the experiment, and (3) a “disease” field to enter the disease of interest. Fig. 1 shows the template in the Template Designer and the “Suggestions” setting for the field “tissue”. Suppose that the user enabled suggestions for the fields “tissue” and “disease”.
 
 
@@ -31,12 +31,14 @@ Fig. 1. Screenshot of CEDAR’s Template Designer that shows an Experiment templ
 
 Fig. 2 shows a screenshot of the Metadata Editor for a template generated from the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the field “disease”. In this case, the editor shows four suggested values: “skin ulcer”, “atopic dermatitis”, “melanoma”, “psoriasis”. The percentage shown between brackets next to each suggestion represents the strength of the recommendation. The recommendations provided by the system are context-sensitive, meaning that the values predicted for the “disease” field are generated and ranked based on the value entered for the “tissue” field. In this case, the four values suggested by the system are useful, since all of them are diseases that affect the skin.
 Fig. 2. Screenshot of the Metadata Editor for the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the “disease” field. The recommendations system analyzes the CEDAR metadata repository on real time and suggests four diseases that affect the skin.
-== Frequently Asked Questions
-[qanda]
-Can I enable suggestions for text fields whose values have been restricted to terms from ontologies? ::
+## Frequently Asked Questions
+
+*Can I enable suggestions for text fields whose values have been restricted to terms from ontologies?* //
 Yes. CEDAR’s Value Recommender works both for plain text values and ontology terms.
-Can I access the source code? ::
+
+*Can I access the source code?* //
 Yes. The source code of CEDAR’s Value Recommender is open source and available on GitHub [3].
+
 How does CEDAR’s Value Recommender work? ::
 The system is based on a well-established data mining method known as association rule mining to generate real-time suggestions based on analyses of previously entered metadata. A paper describing this method in detail will be available soon.
 Will recommendations still work if I modify the template after metadata is collected? ::
@@ -49,9 +51,13 @@ How should I cite this work? ::
 A paper describing CEDAR’s Value Recommender will be available soon. In the meantime, you can cite our initial version of our recommendation method as follows:
 * Martínez-Romero, M., O’Connor, M. J., Shankar, R., Panahiazar, M., Willrett, D., Egyedi, A. L., Gevaert, O., Graybeal, J., Musen, M. A. Fast and accurate metadata authoring using ontology-based recommendations. Proceedings of AMIA 2017 Annual Symposium. 2017. p. 1265–74.
 
-== References
+## References
+
+<pre>
 [1] https://cedar.metadatacenter.org/
 [2] https://valuerecommender.metadatacenter.org/api
 [3] https://github.com/metadatacenter/cedar-valuerecommender-server
 [4] https://www.dropwizard.io
 [5] https://www.cs.waikato.ac.nz/ml/weka/
+</pre>
+
