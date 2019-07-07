@@ -4,6 +4,8 @@ title: Constraining the Results by Type
 author: John Graybeal
 chapter: a2
 status: Preliminary
+chapter_url: /basic_topics/a2/3_constraining_the_results_by_type/
+chapter_title: Constraining the Results
 ---
 
 By default, when the user searches for resources (e.g., all resources that mention "Antibody"), all resources are presented to the user irrelevant of their type (i.e., field, element, template, or metadata instance). As the user (i.e., template publisher or the metadata creator) starts creating several of these resources, or has shared access to several of these resources, the total number of resources retrieved for a given search query becomes very large for intuitive navigation. 
