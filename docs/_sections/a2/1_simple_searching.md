@@ -4,8 +4,8 @@ title: Simple Searching
 author: John Graybeal
 chapter: a2
 status: Preliminary
-chapter_url: /basic_topics/a2/1_simple_searching/
-chapter_title: Simple Searching
+chapter_url: /basic_topics/a2_finding_resources/
+chapter_title: Finding Resources
 ---
 
 The CEDAR Workbench organizes resources in three different sets, depending on the ownership and sharing: 1) resources created by the logged-in user and are listed under the "Workspace" tab, 2) resources shared with the logged-in user, and 3) public resources that are shared with every user. Searching for a resource in a particular set is vey simple. Just click on the given set (e.g., "Shared with everybody") and input the search string as free text (e.g., "Antibody") using the Search bar provided in the navigation header of the CEDAR workbench UI. All the resources in a given set that have the string "Antibody" listed in their labels are showcased to the logged-in user. 
