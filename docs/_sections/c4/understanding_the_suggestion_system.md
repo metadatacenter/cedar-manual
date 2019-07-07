@@ -23,6 +23,7 @@ Save the template and click on the arrow located on the top left corner of the s
 Once the template has been saved, users can start filling it metadata and getting recommendations. At least one saved metadata instance must exist for a template before recommendations are generated. To fill out the metadata for a template with recommendations the user proceeds as for any other template:
 * In the listing for the template, click on the ‘metadata’ tag (shown at right)<img src="https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png" alt="Metadata Tag" height="16px" align="right" />. This generates a form to fill out the metadata.  Alternatively, select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
+* The numeric percentages indicate the strength of the recommendation (not the percentage of entries that are filled out with that value). See the paper cited below for details about how this strength is calculated.
 
 If you do not see a list of value recommendations when you expect them, it is likely that the metadata filled out so far for that template does not contain any patterns strong enough to recommend.  
 
@@ -65,8 +66,8 @@ Fig. 2 shows a screenshot of the Metadata Editor for a template generated from t
 <div> </div>
 
 **How should I cite this work?**
-:   A paper describing CEDAR’s Value Recommender will be available soon. In the meantime, you can cite our initial version of our recommendation method as follows: <br />
-   _Martínez-Romero, M., O’Connor, M. J., Shankar, R., Panahiazar, M., Willrett, D., Egyedi, A. L., Gevaert, O., Graybeal, J., Musen, M. A. Fast and accurate metadata authoring using ontology-based recommendations. Proceedings of AMIA 2017 Annual Symposium. 2017. p. 1265–74._
+:   Please cite the following paper, which describes CEDAR’s Value Recommender in some detail: <br />
+   _Martínez-Romero M, O’Connor MJ, Egyedi AL, Willrett D, Hardi J, Graybeal J, Musen MA. Using association rule mining and ontologies to generate metadata recommendations from multiple biomedical databases. Database. Volume 2019, 10 June 2019. https://doi.org/10.1093/database/baz059._
 
 ## References
 
