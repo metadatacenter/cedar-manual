@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Special Case: Submitting Your Metadata
+title: Special Case Submitting Your Metadata
 author: John Graybeal
 chapter: a6
 status: Pending
