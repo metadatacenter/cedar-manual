@@ -36,7 +36,7 @@ title: "About the CEDAR User Guide"
       {% for item in site.basic_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} {% if item.status != "Ready" %}<i>[{{ item.status }}]</i>{% endif %}
+            {{ item.title }} {% if item.status != "Ready" %}&nbsp;<i>[{{ item.status }}]</i>{% endif %}
           </a>
         </li>
       {% endfor %}
