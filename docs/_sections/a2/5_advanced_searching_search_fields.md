@@ -3,6 +3,9 @@ layout: section
 title: Advanced Searching - Search Fields
 author: John Graybeal
 chapter: a2
+status: Ready
+chapter_url: /basic_topics/a2_finding_resources/
+chapter_title: Finding Resources
 ---
 
 This section contains some examples of the query syntax that can be used to find template instances by field name and/or value. 
