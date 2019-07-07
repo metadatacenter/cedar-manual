@@ -21,7 +21,7 @@ The Value Recommender will make recommendations only when it can see a pattern w
 Save the template and click on the arrow located on the top left corner of the screen to exit the Template Designer.
 
 Once the template has been saved, users can start filling it metadata and getting recommendations. At least one saved metadata instance must exist for a template before recommendations are generated. To fill out the metadata for a template with recommendations the user proceeds as for any other template:
-* In the listing for the template, click on the ‘metadata’ tag (image at right)<img src="https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png" alt="Metadata Tag" height="16px" float="right" />. This generates a form to fill out the metadata.  Alternatively, select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
+* In the listing for the template, click on the ‘metadata’ tag (image at right)<img src="https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideMetadataTag.png" alt="Metadata Tag" height="16px" align="right" />. This generates a form to fill out the metadata.  Alternatively, select your template and click on the template options menu (displayed as three vertical dots), choosing “Populate” to start entering metadata for the template.
 * Click on any field that is configured to support recommendations. You will receive a list of value recommendations presented as a drop-down. 
 
 If you do not see a list of value recommendations when you expect them, it is likely that the metadata filled out so far for that template does not contain any patterns strong enough to recommend.  
@@ -31,12 +31,12 @@ Suppose we have an “Experiment” template with three fields: (1) an “experi
 
 Fig. 1 shows the template in the Template Designer and the “Suggestions” setting for the field “tissue”. The user has clicked on the “tissue” field and enabled metadata recommendations for the field using the “Suggestions” tab. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:height="75%" width="75%" align="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:height="75%" width="75%" align="middle"}
 
 We will assume the user also enables suggestions for the field “disease”.
 
 Fig. 2 shows a screenshot of the Metadata Editor for a template generated from the Experiment template. The user entered the value “skin” for the field “tissue” and is about to enter a value for the field “disease”. In this case, the editor shows four suggested values: “skin ulcer”, “atopic dermatitis”, “melanoma”, and “psoriasis”. The percentage shown between brackets next to each suggestion represents the strength of the recommendation. The recommendations provided by the system are context-sensitive, meaning that the values predicted for the “disease” field are generated and ranked based on the value entered for the “tissue” field. In this case, the four values suggested by the system are useful, since all of them are diseases that affect the skin.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure2.png){:width="75%" align="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure2.png){:width="75%" align="middle"}
 
 ## Frequently Asked Questions
 
