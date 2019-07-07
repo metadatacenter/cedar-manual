@@ -4,6 +4,8 @@ title: Organizing the Results
 author: John Graybeal
 chapter: a2
 status: Preliminary
+chapter_url: /basic_topics/a2/2_organizing_the_results/
+chapter_title: Organizing the Results
 ---
 
 The user has an option to view the search resources either as a grid of different resource tiles (As shown in the Figure below) or as a list of different resources. The user can switch between these views using the icon highlighed in the blue-colored rectangle in the Figure. 
