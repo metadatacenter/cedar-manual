@@ -24,7 +24,7 @@ Examples of queries that will retrieve the instance above:
   
   `publisher:"City of New York"`
 
-  `"publishing institution":"City of New York"` (note that 'Publishing Institution' has been defined in the template as the preferred label of the field 'Publisher')
+  `"publishing institution":"City of New York"` *(note that 'Publishing Institution' has been defined in the template as the preferred label of the field 'Publisher')*
   
 - Search by field name (any value):
 
