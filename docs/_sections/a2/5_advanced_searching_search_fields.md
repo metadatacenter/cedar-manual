@@ -8,11 +8,13 @@ chapter_url: /basic_topics/a2_finding_resources/
 chapter_title: Finding Resources
 ---
 
-This section contains some examples of the query syntax that can be used to find template instances by field name and/or value. 
+This section contains some examples of the query syntax that can be used to find CEDAR artifacts by field name and/or value.
+
+<h1>Finding template instances by field name and/or field value</h1>
 
 Suppose the following template instance:
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example.png){:height="100%" width="100%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example_1.png){:height="90%" width="90%"}
 
 Examples of queries that will retrieve the instance above:
 
@@ -21,14 +23,16 @@ Examples of queries that will retrieve the instance above:
   `title:statistics`
   
   `publisher:"City of New York"`
+
+  `"publishing institution":"City of New York" (note that 'Publishing Institution' has been defined in the template as the preferred label of the field 'Publisher')
   
 - Search by field name (any value):
 
-  `publisher:*`
+  `publisher:*`, or `publisher:`
   
 - Search by field value (any name):
 
-  `*:"New York"`
+  `*:"New York"`, or `:"New York"`
   
 - Boolean queries (e.g. Title="Statistics" AND "New York"):
 
@@ -55,3 +59,21 @@ Examples of queries that will retrieve the instance above:
     - Search by term label: `topic:statistics`
     
     - Search by term URI: `topic:http://edamontology.org/topic_2269`
+
+    - Search by term label and URI: topic:http://edamontology.org/topic_2269 AND topic:data
+    
+<h1>Finding templates, elements, and fields, by field name</h1>
+
+Suppose the template for the previous instance:
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example_2.png){:height="90%" width="90%"}
+
+Here are some examples of queries that can be used to find the template above:
+
+  `title:*`, or simply `title:`
+
+  `Publish*:`
+
+  `"Contact Email":`
+
+  `to?ic:`
