@@ -10,9 +10,9 @@ chapter_title: Finding Resources
 
 This section contains some examples of the query syntax that can be used to find CEDAR artifacts by field name and/or value.
 
-<h1>Finding template instances by field name and/or field value</h1>
+<h1>Finding metadata instances by field name and/or field value</h1>
 
-Suppose the following template instance:
+Suppose the following metadata instance:
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example_1.png){:height="100%" width="100%"}
 
@@ -64,7 +64,7 @@ Examples of queries that will retrieve the instance above:
     
 <h1>Finding templates, elements, and fields, by field name</h1>
 
-Suppose the template for the previous instance:
+Given the template for the previous instance:
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field_search_example_2.png){:height="100%" width="100%"}
 
