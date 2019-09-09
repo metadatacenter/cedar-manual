@@ -8,7 +8,7 @@ status: In Progress
 
 ## **Introduction**
 
-To share your CEDAR content via the web, you must enable the OpenView feature for the content. 
+With CEDAR OpenView, you can share your CEDAR content via the web. 
 This feature works for templates, elements, fields, and metadata instances. 
 You must be the owner of the content to share it, and if you are sharing a metadata instance, 
 the template for that instance must already be shared.
