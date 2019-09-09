@@ -6,11 +6,15 @@ chapter: a5
 status: In Progress
 ---
 
+== Introduction ==
+
 To share your CEDAR content via the web, you must enable the OpenView feature for the content. 
 This feature works for templates, elements, fields, and metadata instances. 
 You must be the owner of the content to share it, and if you are sharing a metadata instance, 
 the template for that instance must already be shared.
 Templates, elements, and fields are displayed as empty metadata instances containing the relevant fields.
+
+== Sharing to the Web ==
 
 To share your CEDAR template, element, or field via the web, simply select Enable OpenView via its drop-down menu. 
 The CEDAR system will display a message indicating the sharing was successful. 
@@ -19,6 +23,8 @@ To share a CEDAR metadata instance via the web, the template on which the instan
 If you are not the owner, contact the owner or the CEDAR team to get help sharing the template. 
 After the template has been shared, you will be able to successfully share the instance. 
 (If you do not share the template, anyone who visits the shared metadata instance will see an error message rather than the actual metadata.)
+
+== Viewing the Shared Content on the Web ==
 
 To view the shared content, select Visit OpenView via the artifacts drop-down menu. 
 This brings up the OpenView, a public view of the shared content, in another web page.  
@@ -32,6 +38,8 @@ The OpenView page includes a field type key at the bottom of the main section. a
 representations of the content. For a template, element, or field, that will display the JSON Schema for the CEDAR artifact.
 For a metadata instance, the use can choose JSON-LD or RDF views of the metadata, 
 as well as the JSON Schema of the template on which the metadata instance is based.
+
+== Ending Sharing ==
 
 The owner of a CEDAR document that has OpenView enabled may choose to disable the OpenView at any time, 
 using the Disable OpenView menu item from the document's drop-down menu.
