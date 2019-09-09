@@ -3,7 +3,7 @@ layout: chapter
 title: Sharing Via the Web
 author: John Graybeal
 chapter: a5
-status: In Progress
+status: Ready
 ---
 
 ## **Introduction**
