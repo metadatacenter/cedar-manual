@@ -3,5 +3,5 @@ layout: chapter
 title: Sharing Your Content
 author: John Graybeal
 chapter: a5
-status: In Progress
+status: Ready
 ---
