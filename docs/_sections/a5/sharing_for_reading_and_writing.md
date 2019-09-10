@@ -33,10 +33,10 @@ As you start typing possible names will appear, and you can select the name you 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-20190909.png){:width="75%"}
 
 Once you select the name, a sharing choice will appear with the default permission: read. If you want to change the shared permission to enable writing, or (if you are the owner) even reassign someone else as the owner, click on the down arrow and select the permission you want to give.  
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-choose-permission-20190909.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-choose-permission-20190909.png){:width="25%"}
 
 You must click on the OK button to complete the sharing process.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-click-ok-20190909.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-click-ok-20190909.png){:width="25%"}
 
 You should now see the person's name in the list of shared permissions on the right side.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sharing-with-person-completed-20190909.png){:width="75%"}
