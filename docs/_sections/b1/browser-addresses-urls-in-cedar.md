@@ -4,7 +4,7 @@ title: Browser Addresses: URLs in CEDAR
 author: John Graybeal
 status: Ready
 chapter: b1
-chapter_url: /advanced_toics/b1_cedar_identifiers_and_iris/
+chapter_url: /advanced_topics/b1_cedar_identifiers_and_iris/
 chapter_title: CEDAR Identifiers and IRIs
 ---
 
