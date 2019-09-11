@@ -40,8 +40,10 @@ If you open an existing template, you'll see an IRI like
 
 `https://cedar.metadatacenter.org/templates/edit/https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624?folderId=https:%2F%2Frepo.metadatacenter.org%2Ffolders%2Feaa65a39-1706-43b6-b4ca-2bf9d7d1166d`
 
-Breaking that down, we've replaced `dashboard?folderID=` with `template/edit/`, which tells us we are in the template editor.
-(For a metadata instances, we would see `instances/edit/`, and if we were just creating an instance for the first time, `instances/create/`.)
+Breaking that down, we've replaced `dashboard?folderID=` in our previous example with `template/edit/`, 
+which tells us we are in the template editor.
+(For a metadata instance, we would see `instances/edit/`, 
+and if we were just creating an instance for the first time, `instances/create/`.)
 
 Everything that follows the `template/edit/` string, until reaching the `?`, is a template identifier:
 `https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624`. 
