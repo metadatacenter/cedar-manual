@@ -4,6 +4,8 @@ title: Building Shareable Metadata Creation IRIs
 author: John Graybeal
 chapter: b1
 status: Ready
+chapter_url: /advanced_topics/b1_cedar_identifiers_and_iris/
+chapter_title: CEDAR Identifiers and IRIs
 ---
 
 Building on the other sections in this chapter, we briefly describe how to create an IRI 
