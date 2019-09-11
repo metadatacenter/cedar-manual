@@ -10,9 +10,9 @@ chapter_title: CEDAR Identifiers and IRIs
 
 When you run CEDAR, the first page you see will be your Workspace home page, and the top of your browser may look something like this:
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/browser-cedar-urls-20190910.png){:width="90%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/browser-cedar-urls-20190910.png){:width="100%"}
 
-Here we describe how to read these IRIs (also known as URLs), so that you can use parts of it in the rest of this section. 
+The bar at the top of the browser shows part of the IRI describing CEDAR's location. Here we describe how to read these IRIs (also known as URLs), so that you can use parts of it in the rest of this section. 
 
 ## **Workspace Home Directory IRI**
 
