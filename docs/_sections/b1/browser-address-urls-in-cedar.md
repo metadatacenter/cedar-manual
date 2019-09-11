@@ -10,14 +10,13 @@ chapter_title: CEDAR Identifiers and IRIs
 
 When you run CEDAR, the first page you see will be your Workspace home page, and the top of your browser may look something like this:
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/browser-cedar-urls-20190910.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/browser-cedar-urls-20190910.png){:width="90%"}
 
 Here we describe how to read these IRIs (also known as URLs), so that you can use parts of it in the rest of this section. 
 
 ## **Workspace Home Directory IRI**
 
 The URL in the browser when you log in for the first time or go to your home directory will be like the following:
-
 `https://cedar.metadatacenter.org/dashboard?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94`
 
 The first part of this is straightforward: `https` is the protocol, `cedar.metadatacenter.org` is the path for the application, and 
