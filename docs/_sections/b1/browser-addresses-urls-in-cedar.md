@@ -4,6 +4,8 @@ title: Browser Addresses: URLs in CEDAR
 author: John Graybeal
 status: Ready
 chapter: b1
+chapter_url: /advanced_toics/b1_cedar_identifiers_and_iris/
+chapter_title: CEDAR Identifiers and IRIs
 ---
 
 When you run CEDAR, the first page you see will be your Workspace home page, and the top of your browser may look something like this:
