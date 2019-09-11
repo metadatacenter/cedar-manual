@@ -4,6 +4,8 @@ title: How CEDAR Defines and Applies IRIs (URIs, URLs)
 author: John Graybeal
 chapter: b1
 status: Ready
+chapter_url: /advanced_topics/b1_cedar_identifiers_and_iris/
+chapter_title: CEDAR Identifiers and IRIs
 ---
 
 This page describes the CEDAR unique identifier format. 
