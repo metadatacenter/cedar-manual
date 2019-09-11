@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Browser Addresses: URLs in CEDAR
+title: Browser Address URLs in CEDAR
 author: John Graybeal
 status: Ready
 chapter: b1
