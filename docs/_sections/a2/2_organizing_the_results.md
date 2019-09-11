@@ -3,14 +3,14 @@ layout: section
 title: Organizing the Results
 author: John Graybeal
 chapter: a2
-status: Preliminary
+status: Ready
 chapter_url: /basic_topics/a2_finding_resources/
 chapter_title: Finding Resources
 ---
 
-The user has an option to view the search resources either as a grid of different resource tiles (As shown in the Figure below) or as a list of different resources. The user can switch between these views using the icon highlighed in the blue-colored rectangle in the Figure. 
+The user has an option to view the search resources either as a grid of different resource tiles (as shown in the figure below) or as a list of different resources. The user can switch between these views using the icon highlighted in the small blue rectangle in the upper right of the figure. 
 
-Moreover, the user can also sort the different resources based on their title, the resource creation date, and the resource modification date. To sort the resources, the user has to click the sort icon highlighted in the red-colored rectangle, and select their desired option. 
+The user can also sort the different resources based on their titles, creation dates, and modification dates. To sort the resources, the user clicks on the sort icon highlighted in the small red rectangle at upper right, and select from the desired option that pops up. The user can also click on the column header to sort by that column.
 
 In the next section, we will discuss how the user can constrain the search results by filtering on the different resource types.
 
