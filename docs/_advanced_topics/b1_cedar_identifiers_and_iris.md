@@ -6,4 +6,4 @@ chapter: b1
 status: Ready
 ---
 
-In this advanced topic we cover everything you might want to know about the identifiers used in CEDAR. 
+In this advanced topic we cover everything you might want to know about the unique identifiers used in CEDAR. 
