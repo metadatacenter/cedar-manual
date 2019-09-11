@@ -43,36 +43,37 @@ title: "CEDAR User Guide"
       </ul>
     </li>
 
+    <li class="text-title">About CEDAR Templates<br>
+      <ul class="texts">
+      {% for item in site.cedar_templates %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }} {% if item.status != "Ready" %}&nbsp;<i>[{{ item.status }}]</i>{% endif %}
+          </a> 
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+    
     <li class="text-title">Advanced Topics for All Users<br>
       <ul class="texts">
       {% for item in site.advanced_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}&nbsp;<i>[{{ item.status }}]</i>{% endif %}
           </a>
         </li>
       {% endfor %}
       </ul>
     </li>
 
-    <li class="text-title">About CEDAR Templates<br>
-      <ul class="texts">
-      {% for item in site.cedar_templates %}
-        <li class="text-title">
-          <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
-          </a> 
-        </li>
-      {% endfor %}
-      </ul>
-    </li>
     <!--
     <li class="text-title">Advanced Guidance<br>
       <ul class="texts">
       {% for item in site.advanced_guidance %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}&nbsp;<i>[{{ item.status }}]</i>{% endif %}
           </a>
         </li>
       {% endfor %}
