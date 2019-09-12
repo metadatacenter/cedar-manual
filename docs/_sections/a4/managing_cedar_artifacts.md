@@ -12,9 +12,8 @@ chapter_title: Desktop and Navigation
 
 This section describes how to manage CEDAR resources. In CEDAR, resources include the various artifact types (templates, elements, fields, metadata instances) and folders. These are all managed through the CEDAR Desktop,
 typically through your [workspace view](https://metadatacenter.github.io/cedar-manual/sections/a4/your_cedar_workspace/). 
-Management operations include copying, moving, renaming, and deleting resources, and  
-setting sharing permissions on resources. (Copying can only be performed for the 4 CEDAR artifact types, 
-not for CEDAR folders.)
+Management operations include copying, moving, renaming, and deleting resources, and
+setting sharing permissions on resources. 
 
 If you want to fill out metadata for a particular template, 
 the **Populate** command will open the Metadata Creator set up to fill in metadata for that template. 
@@ -29,20 +28,12 @@ in their respective sections of the User Guide.
 ## **Resource Menu**
 
 All the resource options are managed through the menu of the resource (shown below). 
-Access the resource menu by clicking on the vertical dots (the 'kebab menu', ⋮︙) on the right side of the resource.
+Access the resource menu by clicking on the vertical dots (the 'kebab menu', **⋮**) on the right side of the resource.
 A drop-down menu provides access to the options for moving, copying, renaming, deleting, and sharing the resource.
-If a menu item like Copy is grayed out, it is not available for the resource.
+If a menu item like Copy… is grayed out, it is not available for that resource.
 If **all** menu items are grayed out, either no resource is selected, or there is a permissions inconsistency.
 
-### ***Share…*** Command
-
-The Share… command opens a sharing configuration window. 
-
-In this window you can perform all sharing and group management operations needed to control resource access in CEDAR.
-See the [Sharing Your Content](https://metadatacenter.github.io/cedar-manual/basic_topics/sharing_your_content/) 
-section for detailed information about sharing resources in CEDAR.
-
-### Destination Commands and Selection Window**
+### Destination Commands and Selection Window
 
 The Copy to… and Move to… commands will display a window for you to choose the destination for the command, shown here. 
 The starting location is your current workspace folder.
@@ -73,9 +64,17 @@ After selecting the Move… command, you will be asked to select the destination
 his operation requires write permission for the resource.
 You can move any CEDAR artifact or folder to another directory for which you have write permissions. 
 
-### **Rename** Command
+### ***Rename*** Command
 
 After selecting the Rename… command, you will be asked for the new name. This operation requires write permission for the resource.
+
+### ***Share…*** Command
+
+The Share… command opens a sharing configuration window. 
+
+In this window you can perform all sharing and group management operations needed to control resource access in CEDAR.
+See the [Sharing Your Content](https://metadatacenter.github.io/cedar-manual/basic_topics/sharing_your_content/) 
+section for detailed information about sharing resources in CEDAR.
 
 ### ***Delete*** Command
 
@@ -83,4 +82,4 @@ The delete command displays a confirmation box, then deletes the item.
 
 Use this command with caution, as there is no undo command. Contact the CEDAR team to restore content you have deleted.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/cedar-resource-menu-20190912.png){:width="50%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/cedar-resource-menu-20190912.png){:width="75%"}
