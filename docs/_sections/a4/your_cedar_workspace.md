@@ -13,8 +13,8 @@ After you first log in to CEDAR, you will be in your own workspace, which will l
 
 We will walk you through the content of this screenshot using the letters in the yellow circles.
 
-A. The search bar lets you find other CEDAR resources. 
-B. The location string tells you the local folder for this display. If it is not present, you are in a search display.
+* (A) The search bar lets you find other CEDAR resources. 
+* (B) The location string tells you the local folder for this display. If it is not present, you are in a search display.
 
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/cedar-workspace-annotated-20190911.png){:width="95%"}
