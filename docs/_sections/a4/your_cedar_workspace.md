@@ -2,8 +2,8 @@
 layout: section
 title: Your CEDAR Workspace
 author: John Graybeal
+status: In Progress
 chapter: a4
-status: Pending
 chapter_url: /basic_topics/a4_desktop_and_navigation/
 chapter_title: Desktop and Navigation
 
