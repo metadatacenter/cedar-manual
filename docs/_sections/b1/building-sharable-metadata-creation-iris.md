@@ -11,12 +11,12 @@ chapter_title: CEDAR Identifiers and IRIs
 Building on the other sections in this chapter, we briefly describe how to create an IRI 
 that will launch a fresh appropriate metadata creation form for your template. 
 
-Given a template IRI of the form https://repo.metadatacenter.org/templates/f7d62955-ed10-4912-b4db-1b366ad4ff00 (not a real template!),
-preface it with the metadata creation IRI base https://cedar.metadatacenter.org/instances/create/.
-
-This gives us a URL like 
+Given a template IRI, you can preface it with the metadata creation IRI base, which is `https://cedar.metadatacenter.org/instances/create/`. So if your template looks like
+https://repo.metadatacenter.org/templates/f7d62955-ed10-4912-b4db-1b366ad4ff00 (not a real template!),
+you would get an IRI (URL) like
 `https://cedar.metadatacenter.org/instances/create/https://repo.metadatacenter.org/templates/f7d62955-ed10-4912-b4db-1b366ad4ff00`
-which when clicked would launch CEDAR, login (or create account for) the user if necessary, 
+
+When this IRI is clicked or put into the browser, it would launch CEDAR, log in (or create account for) the user if necessary, 
 and put the user into a new metadata creation form for that template. 
 
 Because there is no 'return folder' specified in this URL, 
