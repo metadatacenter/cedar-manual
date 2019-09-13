@@ -26,6 +26,15 @@ This is a form-building tool that lets you drag-and-drop form components.
 
 To fill out a form, you'll use the Metadata Creator, which lets you edit and save metadata, and view it in JSON-LD or RDF.
 
+## **Browsing in the Desktop**
+
+When the location bar is shown at the top of the Resources box, 
+you can click on any of the highlighted components of the location to go to that folder.
+
+In any Desktop view, if you want to navigate into any of the folders that are visible to you, 
+double-click on the folder to go into it.
+This works in either search or browse mode. (You can also use the resource menu (*⋮*) and click on Open.)
+
 ## **Moving Back and Forth**
 
 From the Desktop, you'll move to one of the other tools by opening an artifact or populating metadata for a template.
