@@ -2,8 +2,8 @@
 layout: section
 title: Constraining the Results by Type
 author: John Graybeal
-chapter: a2
 status: Ready
+chapter: a2
 chapter_url: /basic_topics/a2_finding_resources/
 chapter_title: Finding Resources
 ---

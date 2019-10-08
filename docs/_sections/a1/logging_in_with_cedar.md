@@ -2,8 +2,8 @@
 layout: section
 title: Logging in with CEDAR
 author: John Graybeal
-chapter: a1
 status: Ready
+chapter: a1
 chapter_url: /basic_topics/a1_accounts_and_logging_in/
 chapter_title: Accounts and Logging In
 ---

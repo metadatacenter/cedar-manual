@@ -2,8 +2,8 @@
 layout: section
 title: Navigating Within CEDAR 
 author: John Graybeal
-chapter: a4
 status: Ready
+chapter: a4
 chapter_url: /basic_topics/a4_desktop_and_navigation/
 chapter_title: Desktop and Navigation
 

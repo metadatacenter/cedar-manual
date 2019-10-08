@@ -2,8 +2,10 @@
 layout: section
 title: Adding Fields
 author: John Graybeal
-chapter: c2
 status: Preliminary
+chapter: c2
+chapter_url: /advanced_topics/c2_building_basic_templates/
+chapter_title: Building Basic Templates
 ---
 
 

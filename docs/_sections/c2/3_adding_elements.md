@@ -2,8 +2,10 @@
 layout: section
 title: Adding Elements
 author: John Graybeal
-chapter: c2
 status: Preliminary
+chapter: c2
+chapter_url: /advanced_topics/c2_building_basic_templates/
+chapter_title: Building Basic Templates
 ---
 
 An Element resource is composed of several different Field resources as well as other Element resources. The idea behind the creation of these Element resources is to enable different Template creators to share, reuse, and extend existing Element resources across different Template resources as well as different user groups. This section is divided into two different parts: 1) we will take a detour and create a new Element resource, and 2) we will embed the newly created Element resource within our Template resource. 

@@ -2,8 +2,10 @@
 layout: chapter
 title: Sharing Via the Web
 author: John Graybeal
-chapter: a5
 status: Ready
+chapter: a6
+chapter_url: /basic_topics/a6_sharing_your_content/
+chapter_title: Sharing Your Content
 ---
 
 ## **Introduction**

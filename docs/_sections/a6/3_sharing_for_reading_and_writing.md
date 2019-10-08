@@ -2,8 +2,10 @@
 layout: section
 title: Sharing for Reading and Writing
 author: John Graybeal
-chapter: a5
 status: Ready
+chapter: a6
+chapter_url: /basic_topics/a6_sharing_your_content/
+chapter_title: Sharing Your Content
 ---
 
 ## **What it Means**
