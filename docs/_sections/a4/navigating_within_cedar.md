@@ -19,7 +19,8 @@ CEDAR (the "CEDAR Workbench") has 3 tools:
 
 ## **The Components**
 
-For [managing CEDAR content](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_artifacts/) you'll use the Desktop, which can either display a Workspace, or search results. (More on search results below.)
+For [managing CEDAR content](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_artifacts/) 
+you'll use the Desktop, which can either display a Workspace, or search results. (More on search results below.)
 
 When you want to create a template, element, or field, you will use the Template Editor. 
 This is a form-building tool that lets you drag-and-drop form components.
@@ -48,7 +49,7 @@ In these modes, the current location is not shown above the Resources box,
 but is replaced by a string indicating what information is being shown. 
 To return to the Desktop from one of these search modes, you can click on the Workspace link at upper left.
 
-** Key Tip:** If you open another tool (by opening an artifact) from the search mode of the Desktop,
+**Key Tip:** If you open another tool (by opening an artifact) from the search mode of the Desktop,
 clicking on the left arrow in the CEDAR window will return you to your last Desktop location, 
 not to the search interface (with the previous results in it).
 To return to your previous results in the search interface, click on the *browser* back button.
