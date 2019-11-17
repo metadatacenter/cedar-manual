@@ -34,7 +34,7 @@ Suppose we have an “Experiment” template with three fields: (1) an “experi
 
 Fig. 1 shows the template in the Template Designer and the “Suggestions” setting for the field “tissue”. The user has clicked on the “tissue” field and enabled metadata recommendations for the field using the “Suggestions” tab. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:height="75%" width="75%" align-left="auto" align-right="auto"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/IntelligentAuthoringGuideFigure1.png){:width="75%" class="centered"}
 
 We will assume the user also enables suggestions for the field “disease”.
 
