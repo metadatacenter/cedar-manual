@@ -14,8 +14,8 @@ layout: default
     {% if page.previous.url %}
       {% if page.previous.chapter == page.chapter %}
         <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        {% else %}
-        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      {% else %}
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
       {% endif %}
     {% endif %} &nbsp;&nbsp;&nbsp;&nbsp;||
     &nbsp;&nbsp;&nbsp;&nbsp;<a href="{{ site.baseurl }}{{page.chapter_url}}">{{page.chapter_title}} &uArr;</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,6 +23,8 @@ layout: default
     {% if page.next.url %}
       {% if page.next.chapter == page.chapter %}
         <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+      {% else %}
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
       {% endif %}
     {% endif %}
   </div>
