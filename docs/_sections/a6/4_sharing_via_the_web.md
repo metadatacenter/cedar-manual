@@ -1,5 +1,5 @@
 ---
-layout: chapter
+layout: section
 title: Sharing Via the Web
 author: John Graybeal
 status: Ready
@@ -23,10 +23,12 @@ The CEDAR system will display a message indicating the sharing was successful.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/enable-openview-menu-20190908.png){:width="25%"}
 
-To share a CEDAR metadata instance via the web, the template on which the instance is based must also be shared. 
+To share a CEDAR metadata instance via the web, 
+you must also share the template on which the instance is based. 
 If you are not the owner, contact the owner or the CEDAR team to get help sharing the template. 
 After the template has been shared, you will be able to successfully share the instance. 
-(If you do not share the template, anyone who visits the shared metadata instance will see an error message rather than the actual metadata.)
+(If you do not share the template, anyone who visits the shared metadata instance 
+will see an error message rather than the actual metadata.)
 
 ## **Viewing the Shared Content on the Web**
 
@@ -34,13 +36,14 @@ To view the shared content, select Visit OpenView via the artifacts drop-down me
 This brings up the OpenView, a public view of the shared content, in another web page.  
 You can copy the URL for the OpenView and share it with anyone else for viewing.
 
-Once at the OpenView page display the content, a user can view the metadata for the content by clicking on a downarrow in the title bar. 
+Once at the OpenView page display the content, you can view the metadata for the content by clicking on a downarrow in the title bar. 
 The document metadata includes a link to open the document within CEDAR. 
 This link will only work if the user has a CEDAR account with permissions to view the document.
 
-The OpenView page includes a field type key at the bottom of the main section. and the option to view the 'raw source' 
-representations of the content. For a template, element, or field, that will display the JSON Schema for the CEDAR artifact.
-For a metadata instance, the use can choose JSON-LD or RDF views of the metadata, 
+The OpenView page lists the field type icons at the bottom of the main section. 
+Below that it offers the option to view the 'raw source' representations of the content. 
+For a template, element, or field, that will display the JSON Schema for the CEDAR artifact.
+For a metadata instance, you can view JSON-LD or RDF views of the metadata, 
 as well as the JSON Schema of the template on which the metadata instance is based.
 
 ## **Ending Sharing**
