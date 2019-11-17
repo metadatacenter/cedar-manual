@@ -4,7 +4,7 @@ title: Understanding the Suggestion System
 author: John Graybeal
 status: Ready
 chapter: c4
-chapter_url: /advanced_topics/c4_advanced_template_topics/
+chapter_url: /cedar_templates/c4_advanced_template_topics/
 chapter_title: Advanced Template Topics
 ---
 CEDAR's Value Recommender is a metadata recommendation system that helps users to fill out metadata templates with the most appropriate values. The system finds and applies patterns in the previously entered values to generate recommendations for all the recommendation-enabled fields. CEDAR's Value Recommender is integrated in the CEDAR Workbench [1] and it can also be invoked programmatically through its API [2].
