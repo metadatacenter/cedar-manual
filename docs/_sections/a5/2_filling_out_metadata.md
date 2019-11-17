@@ -2,7 +2,7 @@
 layout: section
 title: Filling Out Metadata
 author: John Graybeal
-status: In Progress, Text Complete
+status: In Progress
 chapter: a5
 chapter_url: /basic_topics/a5_filling_out_creating_metadata/
 chapter_title: Filling Out Metadata
