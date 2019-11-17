@@ -14,7 +14,7 @@ layout: default
     {% if page.previous.url %}
       {% if page.previous.chapter == page.chapter %}
         <a class="prev" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-        {% elseif %}
+        {% else %}
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       {% endif %}
     {% endif %} &nbsp;&nbsp;&nbsp;&nbsp;||
