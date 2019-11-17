@@ -32,9 +32,12 @@ To fill out a form, you'll use the Metadata Creator, which lets you edit and sav
 When the location bar is shown at the top of the Resources box, 
 you can click on any of the highlighted components of the location to go to that folder.
 
-In any Desktop view, if you want to navigate into any of the folders that are visible to you, 
-double-click on the folder to go into it.
-This works in either search or browse mode. (You can also use the resource menu (*⋮*) and click on Open.)
+In any Desktop view, if you want to navigate into any of the folders that are listed, 
+double-click on the folder. 
+(You can also use the resource menu (*⋮*) and click on Open.)
+This works in either search or browse mode to display the contents of folder in the Desktop.
+
+Note that when My Workspace is the selected viewing mode (see [Your CEDAR Workspace](https://metadatacenter.github.io/cedar-manual/sections/a4/your_cedar_workspace/) for more details on viewing modes), you only see resources at the current folder level. In either of the Shared views you will see all the folders and artifacts that explicitly satisfy the chosen criteria. 
 
 ## **Moving Back and Forth**
 
