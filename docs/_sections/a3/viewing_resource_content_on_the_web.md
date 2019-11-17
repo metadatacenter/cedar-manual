@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Viewing Resource Content
+title: Viewing Resource Content in CEDAR
 author: John Graybeal
 status: Pending
 chapter: a3
