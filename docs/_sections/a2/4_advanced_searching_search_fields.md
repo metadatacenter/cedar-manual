@@ -36,13 +36,13 @@ Examples of queries that will retrieve the instance above:
   
 - Boolean queries:
 
-  `title:Statistics OR title:Math` *(the OR is optional)*
+  `title:Statistics OR title:Math` *(the OR is optional—it is the assumed conjunction)*
   
   `title:(Statistics OR Math)`
   
   `title:Math OR (title:Statistics AND publisher:"New York")`
   
-  `Dataset OR disease:CRC`
+  `Dataset OR disease:CRC`  *searches for Dataset anywhere, OR a field 'disease' with value 'CRC'*
   
 - Wildcard queries: 
 
@@ -52,7 +52,7 @@ Examples of queries that will retrieve the instance above:
   
 - URLs: 
 
-   `url:https://catalog.data.gov/dataset/demographic-statistics-by-zip-code-acfc9`
+   - `url:https://catalog.data.gov/dataset/demographic-statistics-by-zip-code-acfc9`
    
 - Ontology terms: 
 
@@ -74,6 +74,6 @@ Here are some examples of queries that can be used to find the template above:
 
   `Publish*:`
 
-  `"Contact Email":`
+  `"Contact Email":`  *use quotes for multi-word strings*
 
   `to?ic:`
