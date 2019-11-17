@@ -8,9 +8,9 @@ chapter_url: /basic_topics/a2_finding_resources/
 chapter_title: Finding Resources
 ---
 
-By default, when the user searches for resources (for example, all resources that mention "Antibody"), by default all types of matching resources are presented to the user, including folders, templates, elements, fields, and metadata instances. If the user has access to many of these resources, intuitive navigation may become difficult. 
+When you search for resources (for example, all resources that mention "Antibody"), by default all types of matching resources are shown, including folders, templates, elements, fields, and metadata instances. If you have access to many resources, you may find it hard to navigate these lists of matching resources. 
 
-The user can constrain the search results by resource type using the type filter. To set a type filter, simply click on the  icons indicated in the left side-bar of the CEDAR Workbench, as highlighted in the figure below. These icons are listed as Template, Element, Field, and Metadata, from left to right. The corresponding type represented by the icon can also be displayed by hovering over the icon. On selection, the icon is displayed as a white icon, and the resources for the corresponding type are NOT displayed in the search results (for example, Field resources are not shown in the search results in the figure below). To revert back (that is, to show the Field resources), the user simply has to click on the corresponding icon again to make its dominant color green.
+You can constrain the search results by resource type using the type filter. To set a type filter, simply click on the  icons indicated in the left side-bar of the CEDAR Workbench, as highlighted in the figure below. These icons are listed as Template, Element, Field, and Metadata, from left to right. You can also display corresponding type represented by the icon by hovering over the icon. When the icon is displayed as a white icon, the resources for the corresponding type are NOT displayed in the search results (for example, Field resources are not shown in the search results in the figure below). To revert back (that is, to show the Field resources), simply click on the corresponding icon again to make its dominant color green.
 
 There is no way to disable the folder resource, as it is used to navigate to lower levels of content.
 
