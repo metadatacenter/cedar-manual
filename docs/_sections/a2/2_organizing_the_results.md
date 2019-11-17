@@ -15,4 +15,4 @@ The user can also sort the different resources based on their titles, creation d
 In the next section, we will discuss how the user can constrain the search results by filtering on the different resource types.
 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sort.png){:height="75%" width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/sort.png){:width="75%" class="centered"}

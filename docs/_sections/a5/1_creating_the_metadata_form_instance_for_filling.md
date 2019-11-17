@@ -49,7 +49,7 @@ the person's browser to the CEDAR authentication page.
 At that point the user can log in or register for an account, and will be returned to
 the Metadata Editor with the newly created instance already opened.
 
-_TODO_: ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%"}
+_TODO_: ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%" class="centered"}
 
 ### **Via a Web Link (An External IRI)**
 
@@ -76,7 +76,7 @@ either click on the metadata tag to the right side of the template box, or
 click on the dropdown menu (the kebab, *:*) and select Populate Template.
 
 _TODO_: highlighted graphic
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%" class="centered"}
 
 ### **From an existing instance made from that template**
 
@@ -89,7 +89,7 @@ either click on the metadata tag to the right side of the template box, or
 click on the dropdown menu (the kebab, *:*) and select Populate Template.
 
 _TODO_: highlighted graphic
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%" class="centered"}
 
 ### **From an API call to CEDAR**
 

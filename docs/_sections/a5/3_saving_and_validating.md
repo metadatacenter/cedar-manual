@@ -14,7 +14,7 @@ _TODO_: reorganize if needed
 
 To save the instance, click on the Save button at the bottom right of the instance.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/share-settings-find-your-group-20190909.png){:width="75%" class="centered"}
 
 While an instance is being edited in the Metadata Editor, it can be saved at any time.
 If you have made changes and try to leave the instance without saving it, 

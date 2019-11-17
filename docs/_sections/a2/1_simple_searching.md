@@ -20,4 +20,4 @@ This process is indicated in the Figure below. In later sections, we will demons
 
 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search.png){:height="75%" width="75%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search.png){:width="75%" class="centered"}
