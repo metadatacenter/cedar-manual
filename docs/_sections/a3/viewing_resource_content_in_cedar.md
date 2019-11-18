@@ -41,10 +41,10 @@ To the right of the left arrow is an artifact type icon,
 showing the kind of artifact being modified. 
 The following images show the artifact type icons 
 for templates and instances.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/template-designer-title-icon-2019117.png){:width="25%"}
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/metadata-editor-title-icon-2019117.png){:width="25%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/template-designer-title-icon-2019117.png){:width="35%"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/metadata-editor-title-icon-2019117.png){:width="35%"}
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-editor-artifact-status-good-2019117.png){:width="30%" class="right"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-editor-artifact-status-good-2019117.png){:width="15%" class="right"}
 In the upper right of each editor is an artifact status display. 
 The artifact display shows white icons to reflect normal status, 
 and yellow icons if there is an issue. 
@@ -83,7 +83,7 @@ again with visual indentation to show the organization of the elements within th
 If there is an arrow to the left of a given line, 
 clicking on the arrow will expand or collapse the content under that entity.
 
-Information about using the Metadata Editory can be found in the [Filling Out/Creating Metadata] chapter, starting with [Filling Out Metadata](https://metadatacenter.github.io/cedar-manual/cedar_templates/a5_filling_out_creating_metadata/filling_out_metadata/).
+Information about using the Metadata Editor can be found in the Filling Out (Creating) Metadata chapter, starting with [Filling Out Metadata](https://metadatacenter.github.io/cedar-manual/sections/a5/2_filling_out_metadata//).
 
 
 
