@@ -25,7 +25,7 @@ We use the phrase 'viewing resource content' to mean looking at the resource in 
 
 To open an artifact for viewing in CEDAR that is listed in the Desktop view, 
 either double-click on the artifact, 
-or select the artifact and use the resource menu (*⋮*) to select Open.)
+or select the artifact and use the resource menu (*⋮*) to select Open.
 Both techniques work whether you are in search or browse mode.
 
 You will be shown a viewing window that lets you navigate throughout the artifact,
