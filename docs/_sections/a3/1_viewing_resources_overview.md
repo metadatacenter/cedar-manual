@@ -2,7 +2,7 @@
 layout: section
 title: Viewing Resources Overview
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: a3
 chapter_url: /basic_topics/a3_viewing_resource_information/
 chapter_title: Viewing Resource Information
@@ -21,7 +21,7 @@ The section summarizes the more detailed content found in subsequent sections.
 
 We use the phrase 'viewing resource content' to mean looking at the resource in human-friendly form, either in the CEDAR application or on the web using OpenView.
 
-<h2>Natively in CEDAR</h1>
+<h2>Natively in CEDAR</h2>
 
 To open an artifact for viewing in CEDAR that is listed in the Desktop view, 
 either double-click on the artifact, 
@@ -34,9 +34,9 @@ make changes to the document.
 
 This is also the view which enables seeing the raw artifact content inside CEDAR.
 
-For more details about this viewing mode, visit [Viewing Resource Content](https://metadatacenter.github.io/cedar-manual/sections/a3/viewing_resource_content_in_cedar/).
+For more details about this viewing mode, visit [Viewing Resource Content](https://metadatacenter.github.io/cedar-manual/sections/a3/2_viewing_resource_content_in_cedar/).
 
-<h2>On the Web with OpenView</h1>
+<h2>On the Web with OpenView</h2>
 
 If you click on the resource menu (*⋮*) and find the OpenView section, 
 you will be able to see whether OpenView is enabled for this artifact.
@@ -48,7 +48,7 @@ to the web page for this artifact that supports navigation and viewing features.
 
 You can also see artifact metadata and raw artifact content from the OpenView format.
 
-For more details about this viewing mode, visit [Viewing Resource Content on the Web](https://metadatacenter.github.io/cedar-manual/sections/a3/viewing_resource_content_on_the_web/). 
+For more details about this viewing mode, visit [Viewing Resource Content on the Web](https://metadatacenter.github.io/cedar-manual/sections/a3/3_viewing_resource_content_on_the_web/). 
 
 <h1>Viewing Resources in Raw Formats</h1>
 
@@ -63,7 +63,7 @@ Whichever format applies, the information is accessible at the bottom of the
 artifact's view in CEDAR by clicking on the appropriate link. 
 (Raw formats can also be accessed via the web when OpenView is enabled for the artifact.)
 
-For more details about this viewing mode, visit [Viewing Resource as Raw JSON](https://metadatacenter.github.io/cedar-manual/sections/a3/viewing_resource_as_raw_json/). 
+For more details about this viewing mode, visit [Viewing Resource as Raw JSON](https://metadatacenter.github.io/cedar-manual/sections/a3/4_viewing_resource_as_raw_json/). 
 
 <h1>Viewing Resource Metadata</h1>
 
@@ -74,7 +74,7 @@ side of the Desktop, click on the 'i' information icon to open it.
 Another metadata panel is available from the top part of the OpenView format, 
 with a different metadata collection appropriate to OpenView users. 
 
-For more details about viewing resource , visit [Viewing Resource Metadata](https://metadatacenter.github.io/cedar-manual/sections/a3/viewing_resource_metadata/). 
+For more details about viewing resource , visit [Viewing Resource Metadata](https://metadatacenter.github.io/cedar-manual/sections/a3/5_viewing_resource_metadata/). 
 
 
 

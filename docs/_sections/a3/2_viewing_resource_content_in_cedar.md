@@ -58,7 +58,7 @@ the template model specifications.)
 
 <h2>Artifact Footers</h2>
 
-At the foot of every artifact one or two horizontal bars let you view the raw format of the artifact.  See [Viewing Resource as Raw JSON](https://metadatacenter.github.io/cedar-manual/cedar_templates/a3_viewing_resource_information/viewing_resource_as_raw_json/) for more information.
+At the foot of every artifact one or two horizontal bars let you view the raw format of the artifact.  See [Viewing Resource as Raw JSON](https://metadatacenter.github.io/cedar-manual/sections/a3/4_viewing_resource_as_raw_json/) for more information.
 
 <h1>Template Designer View</h1>
 
@@ -83,7 +83,7 @@ again with visual indentation to show the organization of the elements within th
 If there is an arrow to the left of a given line, 
 clicking on the arrow will expand or collapse the content under that entity.
 
-Information about using the Metadata Editor can be found in the Filling Out (Creating) Metadata chapter, starting with [Filling Out Metadata](https://metadatacenter.github.io/cedar-manual/sections/a5/2_filling_out_metadata//).
+Information about using the Metadata Editor can be found in the Filling Out (Creating) Metadata chapter, starting with [Filling Out Metadata](https://metadatacenter.github.io/cedar-manual/sections/a5/2_filling_out_metadata/).
 
 
 
