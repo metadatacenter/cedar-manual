@@ -41,7 +41,7 @@ To the right of the left arrow is an artifact type icon,
 showing the kind of artifact being modified. 
 The following images show the artifact type icons 
 for templates and instances.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/metadata-editor-title-icon-2019117.png){:width="40%" class="right"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/metadata-editor-title-icon-2019117.png){:width="40%" class="right" margin-top="0.5rem"}
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/template-designer-title-icon-2019117.png){:width="44%"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-editor-artifact-status-good-2019117.png){:width="15%" class="right"}
