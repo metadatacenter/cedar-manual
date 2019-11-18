@@ -45,7 +45,7 @@ for templates and instances.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/template-designer-title-icon-2019117.png){:width="44%" margin-left="4%"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-editor-artifact-status-good-2019117.png){:width="15%" class="right"}
-In the upper right of each editor is an artifact status display. 
+In the upper right of each editor is an artifact status display, shown to the right.
 The artifact display shows white icons to reflect normal status, 
 and yellow icons if there is an issue. 
 The left-most icon indicates whether the artifact has been modified without saving. 
@@ -53,7 +53,7 @@ The center icon indicates whether the document can be edited,
 showing a locked icon if it can not be edited. (This can happen if you do not have permission to edit the document, or if the document is a published version, 
 which means no one can edit it.) 
 The right icon shows whether the document validates. 
-The document should always validate if the system correctly implements
+(The document should always validate if the system correctly implements
 the template model specifications.)
 
 <h2>Artifact Footers</h2>
