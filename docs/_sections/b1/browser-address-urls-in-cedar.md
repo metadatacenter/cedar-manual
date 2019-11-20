@@ -16,8 +16,10 @@ The bar at the top of the browser shows part of the IRI describing CEDAR's locat
 
 ## **Workspace Home Directory IRI**
 
-The URL in the browser when you log in for the first time or go to your home directory will be like the following:
-`https://cedar.metadatacenter.org/dashboard?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94`
+When you log in for the first time or go to your home directory, the URL in the browser will be like the following:
+```
+https://cedar.metadatacenter.org/dashboard?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94
+````
 
 The first part of this is straightforward: `https` is the protocol, `cedar.metadatacenter.org` is the path for the application, and 
 `dashboard` is the application type that is presenting the content.
@@ -30,14 +32,16 @@ You'll notice that the identifier has a number of escape characters, usually jus
 You are seeing an _encoded_ version of the identifier. 
 You can see the actual identifier by passing this string through an encode-decode site (e.g., https://www.url-encode-decode.com)
 and asking to decode the string. Doing so for this string results in the identifier
-`https://repo.metadatacenter.net/folders/4036e319-5bb7-493f-8fe5-31a004f65a94`, 
+```
+https://repo.metadatacenter.net/folders/4036e319-5bb7-493f-8fe5-31a004f65a94
+```
 which is the actual unique identifier for the viewed location.
 
 ## **Template Creator or Metadata Editor IRI**
 
 If you open an existing template, you'll see an IRI like
 
-`https://cedar.metadatacenter.org/templates/edit/https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624?folderId=https:%2F%2Frepo.metadatacenter.org%2Ffolders%2Feaa65a39-1706-43b6-b4ca-2bf9d7d1166d`
+```https://cedar.metadatacenter.org/templates/edit/https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624?folderId=https:%2F%2Frepo.metadatacenter.org%2Ffolders%2Feaa65a39-1706-43b6-b4ca-2bf9d7d1166d```
 
 Breaking that down, we've replaced `dashboard?folderID=` in our previous example with `template/edit/`, 
 which tells us we are in the template editor.
@@ -45,7 +49,9 @@ which tells us we are in the template editor.
 and if we were just creating an instance for the first time, `instances/create/`.)
 
 Everything that follows the `template/edit/` string, until reaching the `?`, is a template identifier:
-`https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624`. 
+```
+https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624
+``` 
 That is the unique identifier that you will see inside the template as its own ID.
 
 Then we see the `?folderID=` string again. 
