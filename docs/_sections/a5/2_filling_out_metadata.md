@@ -73,12 +73,11 @@ To see the exact contents of each field, click on the field to enable editing, w
 
 Drop-down fields indicate a set of terms, which are often controlled terms from one or more ontologies. In many cases, there are hundred, thousands, or even hundreds of thousands of controlled terms for a field.
 
-The drop-down menu can not display all these terms, so it presents examples from throughout the list of possible terms. 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-plain-20191126.png){:width="35%" class="right"}
-To see only those terms that might be relevant, 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-plain-20191126.png){:width="35%" class="right"}The drop-down menu can not display all these terms, so it presents examples from throughout the list of possible terms. 
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-autocomplete-20191126.png){:width="35%" class="right"}To see only those terms that might be relevant, 
 you must begin entering the appropriate term (or some string from within it).
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-autocomplete-20191126.png){:width="35%" class="right"}
-Immediately (or within a second or two after you stop typing), 
+Immediately (within a second or two after you stop typing), 
 you will see a list of term labels that contain the string you've entered.
 You can either pick the term you want by clicking on it, 
 or return to the field to continue entering a search string.
