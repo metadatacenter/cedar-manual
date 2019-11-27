@@ -42,10 +42,9 @@ If the workspace doesn't have a view of the template, navigate in the workspace 
 perform a search to bring the template into view in the List or Cards workspace view.
 
 There are two variants to create a new metadata instance from the Workspace view: 
-either click on the metadata tag to the right side of the template box, or 
-click on the dropdown menu (the kebab, *:*) and select Populate Template.
+either click on the metadata tag to the right side of the template box (Item 1), or 
+click on the dropdown menu (Item 2a, the kebab, `:`) and select Populate Template (Item 2b).
 
-_TODO_: highlighted graphic
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/template-population-annotated-20191119.png){:width="60%" class="centered"}
 
 
