@@ -6,9 +6,7 @@ status: Ready
 chapter: a5
 chapter_url: /basic_topics/a5_filling_out_creating_metadata/
 chapter_title: Filling Out Metadata
-
 ---
-_TODO_: reorganize if needed
 
 ## **Saving**
 
