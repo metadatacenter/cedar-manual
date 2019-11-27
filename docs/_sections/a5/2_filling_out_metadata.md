@@ -42,7 +42,8 @@ In our case, this results in a second field (third image), into which you can pu
 
 The numbers shown in the right-hand multiple fields controls are part of the array navigation controller, which lets the user navigate to any particular field item in the array of fields.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="right"}In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the display to the right.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="right"}
+In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the display to the right.
 
 If you click on the format icon again (now shown as two opposed arrows), you will return to the list view. Any changes made in one viewing mode will be reflected in the other.
 
