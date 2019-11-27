@@ -53,6 +53,8 @@ If you are filling out metadata that is destined for a remote repository using t
 you could receive special instructions regarding which template to use and how to 
 indicate when your metadata is ready for ingest by the remote repository.
 
+Further information about these and other CEDAR submission pipelines can be found on the [CEDAR GitHub pipelines wiki](https://github.com/metadatacenter/pipelines/wiki).
+
 
 
 
