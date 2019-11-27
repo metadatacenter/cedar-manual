@@ -2,7 +2,7 @@
 layout: section
 title: Filling Out Metadata
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: a5
 chapter_url: /basic_topics/a5_filling_out_creating_metadata/
 chapter_title: Filling Out Metadata
@@ -25,38 +25,95 @@ You may have to scroll to the end of a long template to see the Save button in t
 
 You can see the JSON-LD and RDF versions of your metadata by clicking on the appropriate controls at the bottom of your metadata instance. For more information see [Viewing Resource as Raw JSON](https://metadatacenter.github.io/cedar-manual/sections/a3/4_viewing_resource_as_raw_json/).
 
-## **Multiple Elements**
+## **Multiple Fields**
 
 Most of the field types can be enabled as "multiple" fields by the template creator. 
 If a field is set to multiple, you will see controls that let you add additional
 values. 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-20191124.png){:width="40%" class="right"}
 
-You can click on the Copy icon to create another instance of the field that is a copy of the first. This results in a second field (right image), into which you can put the desired value for that field.
+You can click on the Copy icon to create another instance of the field that is a copy of the first. This results in a second field (right image), into which you can put the desired value for that field. Internally this is represented as an array of values.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-two-20191124.png){:width="40%" class="right"}
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-copying-20191124.png){:width="40%"}
 
-The numbers shown in the right-hand multiple fields controls let the user navigate to any particular field in the list of fields.
+The numbers shown in the right-hand multiple fields controls are part of the array navigation controller, which lets the user navigate to any particular field item in the array of fields.
 
 In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the following display.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="center"}
 
-If you click on the format icon again (now shown as two opposed arrows), you will return to the list view. Any changes made will be reflected
+If you click on the format icon again (now shown as two opposed arrows), you will return to the list view. Any changes made in one viewing mode will be reflected in the other.
 
-## **Advanced Steps**
+## **Multiple Elements**
+
+CEDAR elements can also be enabled as "multiple" entry items, allowing users to fill out a set of metadata multiple times. A CEDAR element that is enabled for multiple entries
+looks like the following (note the controls on the right side of the Element header):
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-elements-20191126.png){:width="80%" class="centered"}
+
+The process of filling out multiple elements is the same as described for fields above,
+with one exception. 
+The format control that enables filling out arrays is only visible if the element just contains fields. If the element contains other elements, viewing and editing it as an array is not possible. 
+
+## **Advanced Tips for Fields**
 
 For certain types of metadata, some tips may be useful.
 
 ### Multiple free-text fields
 
+If you are entering multiple free-text fields, these are stored as values in an array. 
+The user interface presents all the entries at once, separated by commas. To see the exact contents of each field, click on the field to enable editing, which brings up the array navigation controller.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-free-text-20191126.png){:width="80%" class="centered"}
 
 ### Drop-down fields
 
+Drop-down fields indicate a set of terms, which are often controlled terms from one or more ontologies. In many cases, there are hundred, thousands, or even hundreds of thousands of controlled terms for a field.
+
+The drop-down menu can not display all these terms, so it presents examples from throughout the list of possible terms. 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-plain-20191126.png){:width="35%" class="right"}
+To see only those terms that might be relevant, 
+you must begin entering the appropriate term (or some string from within it).
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-autocomplete-20191126.png){:width="35%" class="right"}
+Immediately (or within a second or two after you stop typing), 
+you will see a list of term labels that contain the string you've entered.
+You can either pick the term you want by clicking on it, 
+or return to the field to continue entering a search string.
+
+Note that synonyms are not considered when looking for matches,
+so it may help to know whether the vocabulary contains, for example,
+'human' or 'homo sapiens' as the label for humans. 
+
+### Field suggestions
+
+In some cases a field may be enabled for Suggestions. In this case,
+you may see some entries that appear (out of alphabetic order)
+at the top of the list, with numbers in the range 50-100. 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-dropdown-suggestions-20191126.png){:width="35%" class="right"}
+These fields are suggestions, and the numbers represent 
+the *strength* of the suggestion. (To be explicit, the numbers are not
+the likelihood of the particular value.) To choose a suggested item,
+simply click on it.
+
+The suggestions are based on an intelligent authoring algorithm
+in CEDAR that considers previously entered metadata for the given template,
+and creates rules based on frequently occurring patterns in that metadata.
+If there are any patterns in your entered metadata that suggest 
+what answers may be appropriate in the current field, 
+CEDAR will make the most likely answers visible to you as the suggested
+values we describe here (and show below).
+
+More details about the suggestion system in CEDAR may be found at 
+[Understanding the Suggestion System](https://metadatacenter.github.io/cedar-manual/sections/c4/understanding_the_suggestion_system/).
 
 ### Attribute-value fields
 
+Some forms give users the ability to add their own attributes, for example, 
+to add metadata about certain attributes that are not in the form.
+An attribute-value field looks like the following:
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-attribute-value-field-20191126.png){:width="80%" class="centered"}
 
-
+In an attribute-value field, you get to enter both the name of the field, 
+the corresponding value, which is always free text. 
+Often any number of attribute-value fields may be added,
+but the template creator may limit the maximum number for a given form.
 
 
 
