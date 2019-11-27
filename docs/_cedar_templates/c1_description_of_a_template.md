@@ -7,10 +7,9 @@ status: In Progress
 ---
 ## **CEDAR's Metadata Template**
 
-In CEDAR, forms are created as what we call metadata templates, or just 'templates'. 
-The templates contain individual questions—what we call fields—and collections of those 
-fields called 'elements'. 
-Elements can be included in other elements, so these are used to organize your template.
+In CEDAR, forms are created as what we call Metadata Templates, or just 'templates'. 
+The templates contain individual questions—what we call Metadata Fields, or 'fields'—and 
+collections of those fields called Metadata Elements ('elements'). 
 
-In this chapter we provide a basic information about CEDAR templates, including
+In this chapter we provide a basic information about CEDAR Metadata Templates, including
 what they contain and how they are organized.
