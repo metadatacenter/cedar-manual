@@ -30,13 +30,15 @@ You can see the JSON-LD and RDF versions of your metadata by clicking on the app
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-20191124.png){:width="40%" class="right"}
 Most of the field types can be enabled as "multiple" fields by the template creator. 
 If a field is set to multiple, you will see controls that let you add additional
-values. 
+values. Internally multiple fields are represented as an array of values.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-copying-20191124.png){:width="40%" class="right"}
-You can click on the Copy icon (pointed to by black tip) to create another instance of the field that is a copy of the first. 
+From any field, you can click on the Copy icon (pointed to by black tip) to create another instance of the field. This instance makes a copy of the field value
+that was in view when the Copy icon was selected, 
+and inserts that value after the original field.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-two-20191124.png){:width="40%" class="right"}
-This results in a second field (third image), into which you can put the desired value for that field. Internally this is represented as an array of values.
+In our case, this results in a second field (third image), into which you can put the desired value for that field. 
 
 The numbers shown in the right-hand multiple fields controls are part of the array navigation controller, which lets the user navigate to any particular field item in the array of fields.
 
