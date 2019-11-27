@@ -27,19 +27,20 @@ You can see the JSON-LD and RDF versions of your metadata by clicking on the app
 
 ## **Multiple Fields**
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-20191124.png){:width="40%" class="right"}
 Most of the field types can be enabled as "multiple" fields by the template creator. 
 If a field is set to multiple, you will see controls that let you add additional
 values. 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-20191124.png){:width="40%" class="right"}
 
-You can click on the Copy icon to create another instance of the field that is a copy of the first. This results in a second field (right image), into which you can put the desired value for that field. Internally this is represented as an array of values.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-copying-20191124.png){:width="40%" class="right"}
+You can click on the Copy icon (pointed to by black tip) to create another instance of the field that is a copy of the first. 
+
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-two-20191124.png){:width="40%" class="right"}
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-copying-20191124.png){:width="40%"}
+This results in a second field (third image), into which you can put the desired value for that field. Internally this is represented as an array of values.
 
 The numbers shown in the right-hand multiple fields controls are part of the array navigation controller, which lets the user navigate to any particular field item in the array of fields.
 
-In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the following display.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="right"}In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the display to the right.
 
 If you click on the format icon again (now shown as two opposed arrows), you will return to the list view. Any changes made in one viewing mode will be reflected in the other.
 
@@ -47,7 +48,7 @@ If you click on the format icon again (now shown as two opposed arrows), you wil
 
 CEDAR elements can also be enabled as "multiple" entry items, allowing users to fill out a set of metadata multiple times. A CEDAR element that is enabled for multiple entries
 looks like the following (note the controls on the right side of the Element header):
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-elements-20191126.png){:width="80%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-elements-20191126.png){:width="70%" class="centered"}
 
 The process of filling out multiple elements is the same as described for fields above,
 with one exception. 
@@ -60,8 +61,10 @@ For certain types of metadata, some tips may be useful.
 ### Multiple free-text fields
 
 If you are entering multiple free-text fields, these are stored as values in an array. 
-The user interface presents all the entries at once, separated by commas. To see the exact contents of each field, click on the field to enable editing, which brings up the array navigation controller.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-free-text-20191126.png){:width="80%" class="centered"}
+The user interface presents all the entries at once, separated by commas. 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-free-text-20191126.png){:width="70%" class="centered"}
+
+To see the exact contents of each field, click on the field to enable editing, which brings up the array navigation controller.
 
 ### Drop-down fields
 
@@ -108,7 +111,7 @@ More details about the suggestion system in CEDAR may be found at
 Some forms give users the ability to add their own attributes, for example, 
 to add metadata about certain attributes that are not in the form.
 An attribute-value field looks like the following:
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-attribute-value-field-20191126.png){:width="80%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-attribute-value-field-20191126.png){:width="70%" class="centered"}
 
 In an attribute-value field, you get to enter both the name of the field, 
 the corresponding value, which is always free text. 
