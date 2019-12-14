@@ -18,7 +18,29 @@ Because all of these CDEs are managed by caDSR following the same metadata model
 
 ### Browsing All CDEs
 
-### Using CDE Categories
+If you search on "CDE" from the Desktop, one of the first entries you'll see is the CDE folder.
+This is the location of all the imported CDEs from caDSR.
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/cde-folder-20191212.png){:width="80%" class="centered"}
+
+You will quickly discover that navigating through this list isn't practical, as only a small 
+number can be presented at any one time. Instead, use the search bar to narrow down the list, 
+as described above.
+
+### Browsing by CDE Categories
+
+In caDSR, CDEs and forms can be classified using Classifications, more specifically 
+Classification Schemes and Classification Scheme Item. The caDSR classifications have been
+imported into CEDAR as hierarchical categories, as shown in the image on the right. 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/category-dropdown-20191212.png){:width="20%" class="right"}
+
+You can find CDEs in a particular category by using the CEDAR categories menu 
+in the left-hand navigation panel. Selecting an item at any level of the category
+hierarchy will show all the CDEs contained within that level, and all lower levels.
+
+You can view the Category or Categories for any CDE you see in the Desktop by clicking on
+the CDE, [bringing up the information metadata tab](https://metadatacenter.github.io/cedar-manual/cedar_templates/basic_topics/a3_viewing_resource_metadatda/), and selecting the Categories tab.
+CEDAR lists all the Categories to which the selected CDE belongs.
 
 ### When Creating a Template
 
@@ -26,6 +48,6 @@ Because all of these CDEs are managed by caDSR following the same metadata model
 
 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/submit-metadata-externally-menu-20191126.png){:width="80%" class="centered"}
+
 
 
