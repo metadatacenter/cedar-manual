@@ -38,7 +38,7 @@ Another handy attribute for some searches is the version attribute.
 Entering the exact version number will find all artifacts with that version, 
 most of which will be CDEs. 
 Entering version numbers with wildcards can find many CDEs at once; 
-for example, `*0.0*` will find all CDEs (and other artifacts) 
+for example, `*0.0` will find all CDEs (and other artifacts) 
 with version numbers ending in 0.0.
 
 ### Browsing All CDEs
