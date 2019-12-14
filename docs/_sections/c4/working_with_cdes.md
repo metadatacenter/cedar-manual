@@ -2,7 +2,7 @@
 layout: section
 title: Working with CDEs
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: c4
 chapter_url: /cedar_templates/c4_advanced_template_topics/
 chapter_title: Advanced Template Topics
@@ -14,15 +14,41 @@ Because all of these CDEs are managed by caDSR following the same metadata model
 
 ## **Finding and Browsing CDEs** 
 
+The same practices used for [finding other CEDAR resources](https://metadatacenter.github.io/cedar-manual/basic_topics/a2_finding_resources/) will work with CDEs as well.
+However, there are a few additional strategies that may be particular helpful for 
+those working with CDEs in CEDAR on a regular basis.
+
 ### Searching from the CEDAR Desktop
 
-- by identity number, name, or description
-- by version number 
+As described in the section [Finding Resources](https://metadatacenter.github.io/cedar-manual/basic_topics/a2_finding_resources/)
+you can search for resources by name or description. 
+In the case of CDEs, it is also possible to search by their CDE identifier.
+This number is shown at the top middle of the CEDAR field in the Template Editor 
+(or between parentheses in a Desktop resource list). 
+
+For very short version numbers (like '5' or '58'), the indexing does not provide an
+obvious way to find the whole number, instead finding all the numbers containing that string.
+As a workaround, you can enter the number surrounded by spaces, and within quotes. 
+This may find other occurrences of the number by itself, for example in the description 
+of the CDE. You can then search within the results set in your browser by scrolling 
+the results until they are all displayed, then enter into your browser 
+your identifier surrounded by parentheses (e.g., `(5)`).
+
+Another handy attribute for some searches is the version attribute.
+Entering the exact version number will find all artifacts with that version, 
+most of which will be CDEs. 
+Entering version numbers with wildcards can find many CDEs at once; 
+for example, `*0.0*` will find all CDEs (and other artifacts) 
+with version numbers ending in 0.0.
 
 ### Browsing All CDEs
 
-If you search on "CDE" from the Desktop, one of the first entries you'll see is the CDE folder.
+If you search for the string "CDE" from the Desktop, 
+one of the first entries you'll see is the shared CDE folder.
 This is the location of all the imported CDEs from caDSR.
+
+Double-click on the CDE folder to open it. You must wait a while (10-15 seconds) 
+before the first screen of CDEs is displayed.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/cde-folder-20191212.png){:width="80%" class="centered"}
 
@@ -48,16 +74,25 @@ CEDAR lists all the Categories to which the selected CDE belongs.
 
 ### When Creating a Template
 
-On bringing up the search pop-up display,
-- searching similar to searching from CEDAR Desktop
-- navigation using bottom navigation bar
+On bringing up the search pop-up display, searching results should be the same as 
+when searching from the CEDAR Desktop. The returned results list is somewhat shorter,
+so searching using the identifier is the best approach.
+
+### Advanced: Search for Templates Using A CDE
+
+If you are trying to find all the templates (or instances) that are using a particular CDE,
+you could try using the field name of the CDE if it is relatively uncommon. 
+By using the [Advanced Searching—Field Names](https://metadatacenter.github.io/cedar-manual/sections/a2/4_advanced_searching_search_fields/)
+strategies, you can search by the name of the field for templates and/or instances
+containing that field. (You must use the actual name of the field, not the displayed label.)
 
 ## **Obtaining and Maintaining CDEs**
 
 By importing the XML-defined CDEs from the caDSR system into JSON Schema-defined fields in CEDAR, 
 we make these specifications available to any CEDAR user. 
-So far we run the conversion process manually, 
-but we expect to run conversions as frequently as nightly 
+CEDAR imports only the released CDEs, not those in earlier stages of preparation.
+To date the conversion process is manually initiated, 
+but we plan to run conversions as frequently as nightly 
 to keep the CEDAR CDEs up-to-date with respect to the source content.
 
 When run, the conversion process updates any caDSR-updated CDEs in the CEDAR system, 
@@ -65,7 +100,7 @@ replaces all the CDE Value Sets in BioPortal, and
 ensures that the Categories in CEDAR are updated to the Classifications 
 provided in the caDSR export. 
 
-We do not manage the entire CDE specification that contains a comprehensive implementation of the ISO/IEC 11179 standard, but focus instead on core functionality that relates to the precise specification of questions and the values used to answer those questions.
+We do not manage the entire content of the CDE specification. CDEs in caDSR contain a comprehensive implementation of the ISO/IEC 11179 standard, but focus instead on core functionality that relates to the precise specification of questions and the values used to answer those questions.
 
 
 
