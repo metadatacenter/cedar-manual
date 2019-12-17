@@ -19,8 +19,10 @@ For a bit more help or introduction, you can go to the CEDAR Support and CEDAR T
 **What CEDAR does**
 The CEDAR Workbench, as we refer to the suite of CEDAR tools, makes it easy to collect and use metadata. Eventually our tools will cover the entire lifecycle of metadata, from before the first metadata record is created to its eventual processing, and even enhancement, by users and analysts. But for now, CEDAR tools help you create forms to collect metadata, make those available to users, and download the information that users have provided.
 
-** What can CEDAR do for me already?**
-As of its production release, in February 2017, CEDAR addresses these scenarios:CEDAR Login at Alpha Release
+**What can CEDAR do for me already?**
+As of its production release, in February 2017, CEDAR addresses these scenarios:
+
+CEDAR Login at Alpha Release
 
 - create user-friendly, shareable forms for collecting metadata, with features like
   - nested and repeatable elements and fields
