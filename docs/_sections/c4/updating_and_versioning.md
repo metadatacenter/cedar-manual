@@ -8,6 +8,11 @@ chapter_url: /cedar_templates/c4_advanced_template_topics/
 chapter_title: Advanced Template Topics
 ---
 
+As you build more complex templates, you will start using elements and want to update 
+these in your template. Doing so can be a little subtle in CEDAR, 
+especially when one wants to use rigorous version control.
+In this section, we describe working with CEDAR for these use cases.
+
 ## **Updating Fields and Elements**
 
 Once you create a template or element that has nested elements, 
