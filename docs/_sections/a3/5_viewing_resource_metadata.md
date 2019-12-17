@@ -15,7 +15,7 @@ As a reminder, the term 'resource' refers to any CEDAR artifact or folder; while
 
 By selecting any resource in the main file viewing window in your CEDAR Workspace (see diagram below), you can view an information panel to the right side of the display
 with metadata for that resource.
-Click on the 'i' icon (shown as item L in the diagram) to make this panel visible
+Click on the 'i' icon (shown as item L in the diagram) to make the metadata panel visible
 if it is not already visible.
 
 If no resource is selected, the 'i' icon presents metadata about the folder (B) shown in the Resources box. The right-hand smaller image below shows the information panel for one of these artifacts.
