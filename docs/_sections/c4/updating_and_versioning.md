@@ -98,14 +98,16 @@ that import them; the lower-level artifacts must be re-imported.
 When new versions of elements or fields are created, 
 you must follow the instructions in Updating Fields and Elements above.
 
+The act of publishing an artifact does not change its IRI, 
+even if a different version is selected than the draft artifact's version.
+
 ## **Finding and Viewing Versioned Artifacts**
 
 When you create and publish new versions of templating artifacts, 
 the previously published version is kept on the system, 
 and can still be accessed.
-However, by default the Workspace will show only the most recent published version
-of an artifact,  
-and a draft version if it exists. 
+However, by default the Workspace and search tools will show only the most recent published version
+of an artifact. (If a draft version exists, that will always be shown.)  
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-closed-20191216.png){:width="20%" class="right"}
 This behavior is controlled by the Version drop-down in the Filter section 
@@ -115,14 +117,19 @@ In a typical configuration, the Version drop-down is closed, as shown to the rig
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-enabled-20191216.png){:width="20%" class="right"}
 If you open the Version drop-down, you will see a Latest indicator, 
 with a darkened checkbox indicating that viewing the Latest version only is enabled.
+In this case, search results and other workspace listings will not show older versions.
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-enabled-listing-20191216.png){:width="50%" class="centered"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-disabled-20191216.png){:width="20%" class="right"}
 To see all versions, click on the Latest item to disable the Latest filter. 
 Now, all versions will be shown in any search or folder display that contains them.
 
-### Seeing and Navigating to All Versions
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-disabled-listing-20191216.png){:width="50%" class="centered"}
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-tab-metadata-panel-20191216.png){:width="20%" class="right"}
+### Seeing and Navigating to All Artifact Versions
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-tab-metadata-panel-20191216.png){:width="25%" class="right"}
 The version history for any artifact is shown in the Version tab of the metadata panel 
 (see image on the right). 
 (Click on the 'i' icon to make this panel visible; see
