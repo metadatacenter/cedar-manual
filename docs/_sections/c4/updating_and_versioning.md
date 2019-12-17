@@ -2,13 +2,11 @@
 layout: section
 title: Updating and Versioning
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: c4
 chapter_url: /cedar_templates/c4_advanced_template_topics/
 chapter_title: Advanced Template Topics
 ---
-We're sorry, this resource is under development. 
-You are welcome to contribute to its development at the link in the footer.
 
 ## **Updating Fields and Elements**
 
@@ -91,7 +89,7 @@ you must repeat the Publish version process described above.
 Again you can set the version number to any larger sequence 
 than the previously published artifact, including the same version as the draft artifact.
 
-As suggested in Updating Nested ELements above, CEDAR templates and elements
+As suggested in Updating Nested Elements above, CEDAR templates and elements
 import lower-level artifacts in their entirety. 
 Thus, later changes to the lower-level artifacts do not change the higher-level artifacts
 that import them; the lower-level artifacts must be re-imported.
@@ -117,15 +115,13 @@ In a typical configuration, the Version drop-down is closed, as shown to the rig
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-enabled-20191216.png){:width="20%" class="right"}
 If you open the Version drop-down, you will see a Latest indicator, 
 with a darkened checkbox indicating that viewing the Latest version only is enabled.
-In this case, search results and other workspace listings will not show older versions.
-
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-enabled-listing-20191216.png){:width="50%" class="centered"}
+Search results and other listings will not show older versions.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-enabled-listed-20191216.png){:width="50%" class="centered"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-disabled-20191216.png){:width="20%" class="right"}
 To see all versions, click on the Latest item to disable the Latest filter. 
 Now, all versions will be shown in any search or folder display that contains them.
-
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-disabled-listing-20191216.png){:width="50%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/version-control-latest-disabled-listed-20191216.png){:width="50%" class="centered"}
 
 ### Seeing and Navigating to All Artifact Versions
 
