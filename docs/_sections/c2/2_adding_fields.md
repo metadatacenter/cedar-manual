@@ -30,15 +30,43 @@ others are only allowed for one or two field types.
 
 ### Choosing the Field Type
 
-The following table shows the field types that CEDAR offers, 
+The following tables show the field types that CEDAR offers, 
 what data type each field type supports,
 and the customizations supported by that field type.
 
-| Field Type | Data Type | 
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
+Many supported customizations are available to a broad class of fields. 
+
+| Generic Field Type | Description | Supported Customizations |
+| --------- | ----- | -------------- |
+| Most Data Fields |  | Required; Multiple; Hidden |
+| Basic Text |  |  Min/Max Length, Suggestions  |
+| Numeric   |  integer, long integer, single precision real, double precision real |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
+
+The individual fields offered by CEDAR are described here.
+| Unique Field Type | Data Type(s) | Unique Supported Customizations |
+| --------- | ----- | -------------- |
+| Short Text |   | Values  |
+| Paragraph Text |   |   |
+| Numeric  |   |   |
+| Email |   |   |
+| Link |   |   |
+| Multi-Choice |   |   |
+| Checkbox |   |   |
+| Pick From List |   |   |
+| Phone |   |   |
+
+These special field types do not support data storage for the metadata creator,
+but allow the template author to customize presentation of the template
+to the metadata creator.
+
+| Special Field Type | Description | Purpose |
+| --------- | --------- | ------- |
+| Section |   |   |
+| Page |   |   |
+| Rich Text |   |   |
+| Image |   |   |
+| YouTube |   |   |
+
 
 ### Common Customizations
 
