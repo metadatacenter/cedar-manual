@@ -9,26 +9,36 @@ chapter_title: Building Basic Templates
 ---
 
 
-Fields can be added in two ways: by importing a stand-alone Field (created separately),
+Fields can be added to a CEDAR Template in two ways: 
+by importing a stand-alone Field which was created separately,
 or by adding a field within an Element resource or a Template resource.  
 (We refer to stand-alone CEDAR Fields throughout this User Guide with a capital 'F',
-and will refer to field descriptions within templating artifacts with a lower-case 'f'.)
+and refer to field descriptions within templating artifacts with a lower-case 'f'.)
 
 We start this section by describing how a field is created within a Template, 
 then describe how a stand-alone CEDAR Field can be created, and finally
 how a Field can be found and included in a Template.
 
-## **Creating Field Content**
+## **Creating Field Content in a Resource**
 
-While specifying a field in a Template resource, 
+While specifying a field in a templating resource (a Template, Element, or Field), 
 you can customize the Field resource in a number of ways,
-including constraining the values that metadata creators can input 
-enter their metadata for this field. 
-
+including constraining the values that metadata editors can input 
+when they enter their metadata for the field. 
 Some customizations apply to almost every field type; 
 others are only allowed for one or two field types.
 
 ### Choosing the Field Type
+
+The following table shows the field types that CEDAR offers, 
+what data type each field type supports,
+and the customizations supported by that field type.
+
+| Field Type | Data Type | 
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
 
 ### Common Customizations
 
