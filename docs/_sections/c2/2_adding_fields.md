@@ -40,14 +40,15 @@ Many supported customizations are available to a broad class of fields.
 | --------- | ----- | -------------- |
 | Most Data Fields |  | Required; Multiple; Hidden |
 | Basic Text |  |  Min/Max Length, Suggestions  |
-| Numeric   |  integer, long integer, single precision real, double precision real |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
+
 
 The individual fields offered by CEDAR are described here.
+
 | Unique Field Type | Data Type(s) | Unique Supported Customizations |
 | --------- | ----- | -------------- |
 | Short Text |   | Values  |
 | Paragraph Text |   |   |
-| Numeric  |   |   |
+| Numeric   |  integer, long integer, single precision real, double precision real |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
 | Email |   |   |
 | Link |   |   |
 | Multi-Choice |   |   |
