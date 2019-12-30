@@ -15,7 +15,7 @@ and a description of what the Template resource represents (e.g., "Injury-relate
 To create a new template, first click the "New" button on the Desktop's navigation sidebar
 (upper left of the Workspace view) and
 select the "Template" option in the dropdown menu. 
-This step opens up the resource creation form as shown below. 
+This step opens the Template Designer as shown below. 
 
 Enter the human-readable label, identifier and description of the Template resource 
 using the three text input fields ('Untitled', 'Identifier', 'Description') 
@@ -23,7 +23,9 @@ underlined in the image below.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/creating-new-template-20191216.png){:width="80%" class="centered"}
 
-In the next steps, we will populate an "Injury-related treatments" Template resource with different Field and Element resources. 
+You can save your Template at any time and return to it later. You can open it 
+(or any other Template for which you have access privileges) 
+by double-clicking on its icon in the Desktop.
 
 ## **Useful Content Tips**
 
