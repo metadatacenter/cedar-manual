@@ -50,8 +50,8 @@ public visibility of the Field artifact, as described in
 
 When you are editing a Template or Element,
 the search (magnifying glass) icon in the Template Designer's field addition menu 
-brings up a window to find other CEDAR templating resources—Elements or Fields—
-that can be imported into the Element or Field you are editing.
+brings up a window to find other CEDAR templating resources—Elements or Fields—that 
+can be imported into the Element or Field you are editing.
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="centered"}
 
 The navigation path in the lower left of the window starts in the current directory
@@ -65,16 +65,17 @@ hit the return key. You can see that Elements and Fields are visible in the sear
 
 To investigate a particular discovered Element for suitability,
 click on the Element to bring up its description, as seen below.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-metadata-20200101.png){:width="80%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-metadata-20200101.png){:width="80%" class="centered"}
 
 To embed an Element or Field artifact in your templating resource, 
 either double-click on the artifact, 
 or click once on the artifact and then click on the Open button.
 The Element or Field will be incorporated at the end of your templating resource.
 
-You will not be able to edit the core characteristics of the Element or field
-once it has been imported, though you will be able to relabel it,
-and will be able to choose a property that relates the artifact to its parent.
+Within the templating resource, you can not edit the core characteristics of 
+imported content (the Element or Field).
+You will be able to relabel the imported content,
+and will be able to choose a property that relates the imported artifact to its parent.
 
 
 
