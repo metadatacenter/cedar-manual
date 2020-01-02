@@ -31,13 +31,14 @@ Many supported customizations are available to a broad class of fields.
 | Basic Text |  |  Min/Max Length, Suggestions  |
 
 
-Individual field types offered by CEDAR are described here.
+The following table describes CEDAR's individual field types for data entry. 
+If the Data Type(s) column is blank, the field type is the default (a text string).
 
 | Unique Field Type | Data Type(s) | Unique Supported Customizations |
 | --------- | ----- | -------------- |
 | Short Text |   | Values  |
 | Paragraph Text |   |   |
-| Numeric—any number / Numeric—integer  |  xsd:decimal / xsd:integer / xsd:long / xsd:float / xsd:double |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
+| Numeric | any number (xsd:decimal); integer (xsd:integer); long integer (xsd:long); single-precision real (xsd:float); double-precision real (xsd:double) |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
 | Email |   |   |
 | Date |  xsd:date |   |
 | Link |   |   |
