@@ -81,24 +81,3 @@ Thes customizations are supported for most fields.
 
 
 
-## **Creating a Stand-Alone Field**
-
-This process begins by creating the Field artifact, 
-almost exactly like creating the Template Artifact in <a href="">First Steps</a>. 
-After that, the content of the field is created exactly as is performed 
-in the Creating Field Content subsection above.
-
-To create a new stand-alone Field, 
-click the "New" button on the Desktop's navigation sidebar
-(upper left of the Workspace view) and
-select the "Field" option in the dropdown menu. 
-This step opens up the Field creation form as shown below. 
-
-Enter the human-readable label, identifier and description of the Field  
-using the three text input fields ('Untitled', 'Identifier', 'Description') 
-underlined in the image below. 
-
-## **Importing a Stand-Alone Field**
-
-
-

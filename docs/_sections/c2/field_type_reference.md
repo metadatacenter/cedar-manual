@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Choosing Controlled Terms
+title: Field Type Reference
 author: John Graybeal
 status: Pending
 chapter: c2
@@ -11,7 +11,7 @@ chapter_title: Building Basic Templates
 
 
 
-## **Choosing Controlled Terms**
+## **Field Type Reference**
 
 
 
