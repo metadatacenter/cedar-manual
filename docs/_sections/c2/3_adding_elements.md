@@ -24,7 +24,7 @@ and select the "Element" option from the dropdown menu.
 This action will launch the Element editor view of the Template Designer, 
 as shown below. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/element-artifact-created-20200101.png){:width="80%" class="right"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/element-artifact-created-20200101.png){:width="80%" class="centered"}
 
 Enter the human-readable Name, Identifier and Description of the Field  
 using the three text input fields ('Untitled', 'Identifier', 'Description') 
@@ -52,7 +52,7 @@ When you are editing a Template or Element,
 the search (magnifying glass) icon in the Template Designer's field addition menu 
 brings up a window to find other CEDAR templating resources—Elements or Fields—
 that can be imported into the Element or Field you are editing.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="centered"}
 
 The navigation path in the lower left of the window starts in the current directory
 (from the last Desktop view), and can be used to navigate to other locations in CEDAR.
@@ -61,11 +61,11 @@ However, most users will find Elements and Fields by searching for them.
 To perform a search, begin entering a search string in the search field of the window.
 In the image below, 'Address' has been added and the search performed when the user
 hit the return key. You can see that Elements and Fields are visible in the search results.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-20200101.png){:width="80%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-20200101.png){:width="80%" class="centered"}
 
 To investigate a particular discovered Element for suitability,
 click on the Element to bring up its description, as seen below.
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-metadata-20200101.png){:width="80%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-metadata-20200101.png){:width="80%" class="centered"}
 
 To embed an Element or Field artifact in your templating resource, 
 either double-click on the artifact, 

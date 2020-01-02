@@ -193,7 +193,7 @@ underlined in the image below.
 Note the Name is used as the name of the artifact in CEDAR, 
 and can also be changed from the Desktop.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-artifact-created-20200101.png){:width="80%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-artifact-created-20200101.png){:width="80%" class="centered"}
 
 Now the content of the Field artifact—the field definition—can be created.
 Since only one field specification can be in a Field artifact,
@@ -218,7 +218,7 @@ the search (magnifying glass) icon in the Template Designer's field addition men
 brings up a window to find other CEDAR templating resources—Elements or Fields—
 that can be imported into the Element or Field you are editing.
 Use of this window is described in [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/).
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="center"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="centered"}
 
 
 
