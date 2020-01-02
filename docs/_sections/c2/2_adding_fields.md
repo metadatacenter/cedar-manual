@@ -103,7 +103,7 @@ click on the Start Over button to clear the previous search.)
 Once you select a property, you are returned to the template. 
 The selected property can be viewed by clicking on the drop-down arrow 
 next to the RDF icon. 
-(Clicking on the RDF icon again will clear the existing property and begin a new search.)
+(Clicking on the RDF icon again will clear any existing property and begin a new search.)
 
 ### Configurations for Basic Text Field
 
@@ -130,14 +130,15 @@ is prompted to enter free text.
 This ability to choose controlled values for the field is fundamental
 to CEDAR's semantic capabilities. 
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/controlled-term-selection-modal-20191229.png){:width="40%" class="right"}
 Clicking on the Add button brings up a modal window 
 from which you can select the term, branch, or ontology 
 from which legal values may be chosen by the metadata author. 
-After you've made the selection, you will be returned to the view of the field
-which includes a line describing your selection.
-
 You can repeat this process as often as you want to select additional 
 terms, branches, or ontologies.
+
+Advice about finding and choosing controlled values is available in the [Choosing Controlled Terms](https://metadatacenter.github.io/cedar-manual/sections/c2/choosing_controlled_terms/)
+section.
 
 #### Suggestions
 
