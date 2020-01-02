@@ -11,7 +11,7 @@ chapter_title: Building Basic Templates
 
 Fields can be added to a CEDAR Template in two ways: 
 by importing a stand-alone Field artifact which was created separately,
-or by defining a field within an Element resource or a Template resource.  
+or by defining a field within an Element resource or a Template resource. 
 (We refer to stand-alone CEDAR Field artifacts throughout this User Guide with a capital 'F',
 and refer to field definitions within templating artifacts with a lower-case 'f'.)
 
@@ -88,7 +88,7 @@ the relationship from the field's parent entity (the Template, or the Element)
 to the field's value. For example, when the Value Relation is 'has study characteristic'
 from the Ontology for Clinical Relations (http://purl.org/net/OCRe/OCRe.owl#OCRE406000), 
 the resulting metadata will be readable as
-<code><ParentElement> has_study_characteristic <user-selected-value></code>
+`<ParentElement> has_study_characteristic <user-selected-value>`
 
 To select a Value Relation, click on the RDF icon at the right side of the field.
 This brings up a search field that allows you to choose an appropriate Value Relation.
@@ -109,7 +109,7 @@ The Default Value option specifies the value for the field if the metadata autho
 add a value to that field when filling out the metadata. 
 The value can be either a string or a controlled term (expressed as an IRI).
 
-#### Options-Minimum/Maximum String Length
+#### Options—Minimum/Maximum String Length
 
 With this option you can set a minimum length for the string, 
 a maximum length for the string, or both.
