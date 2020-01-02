@@ -68,7 +68,7 @@ but "Metadata describing …" often offers a useful setup for your description.
 Because Description is a longer field, it is a good place to include key words or other
 information you want to be able to search on to find this field. 
 
-## Next Steps
+## **Next Steps**
 
 Now, you can fill in the content of your template by [Adding Fields](https://metadatacenter.github.io/cedar-manual/sections/c2/2_adding_fields/) 
 and [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/),

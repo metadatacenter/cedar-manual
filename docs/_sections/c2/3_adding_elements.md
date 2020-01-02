@@ -15,7 +15,7 @@ These Element resources enable Template creators to share, reuse, and extend exi
 This section is divided into two parts. (1) First, we create a new Element resource. 
 (2) We embed the newly created Element resource within our Template resource. 
 
-## Creating a new Element Resource
+## **Creating a new Element Resource**
 
 To create a new Element resource, return to the Desktop if you are not already there. 
 (Use the "Back" button in the Template Designer—you may be prompted to save the artifact you are currently editing.) 
@@ -46,7 +46,7 @@ From there, you can modify the name, access permissions, and
 public visibility of the Field artifact, as described in
 [Managing CEDAR Resources](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_resources/).
 
-## Embedding the Element Resource
+## **Embedding the Element Resource**
 
 When you are editing a Template or Element,
 the search (magnifying glass) icon in the Template Designer's field addition menu 
@@ -73,9 +73,20 @@ or click once on the artifact and then click on the Open button.
 The Element or Field will be incorporated at the end of your templating resource.
 
 Within the templating resource, you can not edit the core characteristics of 
-imported content (the Element or Field).
+imported content (the Element or Field), 
+including the order of components within an imported Element.
 You will be able to relabel the imported content,
 and will be able to choose a property that relates the imported artifact to its parent.
+
+You can move an any imported Element or Field in your templating resource
+by dragging it where you want it.
+Use the drag handles at the upper left of the Element to grab it, and drag up or down. 
+If you have trouble dragging it to the desired location,
+try shrinking the view within your browser 
+to put more of the templating resource on the screen.
+(Note: You can not change or organize content in an imported Field or Element.)
+
+
 
 
 

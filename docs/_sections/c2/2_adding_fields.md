@@ -31,6 +31,12 @@ others are only allowed for one or two field types.
 In Template and Element artifacts, multiple fields can be added;
 in a Field artifact, only one field can exist, and it must be a data input field.
 
+You organize Fields and Elements in your templating resource
+by dragging them where you want them.
+Use the drag handles at the upper left of a Field or Element to grab it, and drag up or down. If you have trouble dragging it to the desired location,
+try shrinking the view within your browser to put more of the template on the screen.
+(Note: You can not change or organize content in an imported Field or Element.)
+
 ### Adding a Field Definition
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-addition-menu-20191229.png){:width="8%" class="right"}
@@ -219,6 +225,12 @@ brings up a window to find other CEDAR templating resources—Elements or Fields
 that can be imported into the Element or Field you are editing.
 Use of this window is described in [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/).
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="centered"}
+
+## **Next Steps**
+
+You can fill in more content of your template by [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/),
+or [save and close it](https://metadatacenter.github.io/cedar-manual/sections/c2/4-saving-and-closing/)
+to return to it later.
 
 
 

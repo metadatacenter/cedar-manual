@@ -53,9 +53,9 @@ to the metadata creator.
 | --------- | --------- | ------- |
 | Section | Creates a section break | Provides a textual separator with optional explanatory text  |
 | Page | Creates a page break | Breaks up form into multiple pages when entering metadata |
-| Rich Text |   |   |
-| Image |   |   |
-| YouTube |   |   |
+| Rich Text | Support entry of rich text in HTML  | Provide a descriptive lead-in to the following field for metadata creators |
+| Image | Specify location of an image to display | Provide a static visual lead-in to the following field for metadata creators |
+| YouTube | Specify location of a YouTube video to display | Provide a video lead-in to the following field for metadata creators |  
 
 
 ### Common Customizations
