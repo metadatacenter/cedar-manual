@@ -2,7 +2,7 @@
 layout: section
 title: Adding Fields
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: c2
 chapter_url: /cedar_templates/c2_building_basic_templates/
 chapter_title: Building Basic Templates
@@ -10,12 +10,12 @@ chapter_title: Building Basic Templates
 
 
 Fields can be added to a CEDAR Template in two ways: 
-by importing a stand-alone Field which was created separately,
-or by adding a field within an Element resource or a Template resource.  
-(We refer to stand-alone CEDAR Fields throughout this User Guide with a capital 'F',
-and refer to field descriptions within templating artifacts with a lower-case 'f'.)
+by importing a stand-alone Field artifact which was created separately,
+or by defining a field within an Element resource or a Template resource.  
+(We refer to stand-alone CEDAR Field artifacts throughout this User Guide with a capital 'F',
+and refer to field definitions within templating artifacts with a lower-case 'f'.)
 
-We start this section by describing how a field is created directly in a templating resource, 
+We start this section by describing how a field definition is created directly in a templating resource, 
 then describe how a stand-alone CEDAR Field can be created, and finally
 how a Field can be found and included in a Template.
 
@@ -28,9 +28,12 @@ when they enter their metadata for the field.
 Some customizations apply to almost every field type; 
 others are only allowed for one or two field types.
 
-### Adding a Field
+In Template and Element artifacts, multiple fields can be added;
+in a Field artifact, only one field can exist, and it must be a data input field.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-addition-menu-20191229.png){:width="15%" class="right"}
+### Adding a Field Definition
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-addition-menu-20191229.png){:width="8%" class="right"}
 Choose the type of field to add to your templating resource
 using the vertical selector at the upper right of your Template Designer window.
 The first few choices give you simple ways to add
@@ -47,7 +50,7 @@ other CEDAR templating resources—Elements or Fields—
 that can be imported into the resource you are editing.
 Use of this window is described in [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/)
 
-### Choosing and Configuring the Field
+### Choosing and Configuring the Field Definition
 
 For each data-entry field type, CEDAR supports certain options.
 For example, the Required option is offered on every data-entry field type.
@@ -134,7 +137,8 @@ terms, branches, or ontologies.
 
 Set the Suggestions tab to Yes to enable intelligent authoring suggestions 
 for this field from CEDAR. 
-You can find a detailed explanation of the suggestions system at [Understanding the Suggestion System](https://metadatacenter.github.io/cedar-manual/sections/c4/understanding_the_suggestion_system/).
+You can read a detailed explanation of the suggestions system 
+at [Understanding the Suggestion System](https://metadatacenter.github.io/cedar-manual/sections/c4/understanding_the_suggestion_system/).
 
 ### Options for Numeric Fields
 
@@ -148,7 +152,9 @@ To select a specific number type for the field, click on the drop-down menu
 labeled 'Any numbers'. Select from the list of number formats, including 
 long-integer numbers, integer numbers, double-precision real numbers, and
 single-precision real numbers. 
-Your choice will be reflected in the JSON value type used to reflect the number.
+Your choice will be reflected in the JSON value type used 
+to describe the number field in the template (JSON Schema), and 
+to specify the entered value in the metadata (JSON-LD).
 
 #### Unit of Measure
 
@@ -164,15 +170,16 @@ if entered values do not meet the field's value limit specifications.
 
 #### Decimal Places
 
-You can specify a number of decimal places to be used in displaying the value 
+You can specify the number of decimal places used to display the value 
 entered by the metadata author. 
 
 ## **Creating a Stand-Alone Field**
 
 This process begins by creating the Field artifact, 
-almost exactly like creating the Template Artifact in <a href="">First Steps</a>. 
-After that, the content of the field is created exactly as is performed 
-in the Creating Field Content subsection above.
+which is almost exactly like creating the Template artifact in [First Steps](https://metadatacenter.github.io/cedar-manual/sections/c2/1_first_steps/). 
+After that, the content of the Field artifact—the field definition—
+is created following the 
+Adding a Field Definition subsection above.
 
 To create a new stand-alone Field, 
 click the "New" button on the Desktop's navigation sidebar
@@ -180,11 +187,38 @@ click the "New" button on the Desktop's navigation sidebar
 select the "Field" option in the dropdown menu. 
 This step opens up the Field creation form as shown below. 
 
-Enter the human-readable label, identifier and description of the Field  
+Enter the human-readable Name, Identifier and Description of the Field  
 using the three text input fields ('Untitled', 'Identifier', 'Description') 
 underlined in the image below. 
+Note the Name is used as the name of the artifact in CEDAR, 
+and can also be changed from the Desktop.
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/field-artifact-created-20200101.png){:width="80%" class="center"}
+
+Now the content of the Field artifact—the field definition—can be created.
+Since only one field specification can be in a Field artifact,
+the Field template opens with a text field type already selected.
+If you want a different field type, simply select it from the drop-down menu,
+and the existing field definition will be replaced.
+
+At any time during or following the Field artifact's creation, 
+you can save the artifact and use the Template Designer's left-arrow
+to return to the Desktop. 
+From there, you can modify the name, access permissions, and
+public visibility of the Field artifact, as described in
+[Managing CEDAR Resources](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_resources/).
 
 ## **Importing a Stand-Alone Field**
+
+Once the stand-alone Field artifact has been created, 
+you can import it into other Templates and Elements. 
+As mentioned above, 
+when you are editing a Template or Element,
+the search (magnifying glass) icon in the Template Designer's field addition menu 
+brings up a window to find other CEDAR templating resources—Elements or Fields—
+that can be imported into the Element or Field you are editing.
+Use of this window is described in [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/).
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="center"}
 
 
 

@@ -2,17 +2,79 @@
 layout: section
 title: Adding Elements
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: c2
 chapter_url: /cedar_templates/c2_building_basic_templates/
 chapter_title: Building Basic Templates
 ---
 
-An Element resource is composed of several different Field resources as well as other Element resources. The idea behind the creation of these Element resources is to enable different Template creators to share, reuse, and extend existing Element resources across different Template resources as well as different user groups. This section is divided into two different parts: 1) we will take a detour and create a new Element resource, and 2) we will embed the newly created Element resource within our Template resource. 
+An Element resource is composed of field definitions (possibly imported within Field artifacts) and other Element resources. 
+(CEDAR does not handle recursion in Element resources.) 
+These Element resources enable Template creators to share, reuse, and extend existing Element resources across different Template resources and across user groups. 
 
-### Creating a new Element resource
-To create a new Element resource, return outside the Template editor view and back to the CEDAR Workbench (i.e., use the "Back" button in the Template editor view -- you may be prompted to save the Template you are currently editing). Click on the "New" button in the navigation sidebar of the CEDAR Workbench, and select "Element" from the dropdown menu this time. This action will launch the Element editor view as shown in the Figure below. We will create a new Element resource in our example called "Address". Similar to the creation of the Template resource (covered in the previous section), we will provide a human-readable label, an identifier, and a description for the Element resource. 
+This section is divided into two parts. (1) First, we create a new Element resource. 
+(2) We embed the newly created Element resource within our Template resource. 
 
-The "Address" element will have the following text Field resources: 1) Add
+## Creating a new Element Resource
 
-### Embedding the Element resource
+To create a new Element resource, return to the Desktop if you are not already there. 
+(Use the "Back" button in the Template Designer—you may be prompted to save the artifact you are currently editing.) 
+Click on the "New" button in the navigation sidebar of the Desktop, 
+and select the "Element" option from the dropdown menu. 
+This action will launch the Element editor view of the Template Designer, 
+as shown below. 
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/element-artifact-created-20200101.png){:width="80%" class="right"}
+
+Enter the human-readable Name, Identifier and Description of the Field  
+using the three text input fields ('Untitled', 'Identifier', 'Description') 
+underlined in the image below. 
+Note the Name is used as the name of the artifact in CEDAR, 
+and can also be changed from the Desktop.
+
+Now the content of the Element artifact can be created.
+Field definitions can be added directly, or by importing Field artifacts;
+instructions for both operations are found in the [Adding Fields](https://metadatacenter.github.io/cedar-manual/sections/c2/2_adding_fields/) section.
+
+Element content can also be created by importing existing elements,
+as described below.
+
+At any time during or following the Field artifact's creation, 
+you can save the artifact and use the Template Designer's left-arrow
+to return to the Desktop. 
+From there, you can modify the name, access permissions, and
+public visibility of the Field artifact, as described in
+[Managing CEDAR Resources](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_resources/).
+
+## Embedding the Element Resource
+
+When you are editing a Template or Element,
+the search (magnifying glass) icon in the Template Designer's field addition menu 
+brings up a window to find other CEDAR templating resources—Elements or Fields—
+that can be imported into the Element or Field you are editing.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-20200101.png){:width="60%" class="center"}
+
+The navigation path in the lower left of the window starts in the current directory
+(from the last Desktop view), and can be used to navigate to other locations in CEDAR.
+However, most users will find Elements and Fields by searching for them.
+
+To perform a search, begin entering a search string in the search field of the window.
+In the image below, 'Address' has been added and the search performed when the user
+hit the return key. You can see that Elements and Fields are visible in the search results.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-20200101.png){:width="80%" class="center"}
+
+To investigate a particular discovered Element for suitability,
+click on the Element to bring up its description, as seen below.
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/artifact-import-window-search-metadata-20200101.png){:width="80%" class="center"}
+
+To embed an Element or Field artifact in your templating resource, 
+either double-click on the artifact, 
+or click once on the artifact and then click on the Open button.
+The Element or Field will be incorporated at the end of your templating resource.
+
+You will not be able to edit the core characteristics of the Element or field
+once it has been imported, though you will be able to relabel it,
+and will be able to choose a property that relates the artifact to its parent.
+
+
+

@@ -17,45 +17,53 @@ To create a new template, first click the "New" button on the Desktop's navigati
 select the "Template" option in the dropdown menu. 
 This step opens the Template Designer as shown below. 
 
-Enter the human-readable label, identifier and description of the Template resource 
+Enter the human-readable Name, Identifier and Description of the Template resource 
 using the three text input fields ('Untitled', 'Identifier', 'Description') 
 underlined in the image below. 
+The Name is used as the name of the artifact in the Desktop, 
+and can be changed from the Desktop view.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/creating-new-template-20191216.png){:width="80%" class="centered"}
 
 You can save your Template at any time and return to it later. You can open it 
 (or any other Template for which you have access privileges) 
-by double-clicking on its icon in the Desktop.
+by double-clicking on its icon in the Desktop. 
 
 ## **Useful Content Tips**
 
-By default CEDAR searches look at the Label, Identifier, and Description field for matches,
-so consider what terms will be most important to include for searches to find your template. 
+By default CEDAR searches look at the artifact Name, Identifier, Description,
+and Version fields for matches,
+so consider what terms will be most important to include 
+for searches to find your template. 
 
-**Label:** The label of the template should fit easily into the Workspace view if possible, 
-allowing for CEDAR to append 'metadata' to the label to create names of the metadata instances. 
-The label is analogous to the title of a web page. 
+**Name:** The name of the template should fit easily into the Workspace view if possible, 
+keeping in mind that CEDAR names metadata instances by appending 'metadata' 
+to the template name. 
+The Name is analogous to the title of a web page. 
 As a rough guideline, allow about 40-50 characters for your label.
 
 You don't need to append 'Template' or 'Form' to the end of the label; 
 this will be clear from context.
 
-**Identifier:** This refers to an external identifier, not a CEDAR identifier.
+**Identifier:** For CEDAR templating artifacts, the Identifier 
+refers to an external identifier
+of an artifact corresponding to this template, not a CEDAR identifier.
 You do not have to create an identifier; 
-typically you will leave this field blank. 
-The field is provided for users
+in fact, typically you will leave this field blank. 
+The attribute is provided for users
 who want to identify an external entity associated with this template. 
-It works best when unique references to external identifiers can be automatically assigned.
-(Please note this identifier is for the template, 
+The Identifier works best when unique identifiers for the external objects
+can be automatically assigned and persistently maintained.
+(Please note this Identifier corresponds to the template, 
 *not* for the metadata instances filled out for this template.)
 
 **Description:** This description can be any length; 
 a sentence or short paragraph is common. 
 Describe the subject that the template is documenting; 
-we already know this is a CEDAR template, 
-so you don't have to include that.  
+since we already know from context this is a CEDAR template, 
+you don't have to include that in the description.  
 Of course we also know it describes metadata, 
-but "Metadata describing …" often seems to be a useful context to set up your description.
+but "Metadata describing …" often offers a useful setup for your description.
 
 Because Description is a longer field, it is a good place to include key words or other
 information you want to be able to search on to find this field. 
