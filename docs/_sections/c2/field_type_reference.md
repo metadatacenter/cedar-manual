@@ -42,6 +42,7 @@ Numeric—integer
 |  xsd:decimal 
 xsd:integer, long integer, single precision real, double precision real |  Unit of Measure, Minimum Value, Maximum Value, Decimal Places  |
 | Email |   |   |
+| Date |  xsd:date |   |
 | Link |   |   |
 | Multi-Choice |   |   |
 | Checkbox |   |   |
