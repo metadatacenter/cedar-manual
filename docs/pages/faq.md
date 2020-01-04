@@ -21,25 +21,32 @@ If you want to submit your metadata (even including data) to a particular domain
 Detailed instructions are available in our 
 CEDAR User Manual's [Accounts and Logging In chapter](https://metadatacenter.github.io/cedar-manual/basic_topics/a1_accounts_and_logging_in/).
 
-Just go to the site (https://cedar.metadatacenter.org), where you will see a login screen. You can register using the Register link on that screen (just above the red Google icon), using your social media account or email address. That's it—you can start using CEDAR now!
+Just go to [the CEDAR application](https://cedar.metadatacenter.org), where you will see a login screen. You can register for the system using the Register link on that screen (just above the red Google icon), using your social media account or email address. That's it—you can start using CEDAR now!
 
 **I can't figure out what to do! How do I create a template or fill one out?**
 
-If you want to create a template that people can then use, go to your home directory (using the Home button at upper left). To create a new template (or anything else) move the mouse pointer to the red button in the lower right, wait for the options to pop up, and select what you want to create.
+[Quick reference for template creation](https://metadatacenter.github.io/cedar-manual/cedar_templates/c2_building_basic_templates/)  If you want to create a template that people can then use, go to your home directory (using the Home button at upper left). To create a new template (or anything else) move the mouse pointer to the New button in the upper left, wait for the options to pop up, and select what you want to create.
 
-To fill out some metadata for a template, you'll need to find the template you're providing metadata for (hint: you can search for it), then control-click or right-click on the template and select "Populate" to generate a form to fill out. (If someone else has given you a link to fill out a CEDAR template, just go to that link in your browser. Once you're logged in you'll be in the Metadata Editor, ready to start filling out metadata.
+*[Quick reference for filling out metadata](https://metadatacenter.github.io/cedar-manual/basic_topics/a5_filling_out_creating_metadata/)*  To fill out some metadata for a template, you'll need to find the template you're providing metadata for (hint: you can [search for it](https://metadatacenter.github.io/cedar-manual/basic_topics/a2_finding_resources/)), then control-click or right-click on the template and select "Populate" to generate a form to fill out. (If someone else has given you a link to fill out a CEDAR template, just go to that link in your browser.) Once you're logged in you'll be in the Metadata Editor, ready to start filling out metadata.
 
-For more startup information, go to our [CEDAR training page](https://more.metadatacenter.org/tools-training/training-cedar), or to our [CEDAR User Manual](https://metadatacenter.github.io/cedar-manual/), 
+For more startup information, go to our [CEDAR User Manual](https://metadatacenter.github.io/cedar-manual/), or to our [CEDAR training page](https://more.metadatacenter.org/tools-training/training-cedar), 
 which each have a variety of introductory content.
 
 **What makes CEDAR forms so special? Google forms/SurveyMonkey surveys can do most of this.**
 
-CEDAR is a little bit richer in some ways than Google forms or Survey Monkey surveys, and CEDAR adds two things in particular: real-time semantics, and metadata smarts.
+CEDAR has a number of features not available in Google forms or Survey Monkey surveys: real-time semantics; metadata smarts; a highly interoperable JSON-based model for 
+templates and metadata, and an API built for flexbile integration with external systems.
 
 With CEDAR semantics, you control exactly what terms can satisfy a query—and as soon as the source ontology changes, users see the updated list in the drop-down choices. By connecting your questions to other questions on the same subject, and connecting your answers to other answers that use different words but mean the same thing, these semantic relations can be exploited in the resulting metadata. As CEDAR collects more metadata for more standards and external systems, those connections will become more valuable whenever you ask about existing metadata (or build new CEDAR templates!).
 
 And CEDAR knows a lot about entering metadata. For starters, it can give a list of (semantically precise!) controlled terms to choose from, and auto-suggest completions for you. It can also learn and share how the community filled out those forms, to help you check your own work. And using CEDAR, your lab manager can pre-configure a form for the team to use, hiding all the irrelevant fields and pre-setting your team's defaults, 
 to make your job faster.
+
+CEDAR's [JSON-based Template Model](https://metadatacenter.org/tools-training/outreach/cedar-template-model) supports the specification of 
+templates for diverse metadata models, and interoperable metadata instances 
+containing the metadata that satisfies those templates.
+
+And CEDAR's [microservice-based APIs](https://more.metadatacenter.org/tools-training/cedar-api) provide rich access to all the fundamental services needed to integrate your software with the CEDAR system.
 
 Over time CEDAR developers will be adding more time savers, like pulling in metadata from other sources, or validating your metadata against domain-specific rules. You'll get these features for free as soon as they are available.
 
@@ -88,7 +95,12 @@ Detailed information on our identifiers is available at [How CEDAR Defines and A
 
 **How do I look up all instances of a template?**
 
-Use the API search feature with the identifier of the template to find all the related instances. See the linked documentation for the details.
+If you have read access to the template, 
+you can look in the metadata for the template to see all the instances
+to which you have read or write access. See [Viewing Resource Metadata](https://metadatacenter.github.io/cedar-manual/a3/5_viewing_resource_metadata/)
+to learn how to find the metadata for an artifact in the CEDAR Desktop.
+
+Use the API search feature with the identifier of the template to find all the related instances. See the [API search documentation](https://resource.metadatacenter.org/api/#!/Template32Instances/get_search) for the details. 
 
 **How do I enter diacritics and other special characters?**
 
