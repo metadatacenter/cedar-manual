@@ -5,7 +5,7 @@ author: John Graybeal
 permalink: faq
 ---
 
-Here are our always-in-progress Frequently Asked Questions for CEDAR. Got a question? [Contact us](https://metadatacenter.org/contact "Contact us")!
+Here are our Frequently Asked Questions for CEDAR. Got a question? [Contact us](https://metadatacenter.org/contact "Contact us")!
 
 **What is CEDAR good for?**
 
@@ -52,9 +52,11 @@ Over time CEDAR developers will be adding more time savers, like pulling in meta
 
 **What format is the metadata saved in? How can I access it?**
 
-We save the metadata as JSON-LD (in a Mongo database). We make it available (to those with access privileges) via the user interface, in both JSON-LD and the equivalent RDF Click on the format (at the bottom of the screen) to choose how you want to view it.
+We save the metadata as JSON-LD (in a Mongo database). We make it available (to those with access privileges) via the user interface, in both JSON-LD and the equivalent RDF. Click on the format (at the bottom of the screen) to choose how you want to view it 
+[detailed information in CEDAR's User Manual](https://metadatacenter.github.io/cedar-manual/sections/a3/4_viewing_resource_as_raw_metadata/)
 
-You can also access the metadata via the CEDAR API, in both of these formats, and in a "condensed JSON" format. That last format gets rid of lots of the link information (including much of the rich semantics).
+You can also access the metadata via the CEDAR API, in both of these formats, and in a "condensed JSON" format. That last format gets rid of lots of the links in the metadata 
+(including much of the rich semantics).
 
 Detailed information about the metadata form is described as part of the 
 [CEDAR Template Model documentation](https://metadatacenter.org/tools-training/outreach/cedar-template-model).
