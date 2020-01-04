@@ -138,8 +138,7 @@ from which legal values may be chosen by the metadata author.
 You can repeat this process as often as you want to select additional 
 terms, branches, or ontologies.
 
-Advice about finding and choosing controlled values is available in the [Choosing Controlled Terms](https://metadatacenter.github.io/cedar-manual/sections/c2/choosing_controlled_terms/)
-section.
+Advice about finding and choosing controlled values is available in the [Choosing Controlled Terms](https://metadatacenter.github.io/cedar-manual/sections/c3/3_choosing_controlled_terms/) section.
 
 #### Suggestions
 
