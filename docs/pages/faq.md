@@ -46,7 +46,7 @@ Yes, and yes. You can find CEDAR source code at https://github.com/metadatacente
 
 **Can you make it easier to work with templates and elements, e.g., nesting a template within a template?**
 
-Yes, but not yet. Right now, only an element can be included within a template. We will make it easier to create elements on the fly, among other features.
+Yes, but not yet. Right now, only an element or field can be included within a template. We have many feature ideas to make it easier to nest resources, including "live" resources.
 
 **I have a system that already has a collection of metadata. Can I put that into CEDAR without retyping everything?**
 
@@ -61,10 +61,12 @@ This is appropriate when you know the result has to be a URL, or some other type
 **What do you use for your identifiers?**
 
 We mint UUID-based IRIs to identify all our artifacts (metadata templates, metadata instances, folders, and even users). You can see the identifier in the URL for the page you’re on. In a CEDAR page with a URL that looks like this:
+```
 https://cedar.metadatacenter.net/templates/edit/https://repo.metadatacenter.net/templates/226d6778-5978-4d55-a284-d8e7ec522ca5?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94
+```
 you will see the first identifier string, like https://repo.metadatacenter.net/templates/226d6778-5978-4d55-a284-d8e7ec522ca5. This is the identifier for your artifact, in this case a template.
 
-Note that the template identifier will not (yet) resolve in your browser if you do not prefix it with the appropriate CEDAR context, e.g., in this case https://cedar.metadatacenter.net/templates/edit/.
+Note that the template identifier will not (yet) resolve in your browser if you do not prefix it with the appropriate CEDAR context, e.g., in this case `https://cedar.metadatacenter.net/templates/edit/`.
 
 **How do I look up all instances of a template?**
 

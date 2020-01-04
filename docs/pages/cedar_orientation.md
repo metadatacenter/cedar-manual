@@ -19,10 +19,8 @@ For a bit more help or introduction, you can go to the CEDAR Support and CEDAR T
 **What CEDAR does**
 The CEDAR Workbench, as we refer to the suite of CEDAR tools, makes it easy to collect and use metadata. Eventually our tools will cover the entire lifecycle of metadata, from before the first metadata record is created to its eventual processing, and even enhancement, by users and analysts. But for now, CEDAR tools help you create forms to collect metadata, make those available to users, and download the information that users have provided.
 
-**What can CEDAR do for me already?**
-As of its production release, in February 2017, CEDAR addresses these scenarios:
-
-CEDAR Login at Alpha Release
+**What can CEDAR do for me?**
+CEDAR addresses these scenarios:
 
 - create user-friendly, shareable forms for collecting metadata, with features like
   - nested and repeatable elements and fields
@@ -36,21 +34,25 @@ CEDAR Login at Alpha Release
   - select any term or collection of terms from the NCBO BioPortal semantic repository
   - combine different terms from different controlled vocabularies into a single set of options
   - create your own terms, or term lists ('value sets') that can be re-used
-- view responses meeting your (simple) search critieria, in several forms
+- view metadata responses meeting your search critieria, in several forms
   - CEDAR Metadata Editor's metadata view 
   - an in-line JSON-LD format, used by CEDAR for all its metadata instances
   - download of JSON-LD files via the CEDAR REST API, for offline integration with your workflow
 - use the Workbench Desktop interface to manage your content
   - use My Workspace to see your items, or Shared with Me to see other items you can access
   - select an item and control-click or use the 3-dot menu in the upper right to share it, copy it, delete it, or get info on it
+  - publish content to a publicly visible web view (OpenView)
+  - create versioned templates that can not be changed or deleted
 - enable intelligent metadata suggestions in your template by using a field's Suggestions tab 
   - CEDAR keeps track of metadata entered for that field
-  - users will see a drop down list of the most popular metadata entries, and can select from them
+  - users see the most popular metadata entries first in the drop down list of controlled terms
 - remotely access CEDAR content and capabilities using the CEDAR REST API
 
-With these capabilities, you can capture simple or rich metadata for your project, build a repository of project metadata, or design and prototype a new metadata specification to meet your particular needs. Advanced users can even submit metadata entries through CEDAR's REST API.
+With these capabilities, you can capture simple or rich metadata for your project, build a repository of project metadata, or design and prototype a new metadata specification to meet your particular needs. 
+
+Developers can integrate CEDAR with their own systems, submitting or reading metadata entries via CEDAR's REST API.
 
 Best of all, CEDAR is built to be easy to work with from day 1. We think metadata shouldn't be hard, and we're building a system to prove it!
 
 **What's coming?**
-The CEDAR team has a lot of developments in the pipeline, and updates will be released frequently over coming months. Planned enhancements include major features, like improved intelligent autocompletion and metadata authoring suggestions, publication to major repositories, and curation features for project and community metadata collections. And we will be continually improving the system's ease of use, help and training, and accessibility.
+The CEDAR team has a lot of developments in the pipeline, and updates are released frequently. And we will to work on the system's ease of use, help and training, and accessibility.

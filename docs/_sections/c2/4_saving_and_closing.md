@@ -10,7 +10,9 @@ chapter_title: Building Basic Templates
 
 ## **Saving**
 
-To save a templating resource—Template, Element, or Field—click on the Save button at the bottom right of the templating resource.
+To save a templating resource—Template, Element, or Field—click on the Save button at the bottom right of the templating resource. 
+This will be labeled Save Template, Save Element, or Save Field depending on the
+type of templating resource you are editing.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/creating-new-template-20191216.png){:width="80%" class="centered"}
 
