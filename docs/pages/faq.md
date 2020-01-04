@@ -9,30 +9,39 @@ Here are our always-in-progress Frequently Asked Questions for CEDAR. Got a ques
 
 **What is CEDAR good for?**
 
-The CEDAR Workbench can be built into an existing metadata or data processing pipeline, help you submit metadata to an existing repository, or serve as a full-service metadata repository. It can be used to collect metadata following any specified template (form). It has also been useful for capturing metadata models or structures, with the added benefit of testing those models quickly using real data.
+The CEDAR Workbench can be make an existing metadata or data processing pipeline better, 
+help you submit metadata to an existing repository, or serve as a full-service metadata repository. It can be used to collect metadata following any metadata standard or
+any other user-specified template (metadata form). It has also proven useful for capturing metadata models or structures, with the added benefit of quickly testing those models by
+entering real data.
 
 If you want to submit your metadata (even including data) to a particular domain repository, contact us about your interest; we are always evaluating which repositories to add next. See our Orientation for details.
 
 **How do I get an account on CEDAR?**
 
+Detailed instructions are available in our 
+CEDAR User Manual's [Accounts and Logging In chapter](https://metadatacenter.github.io/cedar-manual/basic_topics/a1_accounts_and_logging_in/).
+
 Just go to the site (https://cedar.metadatacenter.org), where you will see a login screen. You can register using the Register link on that screen (just above the red Google icon), using your social media account or email address. That's it—you can start using CEDAR now!
 
-I can't figure out what to do! How do I create a template or fill one out?
+**I can't figure out what to do! How do I create a template or fill one out?**
+
 If you want to create a template that people can then use, go to your home directory (using the Home button at upper left). To create a new template (or anything else) move the mouse pointer to the red button in the lower right, wait for the options to pop up, and select what you want to create.
 
 To fill out some metadata for a template, you'll need to find the template you're providing metadata for (hint: you can search for it), then control-click or right-click on the template and select "Populate" to generate a form to fill out. (If someone else has given you a link to fill out a CEDAR template, just go to that link in your browser. Once you're logged in you'll be in the Metadata Editor, ready to start filling out metadata.
 
-For more startup information, go to our tools-training/training-cedar CEDAR training page, or to our CEDAR support page.
+For more startup information, go to our [CEDAR training page](https://more.metadatacenter.org/tools-training/training-cedar), or to our [CEDAR User Manual](https://metadatacenter.github.io/cedar-manual/), 
+which each have a variety of introductory content.
 
 **What makes CEDAR forms so special? Google forms/SurveyMonkey surveys can do most of this.**
 
 CEDAR is a little bit richer in some ways than Google forms or Survey Monkey surveys, and CEDAR adds two things in particular: real-time semantics, and metadata smarts.
 
-With CEDAR semantics, you control exactly what terms can satisfy a query—and as soon as the source ontology changes, users see the updated list in the drop-down choices. By connecting your questions to other questions on the same subject, and connecting your answers to other answers that mean the same thing, these semantic relations can be exploited in the resulting metadata. As CEDAR collects more metadata for more standards and external systems, those connections will become more valuable as you ask about existing metadata (or build new CEDAR templates!).
+With CEDAR semantics, you control exactly what terms can satisfy a query—and as soon as the source ontology changes, users see the updated list in the drop-down choices. By connecting your questions to other questions on the same subject, and connecting your answers to other answers that use different words but mean the same thing, these semantic relations can be exploited in the resulting metadata. As CEDAR collects more metadata for more standards and external systems, those connections will become more valuable whenever you ask about existing metadata (or build new CEDAR templates!).
 
-And CEDAR knows a lot about entering metadata. Sure it can give a list of (semantically precise!) controlled terms to choose from, and auto-suggest completions for you. But it can also learn and share how the community filled out those forms, to help you check your own work. And using CEDAR, your lab manager can pre-configure a form for the team to use, hiding all the irrelevant fields and pre-setting defaults, to make your job faster.
+And CEDAR knows a lot about entering metadata. For starters, it can give a list of (semantically precise!) controlled terms to choose from, and auto-suggest completions for you. It can also learn and share how the community filled out those forms, to help you check your own work. And using CEDAR, your lab manager can pre-configure a form for the team to use, hiding all the irrelevant fields and pre-setting your team's defaults, 
+to make your job faster.
 
-Plus, over time CEDAR developers will be adding more time savers, like pulling in metadata from other sources, or validating your metadata against domain-specific rules. You'll get these features for free as soon as they are available.
+Over time CEDAR developers will be adding more time savers, like pulling in metadata from other sources, or validating your metadata against domain-specific rules. You'll get these features for free as soon as they are available.
 
 **What format is the metadata saved in? How can I access it?**
 
@@ -40,9 +49,13 @@ We save the metadata as JSON-LD (in a Mongo database). We make it available (to 
 
 You can also access the metadata via the CEDAR API, in both of these formats, and in a "condensed JSON" format. That last format gets rid of lots of the link information (including much of the rich semantics).
 
+Detailed information about the metadata form is described as part of the 
+[CEDAR Template Model documentation](https://metadatacenter.org/tools-training/outreach/cedar-template-model).
+
 **Is CEDAR open source, and if so, does it plan to continue to be open source?**
 
-Yes, and yes. You can find CEDAR source code at https://github.com/metadatacenter, and technical documentation at https://metadatacenter.github.io.
+Yes, and yes. You can find CEDAR source code at https://github.com/metadatacenter, and technical documentation at https://metadatacenter.github.io. 
+You can access our [complete list of CEDAR reference documentation](https://more.metadatacenter.org/references) for more information.
 
 **Can you make it easier to work with templates and elements, e.g., nesting a template within a template?**
 
@@ -54,9 +67,11 @@ Yes! The CEDAR APIs allow you to post your metadata content to CEDAR. You will n
 
 Our example repository on GitHub shows how to generate Java classes that produce CEDAR instances conforming to a particular template. You would need to write code to read the data from your XML archive and then use the API of the generated Java classes to copy values from your XML metadata into the Java object, which would then get serialized as JSON-LD.
 
-**What is the 'link' fieldtype for?**
+**What is the 'link' field type for?**
 
-This is appropriate when you know the result has to be a URL, or some other type of IRI (the internationalized, generalized form of a URL). Unlike text fields, this field type validates the metadata entry to make sure it’s an IRI, and it produces appropriately typed RDF in the resulting metadata.
+This is appropriate when you know the result has to be a URL, or some other type of IRI (the internationalized, generalized form of a URL). Unlike text fields, this field type validates the metadata entry to make sure it’s an IRI, and it produces appropriately typed RDF in the resulting metadata. Please reference the [Adding Fields section](https://metadatacenter.github.io/cedar-manual/sections/c2/2_adding_fields/)
+and the [Field Type Reference](https://metadatacenter.github.io/cedar-manual/sections/c2/field_type_reference/)
+for more information on field types.
 
 **What do you use for your identifiers?**
 
@@ -64,9 +79,12 @@ We mint UUID-based IRIs to identify all our artifacts (metadata templates, metad
 ```
 https://cedar.metadatacenter.net/templates/edit/https://repo.metadatacenter.net/templates/226d6778-5978-4d55-a284-d8e7ec522ca5?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94
 ```
-you will see the first identifier string, like https://repo.metadatacenter.net/templates/226d6778-5978-4d55-a284-d8e7ec522ca5. This is the identifier for your artifact, in this case a template.
+you will see the first identifier string, like `https://repo.metadatacenter.net/templates/226d6778-5978-4d55-a284-d8e7ec522ca5`. This is the identifier for your artifact, in this case a template.
 
 Note that the template identifier will not (yet) resolve in your browser if you do not prefix it with the appropriate CEDAR context, e.g., in this case `https://cedar.metadatacenter.net/templates/edit/`.
+
+Detailed information on our identifiers is available at [How CEDAR Defines and Applies IRIs (URIs, URLs)](https://metadatacenter.github.io/cedar-manual/sections/c4/how_cedar_defines_and_accesses_identifiers/)
+
 
 **How do I look up all instances of a template?**
 
