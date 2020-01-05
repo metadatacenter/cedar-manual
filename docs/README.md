@@ -21,7 +21,9 @@ These folders contain only Github pages for each chapter. The page has content r
 
 ##### Required folders
 - *_includes*: HTML elements that remain common across all pages (chapter or section pages). For example, sidebar, header, footer HTML is rendered from this folder.
-- *_layouts*: HTML templates that are used to render different pages of the manual (e.g., chapter pages https://metadatacenter.github.io/cedar-manual/basic_topics/a1_accounts_and_logging_in/ is generated from the HTML template chapter.html). Hence, the HTML format remains consistent across different chapters and pages.
+- *_layouts*: HTML templates that are used to render different pages of the manual (e.g., chapter pages for 
+`https://metadatacenter.github.io/cedar-manual/basic_topics/a1_accounts_and_logging_in/` 
+is generated from the HTML template chapter.html). Hence, the HTML format remains consistent across different chapters and pages.
 - *_sass*: Base CSS for the CEDAR manual (i.e. the Github pages Ed theme) - can be ignored by documentation writers.
 - *assets*: Additional CSS, JS, and Images folder. The key folder here is the Images folder (imgs/) which can be used to store CEDAR screenshots used in the manual.
 
