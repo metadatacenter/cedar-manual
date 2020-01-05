@@ -14,7 +14,7 @@ title: "CEDAR User Guide % date % "
       {% for item in site.basic_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>{% endif %}
           </a>
         </li>
       {% endfor %}
@@ -50,7 +50,7 @@ title: "CEDAR User Guide % date % "
       {% for item in site.advanced_guidance %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>{% endif %}
           </a>
         </li>
       {% endfor %}
@@ -133,7 +133,7 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
   <br><br>
   <hr>
   <div class="introduction printdiv">
-    <h1>{{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i></h1>
+    <h1>{{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>{% endif %}</h1>
 
     <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
     <div align="justify">{{ item.content }}</div>
