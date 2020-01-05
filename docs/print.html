@@ -8,14 +8,13 @@ title: "CEDAR User Guide (Print Edition)"
   <hr>
   <ul class="texts">
     <li class="text-title">About</a><br></li>
-    <li class="text-title"><a href="/cedar-manual/glossary">Glossary</a><br></li>
 
     <li class="text-title">CEDAR Basics for All Users<br>
       <ul class="texts">
       {% for item in site.basic_topics %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>
           </a>
         </li>
       {% endfor %}
@@ -51,13 +50,16 @@ title: "CEDAR User Guide (Print Edition)"
       {% for item in site.advanced_guidance %}
         <li class="text-title">
           <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
+            {{ item.title }} {% if item.status != "Ready" %}<i> [{{ item.status }}]</i>
           </a>
         </li>
       {% endfor %}
       </ul>
     </li>
     
+	<li class="text-title"><a href="/cedar-manual/glossary">Glossary</a></li>
+	<li class="text-title"><a href="/cedar-manual/faq">Frequently Asked Questions</a></li>
+
   </ul>
 </div>
 
@@ -125,6 +127,30 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
     <hr>
   </div>
 {% endfor %}
+
+{% for item in site.advanced_topics %}
+  <br><br>
+  <hr>
+  <div class="introduction printdiv">
+    <h1>{{ item.title }} <i>[{{ item.status }}]</i></h1>
+    <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
+    <div align="justify">{{ item.content }}</div>
+    <hr>
+    <ul class="texts">
+      {% for section in site.sections %}
+          {% if section.chapter == item.chapter %}
+          <h2>{{ section.title}}</h2>
+          {{ section.content }}
+          <hr>
+          <br>
+          {% endif %}
+      {% endfor %}
+    </ul>
+    <hr>
+  </div>
+{% endfor %}
+
+
 
 
 
