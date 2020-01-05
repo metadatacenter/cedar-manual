@@ -22,6 +22,18 @@ title: "CEDAR User Guide (Print Edition)"
       </ul>
     </li>
 
+    <li class="text-title">About CEDAR Templates<br>
+      <ul class="texts">
+      {% for item in site.cedar_templates %}
+        <li class="text-title">
+          <a href="{{ site.baseurl }}{{ item.url }}">
+            {{ item.title }} <i>[{{ item.status }}]</i>
+          </a> 
+        </li>
+      {% endfor %}
+      </ul>
+    </li>
+
     <li class="text-title">Advanced Topics for All Users<br>
       <ul class="texts">
       {% for item in site.advanced_topics %}
@@ -34,17 +46,6 @@ title: "CEDAR User Guide (Print Edition)"
       </ul>
     </li>
 
-    <li class="text-title">About CEDAR Templates<br>
-      <ul class="texts">
-      {% for item in site.cedar_templates %}
-        <li class="text-title">
-          <a href="{{ site.baseurl }}{{ item.url }}">
-            {{ item.title }} <i>[{{ item.status }}]</i>
-          </a> 
-        </li>
-      {% endfor %}
-      </ul>
-    </li>
     <li class="text-title">Advanced Guidance<br>
       <ul class="texts">
       {% for item in site.advanced_guidance %}
@@ -56,6 +57,7 @@ title: "CEDAR User Guide (Print Edition)"
       {% endfor %}
       </ul>
     </li>
+    
   </ul>
 </div>
 
@@ -66,7 +68,8 @@ title: "CEDAR User Guide (Print Edition)"
 <hr>
 <p align="justify">Welcome to the CEDAR User Guide. 
 
-This document contains technical information about operation and artifacts of the CEDAR Workbench. The documents are added as time allows to describe the most central aspects of the CEDAR system.
+This document contains technical information about operation and artifacts of the CEDAR Workbench. We continue to grow this documentation as time allows to more fully describe 
+the CEDAR system.
 
 The CEDAR User Guide targets typical users and uses of the CEDAR system. Should you just need some basic information about getting started, the following resources may be helpful:</p>
 <ul align="justify">
@@ -100,6 +103,29 @@ The CEDAR User Guide targets typical users and uses of the CEDAR system. Should 
     <hr>
   </div>
 {% endfor %}
+
+{% for item in site.cedar_templates %}
+  <br><br>
+  <hr>
+  <div class="introduction printdiv">
+    <h1>{{ item.title }} <i>[{{ item.status }}]</i></h1>
+    <!--<h5 align="right"><i>Posted by: {{ page.author }}</i></h5>-->
+    <div align="justify">{{ item.content }}</div>
+    <hr>
+    <ul class="texts">
+      {% for section in site.sections %}
+          {% if section.chapter == item.chapter %}
+          <h2>{{ section.title}}</h2>
+          {{ section.content }}
+          <hr>
+          <br>
+          {% endif %}
+      {% endfor %}
+    </ul>
+    <hr>
+  </div>
+{% endfor %}
+
 
 
 
