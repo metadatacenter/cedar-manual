@@ -23,7 +23,7 @@ First, you must update the element that needs to be changed.
 (If it is a versioned resource, follow the instructions in the Creating and Managing Versions topic below.)
 
 After saving your updated element, go to the template that contains it.
-Import the updated element as described in <a href="https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/">Adding Elements</a>; the updated element will appear at the bottom of your form. 
+Import the updated element as described in [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements/); the updated element will appear at the bottom of your form. 
 
 Move the element to the correct location in your form, 
 and delete the element that is already there. 

@@ -3,13 +3,13 @@ layout: chapter
 title: More FAIR Templates Using Semantics
 author: John Graybeal
 chapter: c3
-status: Pending
+status: Partial
 ---
 
 The principles of FAIR metadata—Findability, Accessibility, Interoperability, and Reusability—
 are useful to understand metadata good practices. 
 We made semantics a key technology in the CEDAR system, because semantics support
-all of the principles supporting FAIR metadata.
+all of the principles that make up FAIR metadata.
 
 In this chapter we describe how the semantics in CEDAR make its templating resources
 more FAIR, and thereby make CEDAR metadata more FAIR.

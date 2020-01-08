@@ -3,7 +3,7 @@ layout: chapter
 title: Advanced Template Topics
 author: John Graybeal
 chapter: c4
-status: Pending
+status: Partial
 ---
 CEDAR Metadata Templates—all CEDAR templating resources—are really modeling tools. 
 These tools define what information is important to collect, 
