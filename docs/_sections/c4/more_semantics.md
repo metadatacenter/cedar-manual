@@ -33,5 +33,8 @@ You are welcome to contribute to its development at the link below.
 ## Versioning vocabularies you use
 
 
+## Adding your terminology to BioPortal
+
+
 
 
