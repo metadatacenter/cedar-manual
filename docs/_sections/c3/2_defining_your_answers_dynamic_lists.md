@@ -14,7 +14,7 @@ You don't have to know semantics to use these tools—
 we'll give you some tips (in [Choosing Controlled Terms](https://metadatacenter.github.io/cedar-manual/sections/c3/3_choosing_controlled_terms/) that help you find good answers for your questions,
 and know they are good enough for your needs.
 
-For you semantic experts, we provide advanced details in elsewhere in this User Manual:
+For you semantic experts, we provide advanced details elsewhere in this User Manual:
 * [Tips for Template Creation: Term Discovery/Selection](https://metadatacenter.github.io/cedar-manual/sections/c5/term_discovery_selection/)
 * [Advanced Template Topics:More Semantics](https://metadatacenter.github.io/cedar-manual/sections/c4/more_semantics/)
 
@@ -28,15 +28,36 @@ as described in [Adding Fields](https://metadatacenter.github.io/cedar-manual/se
 
 ## Basic Interactions
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/creating.png){:width="60%" class="centered"}
+
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-value-set-definition-20191229.png){:width="60%" class="centered"}
+
+
+
 ### Searching for Terms
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-list-results-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-advanced-options-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-restrict-ontologies-20191229.png){:width="60%" class="centered"}
+
 
 
 ### Reviewing Found Terms
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-open-branch-20191229.png){:width="60%" class="centered"}
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-show-details-20191229.png){:width="60%" class="centered"}
 
 ### Selecting Terms, Branches, or Ontologies
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-branch-20191229.png){:width="60%" class="centered"}
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/select-branch-for-addition-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-ontology-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-value-set-20191229.png){:width="60%" class="centered"}
 
 ## *Adding Your Own Terms and Value Sets*
 
@@ -44,6 +65,11 @@ as described in [Adding Fields](https://metadatacenter.github.io/cedar-manual/se
 
 ### Adding your Own Single Term(s)
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-description-20191229.png){:width="60%" class="centered"}
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-linked-to-existing-20191229.png){:width="60%" class="centered"}
 
 ### Composing a List of Terms
 
