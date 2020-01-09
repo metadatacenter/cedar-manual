@@ -44,12 +44,13 @@ progress to finding and adding collections of terms.
 
 ### Searching for Terms
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-list-results-20191229.png){:width="80%" class="centered"}
 As soon as you hit the Add button in the Values tab of a CEDAR field,
 CEDAR opens a new search window, pre-configured with the name in your field, 
 and the search for terms begins immediately.
 In this case, the name is "Study Type", and a set of results has been returned.
 You can see each term in the scrollable list—the most likely terms are listed first.
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-list-results-20191229.png){:width="80%" class="centered"}
 
 You can change the search terms by typing in the search field. 
 If you search doesn't begin immediately, click on the magnifying glass to start it.
@@ -58,12 +59,13 @@ and higher-value results may be inserted in front of results you are looking at.
 Usually all the results are obtained quite quickly.
 (A maximum of 500 results may be obtained.)
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-advanced-options-20191229.png){:width="80%" class="centered"}
 You may want to refine the search to meet particular needs.
 By clicking on the settings gear at the right of the search field,
 you will see a set of Advanced Search Options.
 The first option, to search for a term anywhere in BioPortal, is pre-selected.
 (We will discuss the other 'I want to…" options in later subsections.)
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-advanced-options-20191229.png){:width="80%" class="centered"}
 
 For now, we want to focus on the "Narrow your search to specific ontologies" field.
 If you know the ontologies in BioPortal that you want to use for your terms,
@@ -73,16 +75,19 @@ and CEDAR will offer a list of the matching ontologies.
 Click on the one that you want to include as a restriction,
 and its acronym will appear in the field.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-restrict-ontologies-20191229.png){:width="80%" class="centered"}
 You can begin typing again in the field, and select another ontology,
 until you have found all the ontologies you want in your restriction list.
 In this case, we have selected the ontologies with the acronyms CTO and NCIT.
 This technique can be used to see more terms in the given ontologies,
 or to exclude any other ontologies from being considered.
 
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-term-restrict-ontologies-20191229.png){:width="80%" class="centered"}
+
 ### Reviewing Found Terms
 
 Now that you have some terms, you may want to take a closer look at the 
+
+
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-open-branch-20191229.png){:width="80%" class="centered"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-terms-show-details-20191229.png){:width="80%" class="centered"}
