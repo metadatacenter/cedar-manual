@@ -19,7 +19,13 @@ so you can tell them apart in CEDAR.)
 
 After clicking on the `REGISTER` button, check your email (at the address you provided) 
 for a link to validate your user account. 
-Click on the link to complete the account creation process. 
+(This should not take very long, a few minutes at most. 
+Check your spam/junk folder if you do not see the mail.
+You can go back and resend the email from the registration screen,
+and if that doesn't work after a few minutes, and you're sure your email is working,
+send us an email to get help.)
+
+Click on the link in your email to complete the account creation process. 
 After validation you can easily log in to the CEDAR workbench as indicated in the next section.
 
 
