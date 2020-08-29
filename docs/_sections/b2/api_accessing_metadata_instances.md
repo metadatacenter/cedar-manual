@@ -4,7 +4,7 @@ title: API: Accessing Metadata Instances
 author: John Graybeal
 status: Ready
 chapter: b2
-chapter_url: /advanced_topics/b2_cedars_api
+chapter_url: /advanced_topics/b2_cedars_api/
 chapter_title: CEDAR's API
 ---
 
