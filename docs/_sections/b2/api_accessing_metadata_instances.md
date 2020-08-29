@@ -72,6 +72,8 @@ This method has two parameters: the template_instance_id
 (the instance_identifier mentioned earlier), and 
 the desired format.
 
+<h3>Getting the template using its instance identifier</h3>
+
 The template_instance_id should look very similar to the following:
   `https://repo.metadatacenter.org/template-instance/8bc64ab5-df6b-48c8-8c61-6c016245918e`
 The final 32 characters are the unique part of the string.
@@ -83,6 +85,19 @@ you obtain something like the following:
 curl -X GET --header 'Accept: application/json' --header 'Authorization: apiKey YOUR_API_KEY' 'https://resource.metadatacenter.org/template-instances/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplate-instances%2Ffb8f0a9c-8ded-4d31-9d92-fb780ff6b4df?format=jsonld' | /usr/local/prettyprint` 
 ```
 
+<h3>Requesting specific formats</h3>
 
+Use the format parameter to request the format you want. CEDAR offers three formats:
+* json-ld: JSON-Linked Data, the default internal storage format
+* json: Plain JSON, similar content to json-ld but with most of the LD-specific identifiers removed (this specifically removes the semantic identifiers, which is a significant reduces the precision of the metadata)
+* rdf: Resource Description Framework, with the same content as the JSON-LD but expressed as RDF n-quads. 
+
+The RDF format should be importable by most triple stores and semantic repositories.
+
+An example of the above call with an RDF-formatted instance returned:
+
+```
+curl -X GET --header 'Accept: application/json' --header 'Authorization: apiKey YOUR_API_KEY' 'https://resource.metadatacenter.org/template-instances/https%3A%2F%2Frepo.metadatacenter.org%2Ftemplate-instances%2Ffb8f0a9c-8ded-4d31-9d92-fb780ff6b4df?format=rdf' | /usr/local/prettyprint` 
+```
 
 
