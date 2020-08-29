@@ -1,6 +1,6 @@
 ---
 layout: section
-title: API: Accessing Metadata Instances
+title: API—Accessing Metadata Instances
 author: John Graybeal
 status: Ready
 chapter: b2
