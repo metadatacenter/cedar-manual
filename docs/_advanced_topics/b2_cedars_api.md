@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title:  CEDARs API
+title:  CEDAR's API
 author: John Graybeal
 chapter: b2
 status: In Progress
