@@ -26,7 +26,7 @@ as shown below.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/element-artifact-created-20200101.png){:width="80%" class="centered"}
 
-Enter the human-readable Name, Identifier and Description of the Field  
+Enter the human-readable Name, Identifier and Description of the Field 
 using the three text input fields ('Untitled', 'Identifier', 'Description') 
 underlined in the image below. 
 Note the Name is used as the name of the artifact in CEDAR, 
