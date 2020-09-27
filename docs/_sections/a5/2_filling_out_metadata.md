@@ -43,7 +43,10 @@ In our case, this results in a second field (third image), into which you can pu
 The numbers shown in the right-hand multiple fields controls are part of the array navigation controller, which lets the user navigate to any particular field item in the array of fields.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/multientry-text-field-array-20191124.png){:width="40%" class="right"}
-In many cases the field values can be viewed and edited in an array, using the Format icon (that shows a 3-item list). This results in the display to the right.
+In many cases the field values can be viewed and edited in an array 
+using "spreadsheet view", 
+by clicking on the Format icon (which shows a 3-item bullet list in its regular view). 
+This results in the display to the right. 
 
 If you click on the format icon again (now shown as two opposed arrows), you will return to the list view. Any changes made in one viewing mode will be reflected in the other.
 
@@ -55,7 +58,22 @@ looks like the following (note the controls on the right side of the Element hea
 
 The process of filling out multiple elements is the same as described for fields above,
 with one exception. 
-The format control that enables filling out arrays is only visible if the element just contains fields. If the element contains other elements, viewing and editing it as an array is not possible. 
+The format control that enables filling out arrays ("spreadsheet view") is only visible if the element just contains simple fields. 
+If the element contains other elements or fields that allow MULTIPLE entries, 
+viewing and editing it as an array is not possible. 
+See the **Spreadsheet-compatible Elements** subsection of [Adding Elements](https://metadatacenter.github.io/cedar-manual/sections/c2/3_adding_elements)
+to learn how to set up this feature.
+
+CEDAR's spreadsheet view of arrays automatically performs 
+validation and auto-completion of controlled term lists, 
+and supports cutting and pasting of sub-tables of information anywhere in the spreadsheet.
+
+You can copy and paste 
+
+Note that while CEDAR does not support the import of spreadsheet data,
+such data could be transformed from its array-based form into a CEDAR Instance
+following the required syntax of an appropriately structured Template,
+then imported into CEDAR.
 
 ## **Advanced Tips for Fields**
 

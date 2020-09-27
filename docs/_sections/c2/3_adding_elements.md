@@ -46,6 +46,21 @@ From there, you can modify the name, access permissions, and
 public visibility of the Field artifact, as described in
 [Managing CEDAR Resources](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_resources/).
 
+### **Spreadsheet-compatible Elements**
+
+If you want users to be able to fill out their metadata using a spreadsheet—
+especially valuable if there are a lot of fields to be filled out with existing metadata—
+you must create your element to satisfy a particular requirement.
+
+An element that is to be filled out as a spreadsheet must be 'flat', 
+meaning there are no further hierarchies or arrays within the element. 
+Embedding another element, or allowing multiple entries for any of its entries, 
+will prevent the user from displaying the element in spreadsheet mode.
+Also, the MULTIPLE attribute of the element must be defined to allow multiple entries.
+
+The process of filling out the metadata using spreadsheet mode
+is described in [Spreadsheet entry](https://metadatacenter.github.io/cedar-manual/sections/a5/2_filling_out_metadata/). 
+
 ## **Embedding the Element Resource**
 
 When you are editing a Template or Element,
