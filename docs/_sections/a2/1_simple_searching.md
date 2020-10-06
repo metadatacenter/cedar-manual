@@ -21,7 +21,7 @@ More advanced search patterns, using wildcards and boolean expressions (with AND
 You may find there are too many resources available to you in the returned selection. 
 The CEDAR Workbench organizes resources in three different categories, depending on the ownership and sharing: 1) resources created by you, the logged-in user, listed under the "Workspace" tab, 2) resources shared with the logged-in user, and 3) public resources that are shared with every user. 
 
-Searching for a resource in a particular set is vey simple. Just click on the given set (e.g., "Shared with everybody") and input the search string as free text in the search bar, as described above. All the resources in the selected set that have the string  listed in their labels, version, or description are shown. 
+Searching for a resource in a particular set is very simple. Just click on the given set (e.g., "Shared with everybody") and input the search string as free text in the search bar, as described above. All the resources in the selected set that have the string  listed in their labels, version, or description are shown. 
 
 You can also constrain the resulting resources by their type, as described in [Constraining the Results by Type](https://metadatacenter.github.io/cedar-manual/sections/a2/3_constraining_the_results_by_type/).
 
