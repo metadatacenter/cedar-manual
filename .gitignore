@@ -8,3 +8,8 @@ docs/_sections/.DS_Store
 docs/_sections/.DS_Store
 docs/_sections/.DS_Store
 docs/_sections/.DS_Store
+
+# Jekyll
+_site/
+.jekyll-metadata
+.sass-cache
