@@ -53,7 +53,7 @@ exclude:
   - optional
   - vendor
 
-gems:
+plugins:
   - jekyll-last-modified-at
 
 
