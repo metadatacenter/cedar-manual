@@ -13,3 +13,6 @@ docs/_sections/.DS_Store
 _site/
 .jekyll-metadata
 .sass-cache
+
+# Ruby
+Gemfile.lock
