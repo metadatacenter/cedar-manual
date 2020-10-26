@@ -54,6 +54,7 @@ exclude:
   - vendor
 
 plugins:
+  - jekyll-github-metadata
   - jekyll-last-modified-at
 
 
