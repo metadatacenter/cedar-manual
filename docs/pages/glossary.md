@@ -122,14 +122,6 @@ Alternative Term: file system
 
 ---
 
-**window**: 
-
----
-
-**pop-up**: 
-
----
-
 **toolbar**: template editor's floating toolbar on the right hand side used to select a field or library component to add to the form.
 
 ---
