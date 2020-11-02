@@ -41,7 +41,9 @@ which is the actual unique identifier for the viewed location.
 
 If you open an existing template, you'll see an IRI like
 
-```https://cedar.metadatacenter.org/templates/edit/https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624?folderId=https:%2F%2Frepo.metadatacenter.org%2Ffolders%2Feaa65a39-1706-43b6-b4ca-2bf9d7d1166d```
+```
+https://cedar.metadatacenter.org/templates/edit/https://repo.metadatacenter.org/templates/4595e3d3-b0c5-467b-a967-fec870801624?folderId=https:%2F%2Frepo.metadatacenter.org%2Ffolders%2Feaa65a39-1706-43b6-b4ca-2bf9d7d1166d
+```
 
 Breaking that down, we've replaced `dashboard?folderID=` in our previous example with `template/edit/`, 
 which tells us we are in the template editor.
