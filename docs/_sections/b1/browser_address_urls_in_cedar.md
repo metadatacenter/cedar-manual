@@ -19,7 +19,7 @@ The bar at the top of the browser shows part of the IRI describing CEDAR's locat
 When you log in for the first time or go to your home directory, the URL in the browser will be like the following:
 ```
 https://cedar.metadatacenter.org/dashboard?folderId=https:%2F%2Frepo.metadatacenter.net%2Ffolders%2F4036e319-5bb7-493f-8fe5-31a004f65a94
-````
+```
 
 The first part of this is straightforward: `https` is the protocol, `cedar.metadatacenter.org` is the path for the application, and 
 `dashboard` is the application type that is presenting the content.
