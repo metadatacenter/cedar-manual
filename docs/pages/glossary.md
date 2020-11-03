@@ -6,7 +6,7 @@ permalink: glossary
 ---
 <br />
 **artifact**: any of template, element, field, instance. All CEDAR artifacts 
-are specified using CEDAR's Template Model.
+are specified using <a href="https://more.metadatacenter.org/tools-training/outreach/cedar-template-model" target="_blank">CEDAR's Template Model</a>.
 
 ---
 
