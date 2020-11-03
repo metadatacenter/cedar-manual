@@ -4,186 +4,172 @@ title: Glossary
 author: John Graybeal
 permalink: glossary
 ---
-
-**artifact**: any of template, element, field, instance. All CEDAR artifacts are specified using CEDAR's Template Model
-
-Shortened Term: document?
-
-Alternative Term: file
+<br />
+**artifact**: any of template, element, field, instance. All CEDAR artifacts 
+are specified using CEDAR's Template Model.
 
 ---
 
-**CEDAR Workbench**: suite of Web-based tools and REST APIs that allows users to construct metadata templates, to fill in templates with metadata, and to share and manage these resources
-
-Shortened Term: CEDAR, Workbench
-
----
-
-**copy**: make a copy of an artifact to a given folder
+**CEDAR Workbench**: suite of web-based tools and RESTful APIs that allow users 
+to construct templates, populate templates with metadata, and to share and 
+manage these resources.
 
 ---
 
-**details**: right-hand panel which show the details of a particular document or folder
-
-Alternative Term: datails panel, details sidebar
+**copy**: make a copy of an artifact to a given folder.
 
 ---
 
-**draft**: early version of an artifact
+**details panel**: right-hand panel that shows the details of a particular 
+template or folder.
 
 ---
 
-**Element Designer**: component of the CEDAR Workbench that allows users to construct template elements
-
-Alternative Term: element designer, form builder
+**draft**: early version of an artifact.
 
 ---
 
-**Field Designer**: component of the CEDAR Workbench that allows users to construct fields
+**element**: reusable artifact that may contain one or more fields and/or one 
+or more nested elements.
 
-Alternative Term: field designer, form builder
-
----
-
-**finder**: dialog which allows you to select a library component to add to your template or element
+*e.g.: address element with three fields: street, city, and ZIP code*
 
 ---
 
-**folder**: storage space where CEDAR artifacts and other folders can be placed together
-
-Alternative Term: container, node
-
----
-
-**group**: logical collection of CEDAR users
+**element designer**: component of the CEDAR Workbench that allows users to 
+construct elements.
 
 ---
 
-**make it open**: make it globally accessible without logging in
+**field**: reusable artifact used to capture an atomic piece of metadata.
 
-Alternative Term: public, global,  global open, FAIR
-
----
-
-**Metadata Editor**: component of the CEDAR Workbench that allows users to create metadata by filling out templates with values
+*e.g.: title, description, start date*
 
 ---
 
-**Metadata Repository**: centralized place where all CEDAR artifacts are stored. CEDAR's Metadata Repository stores templates, elements, fields, and instances
+**field designer**: component of the CEDAR Workbench that allows users to 
+construct fields.
 
 ---
 
-**metadata template**: group of fields and/or template elements that is used to capture metadata for a specific purpose
-
-Shortened Term: template
-
-Alternative Term: specification
-
-*Examples: Study template with three fields: title, description, start date, and one element: Address*
+**finder**: dialog which allows you to select a library component to add to 
+your template or element.
 
 ---
 
-**metadata template element**: reusable artifact that may contain one or more fields and/or one or more template elements
-
-Shortened Term: element, template element
-
-*Examples: Address element, with three fields: street, city, and ZIP code*
+**folder**: storage space where CEDAR artifacts and other folders can be 
+placed together.
 
 ---
 
-**metadata template field**: reusable artifact used to capture an atomic piece of metadata
-
-Shortened Term: field, template field
-
-*Examples: title, description, start date*
+**global, global open**: globally accessible without logging in, aka 
+public, FAIR.
 
 ---
 
-**metadata template instance**: set of metadata values resulting from filling out metadata templates
-
-Shortened Term: instance, metadata (tricky)
-
-Alternative Term: response, filled-in template; completed form
-
-*Examples: Title = "Study about CRC", start date = "03/07/2014", ZIP code = "94305", etc.*
+**group**: logical collection of CEDAR users.
 
 ---
 
-**move**: move an artifact or a folder to a given folder
+**instance**: set of metadata values resulting from a populated template.
+
+*e.g.: title = "Study about CRC", start date = "03/07/2014", 
+ZIP code = "94305", etc.*
 
 ---
 
-**notification**: information shown by the CEDAR Workbench to a particular user or group of users to inform them when a particular event related to their CEDAR resources occurs
-
-Alternative Term: messages (app)
+**library component**: a reusable field or element.
 
 ---
 
-**open**: open an artifact for editing
-
-Alternative Term: edit
-
----
-
-**populate**: fill out a metadata template
-
-Alternative Term: fill, respond, reply
+**metadata editor**: component of the CEDAR Workbench that allows users to 
+create metadata by populating templates with values.
 
 ---
 
-**publish**: specify that the status of an artifact is final. Published artifacts cannot be modified or deleted
+**metadata repository**: centralized place where all CEDAR artifacts are 
+stored. CEDAR's metadata repository stores templates, elements, fields, 
+and instances.
 
 ---
 
-**resource**: any of template, element, field, instance, folder, user, group (CEDAR REST resources)
+**move**: move an artifact or a folder to a given folder.
 
 ---
 
-**Resource Manager**: primary front-end component of the CEDAR Workbench that allows users to search, browse, and manage CEDAR resources
-
-Alternative Term: file system
-
----
-
-**reusable library component**: any of metadata template field or metadata template element
+**notification**: information shown by the CEDAR Workbench to a particular 
+user or group of users to inform them when a particular event related to their 
+CEDAR resources occurs.
 
 ---
 
-**share**: share an artifact or folder with a user or group of users
+**open**: open an artifact for editing.
 
 ---
 
-**side navigation panel**: left-hand panel which shows search and create options
-
-Alternative Term: navigation sidebar
+**populate**: fill out a template.
 
 ---
 
-**submission**: metadata content that is sent out from CEDAR
+**publish**: specify that the status of an artifact is final. Published 
+artifacts cannot be modified or deleted.
 
 ---
 
-**submit**: send metadata to a repository along with data files
+**resource**: any of template, element, field, instance, folder, user, group 
+(CEDAR RESTful resources).
 
 ---
 
-**Template Designer**: component of the CEDAR Workbench that allows users to construct metadata templates
-
-Alternative Term: template creator, form builder
-
----
-
-**toolbar**: template editor's floating toolbar on the right hand side used to select a field or library component to add to the form.
+**resource manager**: primary front-end component of the CEDAR Workbench that 
+allows users to search, browse, and manage CEDAR resources.
 
 ---
 
-**user**: a person who has created an account on the CEDAR Workbench and who uses any of its tools
+**share**: share an artifact or folder with a user or group of users.
 
 ---
 
-**version**: way to categorize the different states of an artifact
+**side navigation panel**: left-hand panel that shows create and search 
+options.
 
 ---
 
-**workspace**: folder that acts as the default storage location for all the CEDAR reources created by a user
+**submission**: metadata content that is sent out from CEDAR.
+
+---
+
+**submit**: send metadata to a repository along with data files.
+
+---
+
+**template**: group of fields and/or elements that is used to capture metadata 
+for a specific purpose.
+
+*e.g.: study template with three fields: title, description, start date, and 
+one element: address*
+
+---
+
+**template designer**: component of the CEDAR Workbench that allows users to 
+construct templates, aka form builder.
+
+---
+
+**toolbar**: template designer's floating toolbar on the right-hand side, used 
+to select a library component to add to the template.
+
+---
+
+**user**: a person who has created an account on the CEDAR Workbench and who 
+uses any of its tools.
+
+---
+
+**version**: way to categorize the different states of an artifact.
+
+---
+
+**workspace**: folder that acts as the default storage location for all the 
+CEDAR reources created by a user.
 
