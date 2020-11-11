@@ -25,7 +25,8 @@ template or folder.
 
 ---
 
-**draft**: early version of an artifact.
+**draft**: a CEDAR artifact that has not been published, and therefore has no version
+identifier. All new CEDAR artifacts start in the draft status.
 
 ---
 
@@ -93,7 +94,7 @@ and instances.
 
 ---
 
-**move**: move an artifact or a folder to a given folder.
+**move**: change the location of a resource (an artifact or a folder) to a selected folder.
 
 ---
 
@@ -103,16 +104,16 @@ CEDAR resources occurs.
 
 ---
 
-**open**: open an artifact for editing.
+**open** (an artifact): present an editing interface that allows a user to modify the artifact.
 
 ---
 
-**populate**: fill out a template.
+**populate**: create a metadata instance from a template and add or edit metadata in the instance.
 
 ---
 
-**publish**: specify that the status of an artifact is final. Published 
-artifacts cannot be modified or deleted.
+**publish**: specify that the status of an artifact is final, and have the user assign a version to it. 
+Published artifacts cannot be modified or deleted.
 
 ---
 
@@ -126,7 +127,9 @@ allows users to search, browse, and manage CEDAR resources.
 
 ---
 
-**share**: share an artifact or folder with a user or group of users.
+**share**: allow a user or group of users to have access permissions (read-only, 
+or read + write) to an artifact or folder (folder access permissions are
+inherited recursively to all content in that folder)
 
 ---
 
@@ -135,16 +138,17 @@ options.
 
 ---
 
-**submission**: metadata content that is sent out from CEDAR.
+**submission**: metadata content that is sent out from CEDAR into another repository 
+(may also include data).
 
 ---
 
-**submit**: send metadata to a repository along with data files.
+**submit**: send metadata to a repository, possibly along with data files.
 
 ---
 
-**template**: group of fields and/or elements that is used to capture metadata 
-for a specific purpose.
+**template**: group of fields and/or elements that is specifies what metadata 
+is to be collected for a specific purpose.
 
 *e.g.: study template with three fields: title, description, start date, and 
 one element: address*
@@ -152,12 +156,13 @@ one element: address*
 ---
 
 **template designer**: component of the CEDAR Workbench that allows users to 
-construct templates, aka form builder.
+construct templates, also known as a form builder.
 
 ---
 
-**toolbar**: template designer's floating toolbar on the right-hand side, used 
-to select a library component to add to the template.
+**toolbar**: template designer's vertical selection of tools, used 
+to select a library component to add to the template or to find other elements
+or fields; found floating on the right-hand side of the user interface
 
 ---
 
@@ -166,7 +171,8 @@ uses any of its tools.
 
 ---
 
-**version**: way to categorize the different states of an artifact.
+**version**: way to categorize the different states of an artifact by giving
+it a sequence identifier. CEDAR artifacts must be published to have a version.
 
 ---
 
