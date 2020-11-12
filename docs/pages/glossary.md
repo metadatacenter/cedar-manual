@@ -108,7 +108,7 @@ CEDAR resources occurs.
 
 ---
 
-**populate**: create a metadata instance from a template and add or edit metadata in the instance.
+**populate**: create an instance from a template and add or edit metadata in the instance.
 
 ---
 
@@ -129,7 +129,7 @@ allows users to search, browse, and manage CEDAR resources.
 
 **share**: allow a user or group of users to have access permissions (read-only, 
 or read + write) to an artifact or folder (folder access permissions are
-inherited recursively to all content in that folder)
+inherited recursively to all content in that folder).
 
 ---
 
@@ -147,7 +147,7 @@ options.
 
 ---
 
-**template**: group of fields and/or elements that is specifies what metadata 
+**template**: group of fields and/or elements that specifies what metadata 
 is to be collected for a specific purpose.
 
 *e.g.: study template with three fields: title, description, start date, and 
@@ -162,7 +162,7 @@ construct templates, also known as a form builder.
 
 **toolbar**: template designer's vertical selection of tools, used 
 to select a library component to add to the template or to find other elements
-or fields; found floating on the right-hand side of the user interface
+or fields; found floating on the right-hand side of the user interface.
 
 ---
 
