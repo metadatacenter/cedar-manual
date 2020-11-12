@@ -35,6 +35,8 @@ collections:
     output: true
   cedar_templates:
     output: true
+  cadsr_users:
+    output: true
 
 # Markdown specs
 markdown: kramdown
