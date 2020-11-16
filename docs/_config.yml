@@ -1,13 +1,11 @@
 # Built with Jekyll 3.2.0
 
-# Setup
 title:               CEDAR User Guide
 tagline:             ''
 description:         ''
 url:                 'https://metadatacenter.github.io'
 baseurl:             '/cedar-manual'
 
-# About/contact
 author:
   name:              Maulik R. Kamdar
   url:               https://twitter.com/maulikkamdar
@@ -16,14 +14,11 @@ author:
 # Color scheme. Options: red, orange, magenta, cyan, blue, brown
 color-scheme: cyan
 
-# Permalinks
 permalink: pretty
 permalink: /:title/
 
-# Set encoding to UTF-8
 encoding: utf-8
 
-# Collections for texts
 collections:
   sections:
     output: true
@@ -38,7 +33,6 @@ collections:
   cadsr_users:
     output: true
 
-# Markdown specs
 markdown: kramdown
 
 kramdown:
@@ -50,7 +44,6 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Exclusions from the final site
 exclude:
   - optional
   - vendor
@@ -58,7 +51,3 @@ exclude:
 plugins:
   - jekyll-github-metadata
   - jekyll-last-modified-at
-
-
-# Theme
-#theme: "ed."
