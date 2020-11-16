@@ -8,19 +8,19 @@ permalink: cedar-for-cadsr
 <!-- <h1 class="page-title">{{ page.title }}</h1><br /> -->
 
 The target audience for this section is end users of the caDSR
-[CDE Browser](https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/search){:target="_blank"} application.
+[ {{ page.cdeb }} ](https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/search){:target="_blank"} application.
 
-The intent of this section is to help end users of the CDE Browser learn how to accomplish the same type of tasks, e.g., building 
-forms with CDEs, in the CEDAR Workbench.
+The intent of this section is to help end users of the {{ page.cdeb }} learn how to accomplish the same type of tasks, e.g., building 
+forms with CDEs, in the {{ page.cedarw }}.
 
-The CDE Browser and Cedar Workbench use different naming conventions to describe the various components in their systems. The 
+The {{ page.cdeb }} and {{ page.cedarw }} use different naming conventions to describe the various components in their systems. The 
 following table offers a translation: 
 
 <table class="naming-translations">
   <thead>
     <tr>
-      <th class="naming-translations">CDE Browser</th>
-      <th class="naming-translations">Cedar Workbench</th>
+      <th class="naming-translations">{{ page.cdeb }}</th>
+      <th class="naming-translations">{{ page.cedarw }}</th>
     </tr>
   </thead>
   <tbody>
@@ -60,7 +60,7 @@ following table offers a translation:
 </table><br />
 
 To get started with any of the following topics, navigate to the 
-[CEDAR Workbench](http://cedar.metadatacenter.org/){:target="_blank"} and log in to your account. 
+[ {{ page.cedarw }} ](http://cedar.metadatacenter.org/){:target="_blank"} and log in to your account. 
 If you need instructions for creating an account, please refer to the 
 "[Accounts and Logging In](basic_topics/a1_accounts_and_logging_in "Accounts and Logging In")" 
 section of the user guide.

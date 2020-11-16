@@ -33,6 +33,13 @@ collections:
   cadsr_users:
     output: true
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      cedarw: "CEDAR Workbench"
+      cdeb: "CDE Browser"
+
 markdown: kramdown
 
 kramdown:
