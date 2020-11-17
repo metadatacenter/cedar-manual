@@ -11,7 +11,7 @@ The target audience for this section is end users of the caDSR
 [CDE Browser](https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/search){:target="_blank"} application.
 
 The intent of this section is to help end users of the CDE Browser learn how to accomplish the same type of tasks, e.g., building 
-forms with CDEs, in the CEDAR Workbench.
+forms in the CEDAR Workbench using CDEs.
 
 The CDE Browser and Cedar Workbench use different naming conventions to describe the various components in their systems. The 
 following table offers a translation: 
