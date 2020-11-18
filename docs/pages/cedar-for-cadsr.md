@@ -65,7 +65,7 @@ If you need instructions for creating an account, please refer to the
 "[Accounts and Logging In](basic_topics/a1_accounts_and_logging_in "Accounts and Logging In")" 
 section of the user guide.
 
-<ul class="cadsr-topics">
+<ul class="unstyled-list">
   {% assign sorted_pages = site.cadsr_users | sort: "order" %}
   {% for node in sorted_pages %}
     <li><a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
