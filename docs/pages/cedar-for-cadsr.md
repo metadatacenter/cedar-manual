@@ -41,6 +41,14 @@ following table offers a translation:
       <td>category</td>
     </tr>
     <tr>
+      <td>classification scheme</td>
+      <td>category</td>
+    </tr>
+    <tr>
+      <td>classification scheme item</td>
+      <td>category</td>
+    </tr>
+    <tr>
       <td>context</td>
       <td>category</td>
     </tr>
