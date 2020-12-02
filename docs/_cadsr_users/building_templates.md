@@ -22,10 +22,10 @@ NCI's Form Builder allows users to build forms that contain CDEs, questions, and
 
 ~~~
 |-- Form
-|   |-- CDE
+|   |-- Question
 |   |-- Question
 |   |-- Module
-|   |   |-- CDE
+|   |   |-- Question
 |   |   |-- Question
 |   |   |-- Question
 ~~~
