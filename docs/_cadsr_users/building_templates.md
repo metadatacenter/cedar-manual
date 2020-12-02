@@ -16,30 +16,34 @@ This page covers the basics of building templates in the {{ page.cedarw }}, with
 # Introduction
 {: #intro}
 
-NCI's Form Builder allows users to build forms that contain CDEs, questions, and modules. Equivalent functionality is available in the {{ page.cedarw }}, i.e., you can build templates that contain CDEs, fields, and elements. Refer to the following graphical representations for comparison:
+NCI's Form Builder allows users to build forms that contain modules with questions. Equivalent functionality is available in the {{ page.cedarw }}, i.e., you can build templates that contain elements with fields. A key difference between the platforms is that the {{ page.cedarw }} allows fields to exist at the root level outside of elements.
+
+Refer to the following graphical representations for comparison:
 
 **Form Builder**
 
 ~~~
 |-- Form
-|   |-- Question
-|   |-- Question
 |   |-- Module
-|   |   |-- Question
-|   |   |-- Question
-|   |   |-- Question
+|   |   |-- Question/CDE
+|   |   |-- Question/CDE
+|   |-- Module
+|   |   |-- Question/CDE
+|   |   |-- Question/CDE
 ~~~
 
 **{{ page.cedarw }}**
 
 ~~~
 |-- Template
-|   |-- CDE
-|   |-- Field
+|   |-- Field/CDE
+|   |-- Field/CDE
 |   |-- Element
-|   |   |-- CDE
-|   |   |-- Field
-|   |   |-- Field
+|   |   |-- Field/CDE
+|   |   |-- Field/CDE
+|   |-- Element
+|   |   |-- Field/CDE
+|   |   |-- Field/CDE
 ~~~
 <br />
 
