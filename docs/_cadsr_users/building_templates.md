@@ -9,7 +9,12 @@ This page covers the basics of building templates in the {{ page.cedarw }}, with
 
 - [Introduction](#intro)
 - [Step-by-step guide: build a template](#step-by-step-guide)
-{: .unstyled-list}
+  - Step 1 - [Navigate to your workspace](#workspace)
+  - Step 2 - [Create a new template object](#create-template)
+  - Step 3 - [Add CDEs to your template](#add-cdes)
+  - Step 4 - [Configure CDE options](#configure-cdes)
+  - Step 5 - [Save your template](#save-template)
+  - Step 6 - [Share your template](#share-template)
 
 ***
 
@@ -82,12 +87,14 @@ More detail and instructions for creating elements with multiple CDEs are given 
 This section of the documenation will walk you through the mechanical steps of creating a template in the {{ page.cedarw }} that contains several CDEs.
 
 ## Step 1 - Go to your Workspace
+{: #workspace}
 
 Navigate to the [{{ page.cedarw }}](https://cedar.metadatacenter.org/){:target="_blank"} and make sure you're logged in. If you need help creating an account and logging in, see the [Accounts and Logging In](../../basic_topics/a1_accounts_and_logging_in/) section of this guide.
 
 Click the Workspace link in the upper-left portion of the window to start out in your personal workspace.
 
 ## Step 2 - Create a new template object
+{: #create-template}
 
 Click on the "New +" button in the upper-left portion of the window, and select "Template" from the resulting dropdown menu.
 
@@ -100,6 +107,7 @@ In the dark gray header at the top of the page, enter a name and description for
 Click the "SAVE TEMPLATE" button. This will ensure that your new template is saved in the {{ page.cedarw }}. If you need to exit your browser at any point and return to this tutorial at a later time, your new template will appear in your workspace, and you can double-click on it to reopen the template designer.
 
 ## Step 3 - Add some CDEs
+{: #add-cdes}
 
 Locate the vertical selector toolbar on the right-hand side of the template desinger view and click the "Search for fields and elements" button (depicted with a magnifying glass icon). This will launch a modal dialog where you can use the Search bar across the top to locate the desired CDE by entering, e.g., the Public ID or double quoted title and pressing the Enter key:
 
@@ -135,6 +143,7 @@ The {{ page.cedarw }} offers many other types of artifacts that you can add to t
 - [Field Type Reference](../../sections/c2/field_type_reference/)
 
 ## Step 4 - Configure CDE options
+{: #configure-cdes}
 
 As indicated in the introduction, there are certain CDE options that you are allowed to configure. For example, if you want to indicate that the CDE is a required field, click the REQUIRED link at the bottom of the CDE and use the slider to indicate YES or NO. Another example is clicking on the MULTIPLE link to indicate whether the CDE can appear multiple times in a template, as well as the minimum and maximum number of occurrences.
 
@@ -156,6 +165,7 @@ Hover your mouse over individual values to display right hand icons that allow y
 
 
 ## Step 5 - Save your template
+{: #save-template}
 
 Now that you have added several CDEs and possibly other artifacts to your template, click the SAVE TEMPLATE button and use the left arrow in the top left corner of the main window to return to your workspace. Your new template will be displayed in the middle pane with "Populate" and "More" icons on the right-hand side.
 
@@ -175,6 +185,7 @@ The More menu also contains options for renaming and deleting your templates.
 
 
 ## Step 6 - Share your template
+{: #share-template}
 
 When you create a template in your workspace or inside of a personal folder structure, you are the only person that can view and edit your template. The {{ page.cedarw }} facilitates the ability to grant other users and groups of users the ability to view and/or edit your templates.
 
