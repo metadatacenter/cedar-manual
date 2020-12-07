@@ -1,6 +1,6 @@
 ---
 layout: cadsr
-title: Use Case&#58; Building templates
+title: Use Case&#58; Building templates from scratch
 author: Jennifer Vendetti
 order: 1
 ---
