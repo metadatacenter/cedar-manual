@@ -7,19 +7,16 @@ permalink: cedar-for-cadsr
 
 <!-- <h1 class="page-title">{{ page.title }}</h1><br /> -->
 
-The target audience for this section is end users of the caDSR
-[ {{ page.cdeb }} ](https://cdebrowser.nci.nih.gov/cdebrowserClient/cdeBrowser.html#/search){:target="_blank"} application.
+The target audience for this section is end users of the [{{ page.fb }}](https://formbuilder.nci.nih.gov/FormBuilder/){:target="_blank"} application.
 
-The intent of this section is to help end users of the {{ page.cdeb }} learn how to accomplish the same type of tasks, e.g., building 
-forms with CDEs, in the {{ page.cedarw }}.
+The intent of this section is to help end users of the {{ page.fb }} learn how to accomplish the same type of tasks, e.g., building forms with questions/CDEs, in the {{ page.cedarw }}.
 
-The {{ page.cdeb }} and {{ page.cedarw }} use different naming conventions to describe the various components in their systems. The 
-following table offers a translation: 
+The {{ page.fb }} and {{ page.cedarw }} use different naming conventions to describe the various components in their systems. The following table offers a translation: 
 
 <table class="naming-translations">
   <thead>
     <tr>
-      <th class="naming-translations">{{ page.cdeb }}</th>
+      <th class="naming-translations">{{ page.fb }}</th>
       <th class="naming-translations">{{ page.cedarw }}</th>
     </tr>
   </thead>

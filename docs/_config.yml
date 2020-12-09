@@ -39,6 +39,7 @@ defaults:
     values:
       cedarw: "CEDAR Workbench"
       cdeb: "CDE Browser"
+      fb: "caDSR Form Builder"
 
 markdown: kramdown
 
