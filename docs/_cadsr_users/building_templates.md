@@ -163,6 +163,7 @@ Hover your mouse over individual values to display right hand icons that allow y
 
 ![Reposition allowed values](../../assets/imgs/cadsr/reposition-values.png)<br />
 
+Adding values is not currently possible from within the {{ page.cedarw }}. Requests for new values should be submitted via email to the following address: [caDSR.RA@mail.nih.gov](mailto:caDSR.RA@mail.nih.gov).
 
 ## Step 5 - Save your template
 {: #save-template}
