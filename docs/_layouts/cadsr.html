@@ -6,5 +6,18 @@ layout: default
 
 {{ content }}
 
-<br />
+<hr>
+
+{% if page.title == 'CEDAR for caDSR Users' %}
+  <a href="{{ site.baseurl }}/#toc">&laquo; Table of Contents</a>
+{% else %}
+  <div class="nav-container">
+    <a href="{{ site.baseurl }}/cedar-for-cadsr">&laquo; CEDAR for caDSR Users</a>
+    <div>||</div>
+    <a href="{{ site.baseurl }}/#toc">Table of Contents &uArr;</a>
+  </div>
+{% endif %}
+
+<hr>
+
 Please {% github_edit_link "help improve this article" %}.
