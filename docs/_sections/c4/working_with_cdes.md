@@ -108,9 +108,9 @@ We do not manage the entire content of the CDE specification. CDEs in caDSR cont
 
 These references provide more information about performing CDE-related activities.
 
-* [CEDAR for caDSR Users](https://metadatacenter.github.io/cedar-manual/sections/cedar-for-cadsr/)—a separate section of this manual targeting users of caDSR systems
+* [CEDAR for caDSR Users](https://metadatacenter.github.io/cedar-manual/cedar-for-cadsr/)—a separate section of this manual targeting users of caDSR systems
 * [CEDAR Announcement of CDE Support](https://metadatacenter.org/happenings/news/cedar-announces-cde-support/)—Blog post describing CEDAR's support for CDEs
-[Unleashing the value of Common Data Elements through the CEDAR Workbench](https://zenodo.org/record/3576172/files/2019_AMIA_OConnor_et_al). Published in [Proceedings of AMIA 2019 Annual Symposium](https://www.ncbi.nlm.nih.gov/pubmed/31802127), 681-690.
+[Unleashing the value of Common Data Elements through the CEDAR Workbench](hhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC7153094/). Published in [Proceedings of AMIA 2019 Annual Symposium](https://knowledge.amia.org/69862-amia-1.4570936), 681-690.
 
 
 
