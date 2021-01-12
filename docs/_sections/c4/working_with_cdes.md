@@ -104,6 +104,14 @@ provided in the caDSR export.
 
 We do not manage the entire content of the CDE specification. CDEs in caDSR contain a comprehensive implementation of the ISO/IEC 11179 standard, but focus instead on core functionality that relates to the precise specification of questions and the values used to answer those questions.
 
+## **References**
+
+These references provide more information about performing CDE-related activities.
+
+* [CEDAR for caDSR Users](https://metadatacenter.github.io/cedar-manual/sections/cedar-for-cadsr/)—a separate section of this manual targeting users of caDSR systems
+* [CEDAR Announcement of CDE Support](https://metadatacenter.org/happenings/news/cedar-announces-cde-support/)—Blog post describing CEDAR's support for CDEs
+[Unleashing the value of Common Data Elements through the CEDAR Workbench](https://zenodo.org/record/3576172/files/2019_AMIA_OConnor_et_al). Published in [Proceedings of AMIA 2019 Annual Symposium](https://www.ncbi.nlm.nih.gov/pubmed/31802127), 681-690.
+
 
 
 
