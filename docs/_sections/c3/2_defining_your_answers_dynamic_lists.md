@@ -8,6 +8,11 @@ chapter_url: /cedar_templates/c3_more_fair_templates_using_semantics/
 chapter_title: More FAIR Templates Using Semantics
 ---
 
+We're sorry, the last part of this section is incomplete. 
+You are welcome to contribute to this documentation.
+
+## Introduction 
+
 Now we will show you exactly how to create questions 
 that have very precise answers, using CEDAR's semantic tools.
 You don't have to know semantics to use these tools—
