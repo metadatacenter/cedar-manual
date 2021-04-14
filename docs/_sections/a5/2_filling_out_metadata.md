@@ -52,7 +52,8 @@ If you click on the format icon again (now shown as two opposed arrows), you wil
 
 ## **Multiple Elements**
 
-CEDAR elements can also be enabled as "multiple" entry items, allowing users to fill out a set of metadata multiple times. A CEDAR element that is enabled for multiple entries
+CEDAR elements can also be enabled as "multiple" entry items, allowing users to fill out a set of metadata multiple times.
+A CEDAR element that is enabled for multiple entries
 looks like the following (note the controls on the right side of the Element header):
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/entering-metadata-multiple-elements-20191126.png){:width="70%" class="centered"}
 
@@ -68,11 +69,11 @@ CEDAR's spreadsheet view of arrays automatically performs
 validation and auto-completion of controlled term lists, 
 and supports cutting and pasting of sub-tables of information anywhere in the spreadsheet.
 
-You can copy and paste 
+You can copy and paste from an Excel, Numbers, or Google spreadsheet into the spreadsheet view in CEDAR.
 
-Note that while CEDAR does not support the import of spreadsheet data,
-such data could be transformed from its array-based form into a CEDAR Instance
-following the required syntax of an appropriately structured Template,
+Note that while CEDAR does not support the import of spreadsheet data or direct ingestion of CSV-formatted values,
+such data could be transformed from its CSV-based form into an array structure within the CEDAR Instance
+(following the required syntax of an appropriately structured Template),
 then imported into CEDAR.
 
 ## **Advanced Tips for Fields**
