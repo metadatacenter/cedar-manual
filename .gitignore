@@ -8,3 +8,4 @@ _site/
 
 # Ruby
 Gemfile.lock
+docs/_sections/.DS_Store
