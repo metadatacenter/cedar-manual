@@ -19,7 +19,7 @@ as described in the [CEDAR's API documentation](../../../advanced_topics/b2_ceda
 <h2>Using the Google Sheet</h2>
 
 To use the Google sheet library, or even to just inspect it,
-visit the [Example CEDAR Data Lookup in Google Sheets[(https://docs.google.com/spreadsheets/d/1z6Y8EcSZSkjb1-ztWa_nzYVjhTrfEzIthoBmoNYRfs4/) document. 
+visit the [Example CEDAR Data Lookup in Google Sheets](https://docs.google.com/spreadsheets/d/1z6Y8EcSZSkjb1-ztWa_nzYVjhTrfEzIthoBmoNYRfs4/) document. 
 This is a publicly viewable Google spreadsheet that contains the libraries
 that can be used to interrogate CEDAR.
 
