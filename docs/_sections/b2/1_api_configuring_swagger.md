@@ -1,6 +1,6 @@
 ---
 layout: section
-title: API—Accessing Metadata Instances
+title: API—Finding and Accessing Metadata Instances
 author: John Graybeal
 status: Ready
 chapter: b2
@@ -34,33 +34,52 @@ You must ensure the metadata artifacts you want searchable are visible
 to the people or groups you need to find and access them—
 either by explicitly giving those people or groups access to the artifacts,
 or by giving Everyone group access to the artifacts,
-or by putting the artifacts into a folder visible to those people, groups, or 
-the Everyone group.
+or by putting the artifacts into a folder visible to those people, those groups, 
+or the `Everyone` group.
 
 CEDAR administrators can arrange for all the artifacts of a particular template
 to be visible to a particular group, contact us at cedar-support@metadatacenter.org
 to make that request.
 
+This document describes one example in each section. 
+To learn how to perform more detailed searches or searches for other entities,
+simply review the appropriate [Swagger](https://resource.metadatacenter.org/api) forms 
+and enter parameters you are interested in. 
+Swagger provides Curl and Request URL equivalents for any given search configuration.
+
 <h3>Finding metadata instances in CEDAR</h3>
 
-[To be augmented]
+To get a list of the identifiers and metadata of all the metadata instances you have access to, you can use the [Search GET method](https://resource.metadatacenter.org/api/#!/Template32Instances/get_search). 
+
+To perform this search In the Swagger documentation, 
+simply specify the resource_types as 'instance', 
+and click the `Try it out!` button toward the bottom. 
+With the default settings, you should see the first 100 Instances
+that you have access to listed in the Response Body in JSON format. 
+
+To execute the same search in a curl request 
+from a Unix or Linux command line, 
+your command will look like this, 
+substituting your API key as described in the overview:
+```
+curl -X GET --header 'Accept: application/json' --header 'Authorization: apiKey ' 'https://resource.metadatacenter.org/search?version=all&publication_status=all&is_based_on=https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F5bf8d2bf-2f1c-4d77-a399-a2222157d894&sort=name&limit=100&sharing=null&mode=null'
+```
 
 <h3>Finding instances of a particular parent template</h3>
 
 To find the set of metadata instances that have 
 a particular metadata template as their parent,
 you will use the [Search GET method](https://resource.metadatacenter.org/api/#!/Template32Instances/get_search).
-*NOTE*: The Swagger documentation does not execute this example successfully.
 
 The Search method has many parameters, but the key parameter for this command
-are is_based_on, which specifies the parent template's `template identifier`, 
-and resource_types, which *must be left blank*. (It is required in every other search
-request except this one.)
+are `is_based_on`, which specifies the parent template's `template identifier`, 
+and `resource_types`, which *must be left blank*. 
+(It is required in every other search request except this one.)
 
-When put this command and your template identifier into a curl request 
-that you can run from your Unix command line, 
-and a pretty-printing command is added,
-you obtain something like the following:
+When you put this command and your template identifier into a curl request 
+that you can run from your Unix or Linux command line, 
+and you add a pretty-printing command so that your instances descriptions
+are easily viewed, you obtain something like the following
 ```
 curl -X GET --header 'Accept: application/json' --header 'Authorization: apiKey YOUR_API_KEY' 'https://resource.metadatacenter.org/search?version=all&publication_status=all&is_based_on=https%3A%2F%2Frepo.metadatacenter.org%2Ftemplates%2F5bf8d2bf-2f1c-4d77-a399-a2222157d894&sort=name&limit=100' | /usr/local/prettyprint
 ```
