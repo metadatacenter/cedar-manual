@@ -15,7 +15,7 @@ These folders contain only Github pages for each chapter. The page has content r
 
 
 ##### Content folders
-- *_sections*: Each section page for the manual is present as distinct .md file under this _folder. These section pages are organized according to their chapter (e.g. accounts_and_loggin_in chapter has 3 main sections that are present under a1 folder.)
+- *_sections*: Each section page for the manual is present as distinct .md file under this _folder. These section pages are organized according to their chapter (e.g. accounts_and_logging_in chapter has 3 main sections that are present under a1 folder.)
 - *pages*: Manual pages that are not specific chapters in this manual, but provide more broad overview that may be referenced from within each section. For example, Glossary.html provides a glossary of all terms specific to CEDAR.
 
 
