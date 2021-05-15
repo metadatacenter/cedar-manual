@@ -1,6 +1,6 @@
 ---
 layout: chapter
-title:  CEDAR's API
+title:  CEDARs API
 author: John Graybeal
 chapter: b2
 status: In Progress
@@ -42,7 +42,4 @@ In this manual we use the expression `YOUR_API_KEY` to stand in for
 the UUID string of characters that is your API key. 
 Whenever you see YOUR_API_KEY in a command, 
 replace that text with your API key before trying to use the command.
-
-
-
 
