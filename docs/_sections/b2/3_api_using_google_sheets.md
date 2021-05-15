@@ -14,7 +14,7 @@ You can also query CEDAR's API using a Google sheet library
 developed by the CEDAR team.
 As with the other parts of this chapter,
 to see the library function, you will have to have your CEDAR API key
-as described in the [CEDAR's API documentation](/advanced_topics/b2_cedars_api/).
+as described in the [CEDAR's API documentation](../../advanced_topics/b2_cedars_api/).
 
 <h2>Using the Google Sheet</h2>
 
