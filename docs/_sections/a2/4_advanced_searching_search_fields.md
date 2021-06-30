@@ -10,6 +10,13 @@ chapter_title: Finding Resources
 
 This section contains some examples of the query syntax that can be used to find CEDAR artifacts by field name and/or value.
 
+In this section, the term 'field name' refers to the internal name (not displayed label) of fields that 
+are defined for that metadata instance. 
+It does not refer to the metadata attributes for the instance artifact, for example, the assigned Title of the metadata instance.
+Those artifact metadata fields can not yet be searched individually by CEDAR.
+(When a search pattern is entered into CEDAR without a prefixed field name, 
+CEDAR will search through the title, description, and version number of the artifact for the entered search pattern.)
+
 <h1>Finding metadata instances by field name and/or field value</h1>
 
 Suppose the following metadata instance:
