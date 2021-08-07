@@ -2,14 +2,28 @@
 layout: section
 title: Defining Your Answers - Dynamic Lists
 author: John Graybeal
-status: In Progress
+status: Ready
 chapter: c3
 chapter_url: /cedar_templates/c3_more_fair_templates_using_semantics/
 chapter_title: More FAIR Templates Using Semantics
 ---
 
-We're sorry, the last part of this section is incomplete. 
-You are welcome to contribute to this documentation.
+To go to a particular topic, click on that link.
+
+* [Introduction]{#introduction}
+* Basic Interactions]{#basic-interactions}
+  * Searching for Terms]{#searching-for-terms}
+  * Reviewing Found Terms]{#reviewing-found-terms}
+  * Selecting Terms, Branches, or Ontologies]{#selecting-terms-branches-or-ontologies}
+  * Searching for Ontologies and Value Sets]{#searching-for-ontologies-and-value-sets}
+* Adding Your Own Terms]{#adding-your-own-terms}
+  * About Provisional Terms]{#about-provisional-terms}
+  * Adding your Own Single Term(s)]{#adding-your-own-single-}
+  * Adding a New List of Terms]{#adding-a-new-list-of-terms}
+* Customizing What You Have]{#customizing-what-you-have}
+  * Rejecting Terms]{#rejecting-Terms}
+  * Putting Favorites First]{#putting-favorites-first}
+  
 
 ## Introduction 
 
@@ -21,7 +35,7 @@ and know they are good enough for your needs.
 
 For you semantic experts, we provide advanced details elsewhere in this User Manual:
 * [Tips for Template Creation: Term Discovery/Selection](https://metadatacenter.github.io/cedar-manual/sections/c5/term_discovery_selection/)
-* [Advanced Template Topics:More Semantics](https://metadatacenter.github.io/cedar-manual/sections/c4/more_semantics/)
+* [Advanced Template Topics: More Semantics](https://metadatacenter.github.io/cedar-manual/sections/c4/more_semantics/)
 
 In this section we outline the mechanical steps to find, select, and even create terms. 
 The next section will tell how to figure out which terms are good ones to use.
@@ -31,7 +45,6 @@ walks you through CEDAR interfaces that work hand-in-hand with the
 [BioPortal ontology repository](https://bioportal.bioontology.org). 
 This repository contains over 800 public terminologies that offer precise semantic content
 you can use for your metadata collection process. 
-Even the addition of Values and Value Sets uses BioPortal to store those concepts.
 But if BioPortal does not contain a terminology that you want to use, you can add it!
 See the subsection called "Adding Content to BioPortal" in the [More Semantics](https://metadatacenter.github.io/cedar-manual/sections/c4/more_semantics/) section for more information on this process.
 
@@ -48,7 +61,8 @@ progress to finding and adding collections of terms.
 
 ### Searching for Terms
 
-As soon as you hit the Add button in the Values tab of a CEDAR field,
+In the Template Designer,
+as soon as you hit the Add button in the Values tab of a CEDAR field,
 CEDAR opens a new search window, pre-configured with the name in your field, 
 and the search for terms begins immediately.
 In this case, the name is "Study Type", and a set of results has been returned.
@@ -221,7 +235,7 @@ and can not be modified once they are defined (per above paragraph).
 To begin the process of adding a new term, click on the Add New Terms link at the top of the term selection dialog box.
 The link is highlighted in the image below. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/!create-new-terms-20191229.png){:width="30%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/!create-new-terms-20191229.png){:width="60%" class="centered"}
 
 The next two screenshots show the resulting dialog box,
 and the entry of appropriate text into the fields.
@@ -237,9 +251,9 @@ of your proposed addition to their ontology.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-linked-to-existing-20191229.png){:width="60%" class="centered"}
 
-### Composing a List of Terms
+### Adding a New List of Terms
 
-The feature to compose a list of terms is not available within CEDAR. 
+The feature to add a new list of terms is not available within CEDAR. 
 To perform this action, you must create or modify an ontology in BioPortal to add your list of terms.
 
 This is particularly straightforward to do as a SKOS vocabulary, if you follow the appropriate practices for a SKOS vocabulary in BioPortal.
@@ -249,6 +263,21 @@ that can make SKOS vocabularies easy to build, register and BioPortal, and maint
 
 ## *Customizing What You Have*
 
+When you are done adding terms, you may want to eliminate certain terms,
+or put some terms ahead of others. CEDAR supports these capabilities.
+Both use the Arrange button on the Values tab of the field in the Template Designer,
+which brings up the following dialog.
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/arrange-terms-20210807.png){:width="60%" class="centered"}
+
 ### Rejecting Terms
 
+To eliminate a term, move your mouse pointer over the term.
+Click on the X icon that appears and the term will not be shown to users.
+
 ### Putting Favorites First
+
+To move a term, click on the up-down arrow icon.
+You will be shown a dialog box that lets you move the term to the top of the list,
+or to any particular place in the list.
+The locations of other terms are adjusted automatically.
