@@ -10,19 +10,19 @@ chapter_title: More FAIR Templates Using Semantics
 
 To go to a particular topic, click on that link.
 
-* [Introduction]{#introduction}
-* Basic Interactions]{#basic-interactions}
-  * Searching for Terms]{#searching-for-terms}
-  * Reviewing Found Terms]{#reviewing-found-terms}
-  * Selecting Terms, Branches, or Ontologies]{#selecting-terms-branches-or-ontologies}
-  * Searching for Ontologies and Value Sets]{#searching-for-ontologies-and-value-sets}
-* Adding Your Own Terms]{#adding-your-own-terms}
-  * About Provisional Terms]{#about-provisional-terms}
-  * Adding your Own Single Term(s)]{#adding-your-own-single-}
-  * Adding a New List of Terms]{#adding-a-new-list-of-terms}
-* Customizing What You Have]{#customizing-what-you-have}
-  * Rejecting Terms]{#rejecting-Terms}
-  * Putting Favorites First]{#putting-favorites-first}
+* [Introduction](#introduction)
+* [Basic Interactions](#basic-interactions)
+  * [Searching for Terms](#searching-for-terms)
+  * [Reviewing Found Terms](#reviewing-found-terms)
+  * [Selecting Terms, Branches, or Ontologies](#selecting-terms-branches-or-ontologies)
+  * [Searching for Ontologies and Value Sets](#searching-for-ontologies-and-value-sets)
+* [Adding Your Own Terms](#adding-your-own-terms)
+  * [About Provisional Terms](#about-provisional-terms)
+  * [Adding your Own Single Term(s)](#adding-your-own-single-)
+  * [Adding a New List of Terms](#adding-a-new-list-of-terms)
+* [Customizing What You Have](#customizing-what-you-have)
+  * [Rejecting Terms](#rejecting-Terms)
+  * [Putting Favorites First](#putting-favorites-first)
   
 
 ## Introduction 
@@ -235,7 +235,7 @@ and can not be modified once they are defined (per above paragraph).
 To begin the process of adding a new term, click on the Add New Terms link at the top of the term selection dialog box.
 The link is highlighted in the image below. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/!create-new-terms-20191229.png){:width="60%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-new-terms-20191229.png){:width="60%" class="centered"}
 
 The next two screenshots show the resulting dialog box,
 and the entry of appropriate text into the fields.
@@ -256,10 +256,11 @@ of your proposed addition to their ontology.
 The feature to add a new list of terms is not available within CEDAR. 
 To perform this action, you must create or modify an ontology in BioPortal to add your list of terms.
 
-This is particularly straightforward to do as a SKOS vocabulary, if you follow the appropriate practices for a SKOS vocabulary in BioPortal.
+This is particularly straightforward to do as a SKOS vocabulary,
+if you follow the appropriate  BioPortal practices for a SKOS vocabulary .
 collaborators from our Metadata Center and the FAIR Data Collective have created
-[a tutorial describing a simple way to create such a SKOS vocabulary](collaborators from the Metadata Center and the FAIR Data Collective)
-that can make SKOS vocabularies easy to build, register and BioPortal, and maintain in GitHub. 
+[a tutorial describing a simple way to create such a SKOS vocabulary](https://excel2rdf.readthedocs.io/en/latest/)
+that can make SKOS vocabularies easy to build, register in BioPortal, and maintain in GitHub. 
 
 ## *Customizing What You Have*
 
