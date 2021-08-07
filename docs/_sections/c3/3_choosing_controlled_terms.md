@@ -2,14 +2,11 @@
 layout: section
 title: Choosing Controlled Terms
 author: John Graybeal
-status: Outlined
+status: Ready
 chapter: c3
 chapter_url: /cedar_templates/c3_more_fair_templates_using_semantics/
 chapter_title: More FAIR Templates Using Semantics
 ---
-
-We're sorry, this resource is in development. 
-You are welcome to contribute to its development at the link below.
 
 ## *General Introduction*
 
@@ -131,21 +128,22 @@ Of all the concepts that are equally good syntactic matches,
 the first ones listed are the ones in ontologies that are the most widely used in BioPortal. 
 Usually these are very common and well-known ontologies that have more credibility.
 This works surprisingly well to identify 'better terms', 
-but if the term is off-topic for the ontology
-(you are looking for a 'leg' in a race but find leg in a biomedical ontology,
-the popularity ranking in BioPortal may not help you.)
+but make sure the term makes sense for the ontology
+(you are looking for an 'eye' of a hurricane but find it in a biomedical ontology).
 
 ### Definition and Structure
 
 Yes, but what does that term _mean_? 
 
 You can see the definition of each term in CEDAR in the list of search term results.
-If your term does not have a definition, it can be hard to know.
-Not only that, people looking up your term later (by its identifier, say) also won't know.
-And if CEDAR ever offers the definition to people filling out forms, _they_ won't know either.
-We don't recommend the use of terms that don't have definitions.
+If your term does not have a definition, it can be hard to know what it means.
+Not only that, people looking up your term later (by its identifier, say)
+also won't know what it means
+And if (eventually) CEDAR shows the definition to people filling out forms,
+_they_ won't know what it means either.
+So we don't recommend the use of terms that don't have definitions.
 
-The other way to understand what your term means is to examine its context.
+The other way to understand what your term means is to look at its context.
 When you click on a term, an option appears on the right side that says "Show Details".
 Clicking on this option opens a tree browser, usually highlighting the term in question.
 (If your term is not highlighted, you have to scroll through the tree to find it.
@@ -156,14 +154,14 @@ Other terms at the same level and with the same parent tell you about sibling co
 If the term has a plus sign next to it, clicking on it will find children concepts, 
 which themselves represent a kind of definition of the concept. 
 And browsing up the tree to find the terms parentage tells you what category 
-this concept fits into, which is a definition via another path.
+this concept fits into, which gives you another type of definition.
 
-It probably won't matter for this use case, but you should know that
+It may not matter for this use case, but you should know that
 hierarchies in BioPortal can express 'subclass' relations (B is a type of A);
-'part of' relations (B is a part of A); 
+'part of' relations (B is a part of A);
 or for SKOS vocabularies, simple 'hierarchy' relations (B is narrower than A, in some undefined way). 
 
-To learn more, you'll need to visit the term in BioPortal to see more details.
+To learn more about your term, you'll need to visit the term in BioPortal to see more details.
 This is described in the next section.
 
 ### More Context
@@ -198,26 +196,120 @@ and can decide if any of the (inevitable) minor discrepancies would keep you fro
 BioPortal doesn't list _everything_ it knows about the term, 
 but most of the information in the source ontology is presented.
 
-## *Finding a Better Branch*
+## Finding a Better Branch
 
-### Finding Branches Fast
+What if you're looking for a rather specific list of terms, perhaps with just a few words?
+You won't often find a whole ontology dedicated to just that list,
+but you can often find specific branches from hierarchical ontologies that meet your need.
+In fact most lists of terms used to answer questions are found in ontology branches.
+
+### Finding Ontologies with Branches
+
+When you first look at the term, you may not be able to tell if it is the top of a branch.
+The fastest way to check this is to click on the term, and see if the tab "BRANCH"
+appears below the found term list (in addition to "TERM" and "ONTOLOGY"). 
+if the selection tabs don't show the BRANCH option,
+then your term is not the top of a branch.
+You can quickly click through the list to see which entries are the top of branches.
+(If the item on the far right of a selected term says "Hide Details",
+choose this option to make the click-through process faster.)
+
+If your term is not the top of a branch, then as described above, after clicking on a term,
+select the "Show Details" option to show a hierarchical view of the ontology,
+often with your term highlighted. 
+You may be able to find a good branch by navigating up and down the tree from your term,
+but just for one or two levels. 
+Hunting around the whole ontology may not be effective,
+and the strategies below may be better.
 
 ### Likely Branch Names
 
+Think about whether synonyms of your term may be better branch titles.
+If you are searching for 'sex' but not finding many branches, try 'gender' instead;
+for 'race' try looking also for 'ethnicity'.
+
+Narrowing your search can be useful—for 'location' you might try 'geographic location'
+or the specific kind of location, like 'country'. 
+These refined names will also help eliminate overlapping meanings, 
+like the location on a body.
+An online synonym list may be valuable. 
+
+In general when trying to name a branch,
+you want to use the most specific category you can think of that includes all your terms.
+But it's hard to know what others might have used to categorize your concepts.
+A good alternative is to 'start lower down', searching for things *in* the category
+instead of the category itself.
+
 ### Starting Lower Down
 
+Since category names can be specialized and sometimes rather arbitrary,
+an effective search strategy can be to search for the entities you want to appears
+in the drop-down list that users see.
+So rather than searching for 'gender', you can try searching for 'female'.
 
+Once you find a term that matches, use the Show Details option to bring up the tree view 
+of the ontology containing that term. 
+Ideally your term will be highlighted in the tree; if not you need to find it if possible.
+Once you find the term, you can navigate up the hierarchy to see its parent category.
+Examine the terms under that category (and possibly under higher categories)
+to see if they are the terms you want to display.
+If they are, select _that_ (parent) term in the hierarchy
+to give you a good branch containing the terms you want.
 
 ## *Whole Ontologies*
 
-### Serendipity
+Some of the strategies for finding branches can also find good ontologies.
+For example, if instead of looking for 'location' or 'city' as an ontology name
+you search for a typical location with an uncommon name (say "Sacramento"),
+you can see ontologies containing items with that name. 
+In this case, you may quickly see that BioPortal has only one good location ontology
+(GAZ) and that it is flat, so you might [create your own vocabulary](../3_defining_your_answers_with_term_lists) for these purposes.
+
+### Serendipity and Reuse
+
+If you keep your eyes open as you are using CEDAR and looking for your concepts,
+you will start to learn what ontology content is already available in BioPortal,
+and what ontologies others are using in their templates. 
+Searching for templates like your own in CEDAR may help you find
+some fields that you could re-use, or whole elements that are useful.
+CEDAR is actually a responsive tool you can use to 
+browse around a wide range of terms and ontologies.
 
 ### Browsing (BioPortal)
 
+While CEDAR is fast, [BioPortal](https://bioportal.bioontology.org) itself is more thorough and has more features.
+You can search for terms from the front page,
+or from the [search page](https://bioportal.bioontology.org/search),
+and you can quickly see the context for a large number of terms
+that match your search pattern.
+
+You can use the [BioPortal Annotator](https://bioportal.bioontology.org/annotator)
+to search for a large number of terms at the same time. 
+Be sure to check out the advanced features within the Annotator page
+to enhance your searching capability.
+
 ### Finding the Best Ontology: BioPortal's Recommender
 
+If you really want to find the best ontology for a number of related terms,
+or even a single ontology,
+the [BioPortal Recommender](https://bioportal.bioontology.org/recommender) 
+is an extremely effective tool. 
+It's use is fairly self-explanatory, but again be sure to check out advanced options,
+particularly to match you terms with the best _combination_ of ontologies.
+
+Discussing ontology recommendations is too complicated for this document 
+(note the [General Criteria](#general-criteria) above), 
+but the BioPortal Recommender is a good way to narrow your options.
+You can then use the advanced features of the CEDAR search to narrow your term search
+to just those good ontologies.
+ 
 ### Browsing (Everywhere)
 
+There are other sources for ontology terms, whether they are in formal ontologies
+or just in published vocabularies.
+Converting these sources to ontology resources in BioPortal can be tricky,
+so you might email the [BioPortal support list](mailto:support@bioontology.org) 
+for advice for your specific case.
 
 
 
