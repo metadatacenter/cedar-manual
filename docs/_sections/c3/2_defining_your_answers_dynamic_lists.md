@@ -186,7 +186,7 @@ for easier management.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/search-for-value-set-20191229.png){:width="80%" class="centered"}
 
-## *Adding Your Own Terms and Value Sets*
+## *Adding Your Own Terms*
 
 You may not be able to find every term you want, or 
 a list of terms that you think makes sense.
@@ -194,17 +194,58 @@ CEDAR can help you manage the process of adding such terms to use in your fields
 
 ### About Provisional Terms
 
+Provisional terms are terms that the user is proposing to be added to an existing resource,
+or perhaps independently as a stopgap measure.
+In principal, they are meant to be used only for the time it takes to take action on the proposal:
+either to accept it and add the term to the existing resource
+(in which case the provisional term is deprecated in favor of the new term),
+or to reject it for that purpose or simply declare it is no longer needed
+(in which case the provisional term is simply deprecated). 
+The provisional term should not be deleted,
+so that any existing and archived used of it might still need to reference it.
+
+CEDAR lets you *create* provisional terms,
+and link them to the resource(s) and even the existing classes that are related.
+However, it does not provide any mechanism yet for taking action on those terms,
+like notifying owners of related resources of the proposed term,
+or annotating deprecations of provisional terms and referencing terms to replace them (if any).
+These features can not be implemented until there is support in BioPortal
+for managing provision terms. (Such support has been proposed in an award to be evaluted in 2021.)
+
 ### Adding your Own Single Term(s)
+
+These screenshots show the process of adding your own individual terms for use in CEDAR. 
+The new terms are created as provisional classes in BioPortal,
+and can not be modified once they are defined (per above paragraph).
+
+To begin the process of adding a new term, click on the Add New Terms link at the top of the term selection dialog box.
+The link is highlighted in the image below. 
+
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/!create-new-terms-20191229.png){:width="30%" class="centered"}
+
+The next two screenshots show the resulting dialog box,
+and the entry of appropriate text into the fields.
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-20191229.png){:width="60%" class="centered"}
 
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-description-20191229.png){:width="60%" class="centered"}
 
+If you click on the "Link to existing terms (optional)" rocker switch, you will be taken through additional dialogs (first one shown)
+that let you add relationships from your term to existing terms in existing ontologies.
+In the future, this information may support informing ontology resource authors
+of your proposed addition to their ontology. 
+
 ![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-linked-to-existing-20191229.png){:width="60%" class="centered"}
 
 ### Composing a List of Terms
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-value-set-definition-20191229.png){:width="60%" class="centered"}
+The feature to compose a list of terms is not available within CEDAR. 
+To perform this action, you must create or modify an ontology in BioPortal to add your list of terms.
+
+This is particularly straightforward to do as a SKOS vocabulary, if you follow the appropriate practices for a SKOS vocabulary in BioPortal.
+collaborators from our Metadata Center and the FAIR Data Collective have created
+[a tutorial describing a simple way to create such a SKOS vocabulary](collaborators from the Metadata Center and the FAIR Data Collective)
+that can make SKOS vocabularies easy to build, register and BioPortal, and maintain in GitHub. 
 
 ## *Customizing What You Have*
 
