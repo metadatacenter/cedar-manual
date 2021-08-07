@@ -1,6 +1,6 @@
 ---
 layout: section
-title: Defining Your Answers - Dynamic Lists
+title: Defining Your Answers with Term Lists
 author: John Graybeal
 status: Ready
 chapter: c3
@@ -18,14 +18,14 @@ To go to a particular topic, click on that link.
   * [Searching for Ontologies and Value Sets](#searching-for-ontologies-and-value-sets)
 * [Adding Your Own Terms](#adding-your-own-terms)
   * [About Provisional Terms](#about-provisional-terms)
-  * [Adding your Own Single Term(s)](#adding-your-own-single-)
+  * [Adding your Own Single Term(s)](#adding-your-own-single-terms)
   * [Adding a New List of Terms](#adding-a-new-list-of-terms)
 * [Customizing What You Have](#customizing-what-you-have)
-  * [Rejecting Terms](#rejecting-Terms)
+  * [Rejecting Terms](#rejecting-terms)
   * [Putting Favorites First](#putting-favorites-first)
   
 
-## Introduction 
+## Introduction
 
 Now we will show you exactly how to create questions 
 that have very precise answers, using CEDAR's semantic tools.
@@ -240,16 +240,16 @@ The link is highlighted in the image below.
 The next two screenshots show the resulting dialog box,
 and the entry of appropriate text into the fields.
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-20191229.png){:width="60%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-20191229.png){:width="70%" class="centered"}
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-description-20191229.png){:width="60%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-description-20191229.png){:width="70%" class="centered"}
 
 If you click on the "Link to existing terms (optional)" rocker switch, you will be taken through additional dialogs (first one shown)
 that let you add relationships from your term to existing terms in existing ontologies.
 In the future, this information may support informing ontology resource authors
 of your proposed addition to their ontology. 
 
-![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-linked-to-existing-20191229.png){:width="60%" class="centered"}
+![](https://github.com/metadatacenter/cedar-manual/raw/master/docs/assets/imgs/create-term-linked-to-existing-20191229.png){:width="70%" class="centered"}
 
 ### Adding a New List of Terms
 
