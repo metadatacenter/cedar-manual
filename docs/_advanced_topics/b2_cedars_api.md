@@ -3,7 +3,7 @@ layout: chapter
 title:  CEDAR's API
 author: John Graybeal
 chapter: b2
-status: Done
+status: Ready
 ---
 
 This chapter presents CEDAR's API, or Application Programming Interface. 
