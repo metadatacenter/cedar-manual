@@ -106,8 +106,18 @@ Use the API search feature with the identifier of the template to find all the r
 
 **How do I enter diacritics and other special characters?**
 
-You should be able to enter them the same way you would in any other text entry in your computer—use the character chooser, or change your keyboard (both software tools are part of the computer operation system), or copy the special characters from another document and paste them into CEDAR. Please tell us if there is a CEDAR field that does not handle them correctly.
+You should be able to enter them the same way you would in any other text entry in your computer—
+use the character chooser, or change your keyboard (both software tools are part of the computer operation system),
+or copy the special characters from another document and paste them into CEDAR.
+Please tell us if there is a CEDAR field that does not handle them correctly.
+(We have fixed a bug that caused these to become corrupted under certain conditions.)
 
 **Can I deploy CEDAR in my own computing environment?**
 
-This is our intention, but CEDAR is not yet deployable in this way. We have Dockerized CEDAR so that we can deploy it internally, but can not release it for external use until we have addressed some engineering and policy issues. Contact us if you want more information about the release of a Dockerized version of CEDAR.
+Yes, though CEDAR has not been thoroughly tested in remote deployments. 
+We have [detailed instructions about deploying CEDAR](https://metadatacenter.readthedocs.io/en/latest/install-developer/intro.html).
+There are several caveats:
+* We don't have a good way to upgrade metadata instances to match a new metadata schema. (We do this manually when our schema has a breaking change.)
+* You will need to continue using BioPortal or another OntoPortal-based ontology repository for your vocabularies.
+
+(The Docker version of CEDAR is no longer maintained.)
