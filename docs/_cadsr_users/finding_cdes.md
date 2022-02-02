@@ -13,12 +13,13 @@ This page describes the four main ways to browse and search for CDEs:
 - [Browse CDEs via the CATEGORIES pane](#browse-by-category)
 - [Browse CDEs via the Community Folder](#browse-by-community)
 - [Search for CDEs from the Desktop](#search-from-desktop)
+   - [Search for CDEs by permissible values](#search-from-desktop-by-pv)
 - [Search for CDEs from within templates and elements](#search-from-artifact)
 {: .unstyled-list}
 
 ***
 
-### Browse CDEs via the CATEGORIES pane
+## Browse CDEs via the CATEGORIES pane
 {: #browse-by-category}
 
 The "All Program Areas" tab in the {{ page.cdeb }} displays a list of caDSR 
@@ -52,7 +53,7 @@ including location, permissions, version, etc.:
 ![CDE details pane](../../assets/imgs/cadsr/cde-details-pane.png)<br />
 
 
-### Browse CDEs via the Community Folder
+## Browse CDEs via the Community Folder
 {: #browse-by-community}
 
 The authors of the {{ page.cedarw }} maintain a "Community Folder" that 
@@ -77,7 +78,7 @@ are displayed, e.g.:
 ![CDEs grid view sorted by title](../../assets/imgs/cadsr/sorted-cdes.png)<br />
 
 
-### Search for CDEs from the Desktop
+## Search for CDEs from the Desktop
 {: #search-from-desktop}
 
 The {{ page.cedarw }} displays a search box at the top of what is referred to 
@@ -124,8 +125,11 @@ including the use of wildcards, boolean expressions, and the ability to search
 by field names and values. More information is available in the 
 "[Finding Resources](../../basic_topics/a2_finding_resources)" chapter.
 
+### Search for CDEs by permissible values
+{: #search-from-desktop-by-pv}
+(Section is in progress)
 
-### Search for CDEs from within templates and elements
+## Search for CDEs from within templates and elements
 {: #search-from-artifact}
 
 This section assumes basic knowledge of creating and/or editing templates and 
