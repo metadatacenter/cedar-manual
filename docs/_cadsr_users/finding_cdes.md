@@ -158,7 +158,7 @@ The following table summarizes the different types of permissible-value queries 
 
 | Query Type | Example | Description |
 | --- | --- | --- |
-| Phrase | `[pv]female` | It will match "**Female**", "**Female** person". It won't match "Females" |
-| Exact phrase | `[pv]"Patient sex"` | It will match "Demographic **Patient Sex** Code", "**Patient Sex**" |
+| Phrase | `[pv]female`<br/>`[pv]"Patient sex"` | It will match "**Female**", "**Female** person". It won't match "Females"<br/>It will match "Demographic **Patient Sex** Code", "**Patient Sex**" |
+| Exact phrase | `[pv]=female`<br/>`[pv]="Patient sex"` | It will match "**Female**". It won't match "Female person"<br/>It will match "**Patient sex**". It won't match "Demographic Patient Sex Code" |
 | Wildcard | `[pv]fem*`<br/>`[pv]f*e`<br/>`[pv]fem?le` | It will match "**Fem**ale", "**Fem**ale person"<br/>It will match "**F**emal**e**", "**F**in**e**"<br/>It will match "**Fem**a**le**" |
 | Boolean | `[pv]=female` OR `[pv]sex`<br/>`[pv]eye AND [pv]site` | It will match "**Female**", "**Sex** at birth"<br/>It will match "**Eye** And Orbit Anatomic **Site**" |
