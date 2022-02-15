@@ -165,5 +165,5 @@ The following table summarizes the different types of permissible-value queries 
 | Wildcard | `[pv]fem*` | It will match "**Fem**ale", "**Fem**ale person" |
 | Wildcard | `[pv]f*e` | It will match "**F**emal**e**", "**F**in**e**" |
 | Wildcard | `[pv]fem?le` | It will match "**Fem**a**le**" |
-| Boolean | `[pv]=female OR [pv]sex` | It will match "**Female**", "**Sex** at birth" |
-| Boolean | `[pv]eye AND [pv]site` | It will match "**Eye** And Orbit Anatomic **Site**" |
+| Boolean | `[pv]=female AND [pv]=male` | It will return CDEs that have both "**female**" and "**male**" in their list of permissible values |
+| Boolean | `[pv]=female OR [pv]=woman` | It will return CDEs that have either "**female**" or "**woman**" in their list of permissible values |
