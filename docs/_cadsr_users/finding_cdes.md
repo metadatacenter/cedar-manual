@@ -13,8 +13,8 @@ This page describes the four main ways to browse and search for CDEs:
 - [Browse CDEs via the CATEGORIES pane](#browse-by-category)
 - [Browse CDEs via the Community Folder](#browse-by-community)
 - [Search for CDEs from the Desktop](#search-from-desktop)
-   - [Search for CDEs by permissible values](#search-from-desktop-by-pv)
 - [Search for CDEs from within templates and elements](#search-from-artifact)
+- [Search for CDEs by permissible values](#search-by-pv)
 {: .unstyled-list}
 
 ***
@@ -125,10 +125,6 @@ including the use of wildcards, boolean expressions, and the ability to search
 by field names and values. More information is available in the 
 "[Finding Resources](../../basic_topics/a2_finding_resources)" chapter.
 
-### Search for CDEs by permissible values
-{: #search-from-desktop-by-pv}
-(Section is in progress)
-
 ## Search for CDEs from within templates and elements
 {: #search-from-artifact}
 
@@ -149,3 +145,7 @@ To search for a CDE from within an element:
 2. In the resulting element designer interface, click the Search button 
    (magnifying glass icon) in the vertical finder toolbar.
 3. Use the search box in the resulting dialog to search for the desired CDE.
+
+## Search for CDEs by permissible values
+{: #search-by-pv}
+(Section is in progress)
