@@ -150,7 +150,7 @@ To search for a CDE from within an element:
 {: #search-by-pv}
 The CEDAR Workbench also supports a flexible syntax to search for CDEs by permissible value. This syntax is based on the patterns `[pv]VALUE` and `[pv]=VALUE`, which enable partial and full exact matches, respectively.
 
-For example, the query `[pv]Female` will retrieve all the CDEs with the word `Female` in at least one of their permissible values. CDEs with values `Female` and `Female person` would be returned by this query. Adding an `=` sign to the query enforces exact-phrase matches. For example, the query `[pv]=Female` will return the CDEs with `Female` as one of their values, but it won't return CDEs with value `Female person`, since it does not match the query fully.
+For example, the query `[pv]Female` will retrieve all the CDEs with the word `Female` in at least one of their permissible values. CDEs with values `Female` and `Female person` would be returned by this query. Adding an `=` sign to the query enforces exact-phrase matches. For example, the query `[pv]=Female` will return the CDEs with `Female` as one of their values, but it won't return CDEs with value `Female person`, since the query doesn't match the full value.
 
 The syntax described in this section is enabled when searching CDEs from the Desktop and from templates and elements. Note that the syntax is case insensitive, such that `[pv]Female` will return the same results than `[pv]FEMALE` and `[pv]female`.
 
