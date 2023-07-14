@@ -19,7 +19,7 @@ CEDAR (the "CEDAR Workbench") has 3 tools:
 
 ## **The Components**
 
-For [managing CEDAR content](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_artifacts/) 
+For [managing CEDAR content](https://metadatacenter.github.io/cedar-manual/sections/a4/managing_cedar_resources/) 
 you'll use the Desktop, which can either display a Workspace, or search results. (More on search results below.)
 
 When you want to create a template, element, or field, you will use the Template Editor. 
