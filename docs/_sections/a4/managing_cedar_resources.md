@@ -18,7 +18,7 @@ setting sharing permissions on resources.
 If you want to fill out metadata for a particular template, 
 the **Populate** command will open the Metadata Creator set up to fill in metadata for that template. 
 If you want to edit an artifact (including a populated metadata instance), 
-the **Open** command will open the appopriate tool 
+the **Open** command will open the appropriate tool 
 (Template Editor for templates, elements, and fields; and Metadata Creator for metadata instances) with that resource. 
 For a folder, the Open command changes the Resources box view to show the selected folder.
 
@@ -39,7 +39,7 @@ The Copy to… and Move to… commands will display a window for you to choose t
 The starting location is your current workspace folder.
 To navigate in this window, click on the left arrow to move up in the folder hierarchy, 
 click on the right arrow for a folder to move into that folder, and 
-click on the Home icon at upper left go to to your workspace (home folder).
+click on the Home icon at upper left to go to your workspace (home folder).
 
 If you try to navigate to a folder to which you do not have needed permissions, an error message will be displayed. 
 
