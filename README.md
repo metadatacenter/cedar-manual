@@ -1,6 +1,9 @@
-# cedar-manual
-This manual for the CEDAR Workbench (in development) uses Jenkins to automatically generate pages, and Robot to create some of the screenshots.
+# CEDAR Manual - 301 Moved Permanently
 
-The web pages content can be viewed publicly at https://metadatacenter.github.io/cedar-manual.
+The manual content has been moved to:
 
-Instructions for maintenance can be found at  https://github.com/metadatacenter/cedar-manual/tree/master/docs 
+https://metadatacenter.readthedocs.io/en/latest/user-overview/
+
+### Archive
+The content of this manual was archived on March 11, 2024, and is available at:
+https://github.com/metadatacenter/cedar-manual/releases/tag/pre-migration-state
